@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="vmax_footer" name="Footer vmax" inherit_id="website.layout">
+        <xpath expr="//footer" position="replace">
+        	<!-- TO DO -->
+        </xpath>
+    </template>
+</odoo>

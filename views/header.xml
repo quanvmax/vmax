@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="vmax_header" inherit_id="website.layout" name="Header">
+		<xpath expr="//header" position="replace">
+			<!-- TO DO -->
+		</xpath>
+	</template>
+
+</odoo>

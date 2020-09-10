@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="homepage" name="Homepage Vmax">
+		<t t-call="website.layout">
+			<t t-set="additional_title">Trang Chủ</t>
+			<div class="oe_structure"/>
+			
+			<!-- TO DO -->
+			
+			<div class="oe_structure"/>
+		</t>
+	</template>
+</odoo>

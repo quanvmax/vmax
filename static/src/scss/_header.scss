@@ -1,0 +1,15 @@
+html{
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+}
+body {
+    background-color: #ffffff;
+    font-family: $font-stack;
+    font-size: 12px;
+    color: $primary-color;
+    line-height: 1.66;
+    margin: 0 auto;
+}

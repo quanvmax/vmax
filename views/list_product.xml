@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="list_product" name="List Product">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            
+            <!-- TO DO -->
+            
+            <div class="oe_structure"/>
+        </t>
+    </template>
+</odoo>

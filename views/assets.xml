@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="vmax_frontend_assets" name="Vmax Frontend Assets" inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/_reset.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/_variables.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/_fonts.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/_mixins.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/_responsive.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/_header.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/_footer.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/_404.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/homepage.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/products.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/cart.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/checkout.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/vmax/static/src/scss/account.scss' t-ignore="true"/>
+        </xpath>
+    </template>
+
+</odoo>
