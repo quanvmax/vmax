@@ -1,0 +1,191 @@
+.vm_heading_2 {
+	position: relative;
+	.vm_title_homepage {
+		text-transform: uppercase;
+	}
+}
+.top_categories {
+	.card {
+		border-radius: 0;
+		.title_cat {
+			font-size: 1.3125rem;
+			font-weight: 500;
+			margin-bottom: 0.5rem;
+			text-transform: uppercase;
+		}
+		p {
+			margin-bottom: 1rem;
+		}
+		.btn-outline-primary {
+		    color: #4298b5;
+		    border-color: #4298b5;
+		    border-radius: 0;
+		    &:hover {
+		        color: #FFFFFF;
+		        background-color: #4298b5;
+		        border-color: #4298b5;
+		    }
+		    &:active {
+		        color: #FFFFFF!important;
+		        background-color: #4298b5!important;
+		        border-color: #4298b5!important;
+		    }
+		}
+	}
+}
+.vm_products {
+	.d_category_filter_style {
+		.d_category_lable {
+			border-radius: 3px;
+			font-weight: 600;
+			padding: 0.3rem 0.9rem;
+			background-color: white;
+			color: #6c757d;
+			border: 1px solid #dee2e6;
+			&:hover {
+				border: 1px solid #4298b5;
+				background-color: #4298b5;
+				color: white;
+				box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+			}
+		}
+		.d_active {
+			border: 1px solid #4298b5;
+			background-color: #4298b5;
+			color: white;
+			box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+		}
+	}
+	.list_product {
+		.d_product_box {
+			position: relative;
+			flex-grow: 1;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			border-bottom: 1px solid #f5f5f5;
+			.d_actions {
+				position: absolute;
+				top: 5px;
+				left: auto;
+				bottom: auto;
+				right: 15px;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms--webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-webkit-flex-direction: column;
+				flex-direction: column;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-webkit-flex-direction: column;
+				flex-direction: column;
+				-webkit-transition: all .3s ease;
+				transition: all .3s ease;
+				opacity: 0;
+				-webkit-transform: translateX(20px) translateZ(0);
+				transform: translateX(20px) translateZ(0);
+				.d_action_btn_icon {
+					margin-top: 5px;
+					font-size: 18px;
+					line-height: 18px;
+					height: 45px;
+					width: 45px;
+					padding: 0;
+				}
+			}
+			.d_img_block {
+				img {
+					height: 200px;
+				}
+			}
+		}
+		.d_description {
+			.d_product_name {
+				font-size: 0.9rem;
+				font-weight: 700;
+				line-height: 1.2;
+				a {
+					color: #343a40;
+					transition: color 0.25s ease-in-out;
+					text-decoration: none;
+					&:hover {
+						color: $color-orange;
+					}
+				}
+			}
+			.d_product_price {
+				font-size: 0.9rem;
+				color: $color-orange;
+				font-weight: 700;
+				span {
+					font-weight: 700;
+				}
+			}
+			.d_add_to_cart_btn {
+				position: absolute;
+				top: -30px;
+				left: auto;
+				bottom: auto;
+				right: 10px;
+				border-radius: 100%;
+				padding: 0;
+				font-size: 20px;
+				line-height: 20px;
+				height: 50px;
+				width: 50px;
+				transition: all .3s;
+				&:hover {
+					color: #FFFFFF;
+					background-color: $color-link-hover;
+				}
+			}
+			.btn-primary {
+				color: #FFFFFF;
+				background-color: #4298b5;
+				border-color: transparent;
+			}
+		}
+	}
+}
+.s_d_brand_snippet_wrapper {
+	.tp_underline_title {
+	    position: relative;
+	    display: block;
+	    margin-bottom: 1.2rem;
+	    padding-bottom: 0.8rem;
+	    border-bottom: 1px solid #e7e7e7;
+	    &:after {
+	    	position: absolute;
+		    bottom: -2px;
+		    left: 0;
+		    width: 6rem;
+		    height: 2px;
+		    background-color: #4298b5;
+		    content: '';
+	    }
+	}
+	.s_d_brand_snippet {
+		.dr-animation-scale {
+		    overflow: hidden;
+		    img  {
+	    	    -webkit-transition: all .3s ease;
+			    -o-transition: all .3s ease;
+			    transition: all .3s ease;
+			    height: 50px;
+			    &:hover {
+			    	transform: scale3d(1.05, 1.05, 1.05);
+			    }		    }
+		}
+	}
+	.d_all_brands_btn {
+	    position: absolute;
+	    top: 0px;
+	    left: auto;
+	    bottom: auto;
+	    right: 14px;
+	    @include btn-outline-primary;
+	}
+}

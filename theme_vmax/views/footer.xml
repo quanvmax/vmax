@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="vm_footer" inherit_id="website.layout" name="Footer">
+        <xpath expr="//footer" position="replace">
+        	<footer id="bottom" class="bg-light o_footer">
+        		<div class="footer">
+        			<section class="s_text_block pt-48 pb-36">
+        				<div class="container">
+        					<div class="row">
+        						<div class="col-6 col-lg-3 mb-4">
+        							<h6 class="mb-3">Về Vmax</h6>
+        							<ul>
+        								<li class="my-2"><a href="#">Giới thiệu</a></li>
+        								<li class="my-2"><a href="#">Kỹ thuật viên</a></li>
+        								<li class="my-2"><a href="#">Sự kiện</a></li>
+        								<li class="my-2"><a href="#">Điều khoản</a></li>
+        								<li class="my-2"><a href="#">Hệ thống cửa hàng</a></li>
+        							</ul>
+        						</div>
+        						<div class="col-6 col-lg-3 mb-4">
+        							<h6 class="mb-3">Hỗ trợ mua hàng</h6>
+        							<ul>
+        								<li class="my-2"><a href="#">Hướng dẫn mua hàng trực tuyến</a></li>
+        								<li class="my-2"><a href="#">Các phương thức thanh toán</a></li>
+        								<li class="my-2"><a href="#">Chính sách giao nhận hàng</a></li>
+        								<li class="my-2"><a href="#">Chính Sách Bảo Hành</a></li>
+        								<li class="my-2"><a href="#">Chính sách đổi trả</a></li>
+        								<li class="my-2"><a href="#">Chính sách bảo mật</a></li>
+        							</ul>
+        						</div>
+        						<div class="col-6 col-lg-3 mb-4">
+        							<h6 class="mb-3">Tài khoản</h6>
+        							<ul>
+        								<li class="my-2"><a href="#">Quản Lý Tài Khoản</a></li>
+        								<li class="my-2"><a href="#">Quản Lý Đơn Hàng</a></li>
+        								<li class="my-2"><a href="#">Quản Lý Điểm Thưởng</a></li>
+        								<li class="my-2"><a href="#">Địa Chỉ Của Tôi</a></li>
+        							</ul>
+        						</div>
+        						<div class="col-12 col-lg-3 mb-4">
+        							<h6 class="mb-3">Thông tin liên hệ</h6>
+        							<ul>
+        								<li class="my-2">
+    										<div>
+    											<address class="mb-0" itemscope="itemscope" itemtype="http://schema.org/Organization">
+    												<div itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+    													<div class="d-flex align-items-baseline">
+    														<i class="fa fa-map-marker fa-fw" role="img" aria-label="Address" title="Address"></i>
+    														<div class="w-100" itemprop="streetAddress">
+    															18A/76 Nguyễn Thị Minh Khai, Phường Đa Kao, Quận 1, TP.HCM
+    														</div>
+    													</div>
+    												</div>
+    											</address>
+    										</div>
+        								</li>
+        								<li class="my-2">
+        									<a class="phone" href="tel:02839119966"><i class="fa fa-phone"></i> <span>028 39 11 99 66</span></a>
+        								</li>
+        								<li class="my-2">
+        									<a class="email" href="mailto:sale@vmax.vn"><i class="fa fa-envelope"></i> <span>sale@vmax.vn</span></a>
+        								</li>
+        							</ul>
+        							<h6 class="mt-4 mb-3">Đăng ký nhận thông tin hữu ích</h6>
+        							<div class="input-group js_subscribe" data-list-id="0">
+	                                    <input type="email" name="email" class="js_subscribe_email form-control bg-transparent" placeholder="Your Email..." />
+	                                    <span class="input-group-append">
+	                                        <a role="button" href="#" class="btn btn-primary js_subscribe_btn" aria-label="Send"><i class="fa fa-send-o"></i></a>
+	                                        <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none" disabled="disabled">Thanks</a>
+	                                    </span>
+	                                </div>
+        						</div>
+        					</div>
+        				</div>
+        			</section>
+        		</div>
+        		<div class="footer_copyright">
+    <div class="container py-4">
+        <div class="row py-4 vm_delivery_info">
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="media">
+                    <span class="fa fa-rocket fa-2x text-alpha"></span>
+                    <div class="media-body pl-3">
+                        <h6>Giao hàng siêu tốc</h6>
+                        <p>Miễn phí tại một số khu vực</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="media">
+                    <span class="fa fa-trophy fa-2x text-alpha"></span>
+                    <div class="media-body pl-3">
+                        <h6>Chuyên gia về mực in</h6>
+                        <p>Chất lượng hàng đầu, giá tốt</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="media">
+                    <span class="fa fa-cogs fa-2x text-alpha"></span>
+                    <div class="media-body pl-3">
+                        <h6>Bảo dưỡng, bảo trì</h6>
+                        <p>Làm tận nơi, miễn phí</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="media">
+                    <span class="fa fa-life-ring fa-2x text-alpha"></span>
+                    <div class="media-body pl-3">
+                        <h6>Hỗ trợ khách hàng 24/7</h6>
+                        <p>Chăm sóc khách hàng hoàn hảo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row py-4 justify-content-between">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-center text-lg-left">
+                <span>© Vmax 2016 - Bản quyền thuộc Công Ty TNHH Mực In Vmax</span>
+                <br/>
+                <span>Giấy chứng nhận Đăng ký Kinh doanh số 0301714093 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 04/05/1999.</span>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center text-lg-right">
+                <img class="mark-lazy" src="https://cdn.vmax.vn/pub/media/wysiwyg/payment/footer-phuong-thuc-thanh-toan-2-min.png" data-src="https://cdn.vmax.vn/pub/media/wysiwyg/payment/footer-phuong-thuc-thanh-toan-2-min.png" alt="Payment" />
+            </div>
+        </div>
+    </div>
+</div>
+        	</footer>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="s_home_services" name="Homepage Services Vmax">
+		<section class="home_services pt32">
+			<div class="container">
+				<div class="list-services">
+					<div class="item">
+						<div class="item-inner">
+							<i class="fa fa-credit-card"></i>
+							<h3>Thanh toán</h3>
+							<p>Nhiều loại hình</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-inner">
+				            <i class="fa fa-truck"></i>
+							<h3>Giao hàng</h3>
+							<p>Miễn phí</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-inner">
+							<i class="fa fa-shield"></i>
+							<h3>Bảo hành</h3>
+							<p>Miễn phí</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-inner">
+							<i class="fa fa-heartbeat"></i>
+							<h3>Quản lý</h3>
+							<p>Đơn hàng online</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-inner">
+							<i class="fa fa-ticket"></i>
+							<h3>Hỗ trợ </h3>
+							<p>Đổi trả</p>
+						</div>
+					</div>
+				</div>
+			<div class="clearfix"></div>
+			</div>
+		</section>
+	</template>
+	<template id="s_home_services_opt" name="Homepage Services Options" inherit_id="website.snippet_options">
+	  <xpath expr="//div[@data-js='background']" position="after">
+	    <div data-selector=".home_services"> <!-- Options group -->
+	      <div class="dropdown-submenu">
+	            <a href="#" class="dropdown-item">Your Option</a>
+	            <div class="dropdown-menu"><!-- Options list -->
+	                <a href="#" class="dropdown-item" data-select-class="opt_shadow">Shadow Images</a>
+	                <a href="#" class="dropdown-item" data-select-class="opt_grey_bg">Grey Bg</a>
+	                <a href="#" class="dropdown-item" data-select-class="">None</a>
+	            </div>
+	        </div>
+	    </div>
+	  </xpath>
+	 </template>
+</odoo>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="vm_header" inherit_id="website.layout" name="Header">
+		<xpath expr="//header" position="replace">
+			<div class="tp_preheader">
+				<div class="container">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-12 col-md-auto py-2 d-none d-md-block">
+							<ul class="list-inline mb-0">
+								<li class="list-inline-item">
+									<a href="tel:02839119966"><i class="fa fa-phone"></i> <span>028 39 11 99 66</span></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="mailto:sale@vmax.vn"><i class="fa fa-envelope-o"></i> <span>sale@vmax.vn</span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 col-md-auto py-2 text-md-center d-none d-lg-block">
+							<section><div class="slogan">Nơi mua sắm dành cho doanh nghiệp</div></section>
+						</div>
+						<div class="col-12 col-md-auto py-2 text-md-right">
+							<ul class="list-inline mb-0">
+
+
+								<li class="list-inline-item tp_hide_in_mobile">
+									<div class="dropdown">
+
+										<a role="button" href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<span class="mr-1">€</span>EUR
+										</a>
+										<div class="dropdown-menu" role="menu" style="">
+
+											<a role="menuitem" class="dropdown-item" href="/shop/change_pricelist/2">
+												<span class="switcher_pricelist" data-pl_id="2">EUR</span>
+											</a>
+
+											<a role="menuitem" class="dropdown-item" href="/shop/change_pricelist/1">
+												<span class="switcher_pricelist" data-pl_id="1">USD</span>
+											</a>
+
+										</div>
+									</div>
+								</li>
+
+
+								<li class="list-inline-item">
+									<div class="dropdown">
+										<a href="#" class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+											<i class="fa fa-globe"></i> <span>English (US)</span>
+										</a>
+										<div class="dropdown-menu" role="menu" style="">
+
+											<a class="dropdown-item js_change_lang" href="/shop" data-url_code="en">
+												English (US)
+											</a>
+
+											<a class="dropdown-item js_change_lang" href="/fr_BE/shop" data-url_code="fr_BE">
+												Français (BE)
+											</a>
+
+
+										</div>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tp_header d-none d-md-block">
+				<div class="container">
+					<div class="d-flex justify-content-between align-items-center">
+						<header class="vm_logo py-2">
+							<a href="/" class="navbar-brand logo">
+								<span role="img" title="Vmax">
+									<img src="/web/image/website/1/logo/" class="img img-fluid" alt="Vmax"/>
+								</span>
+							</a>
+						</header>
+						<div class="py-2 pr-5 vm_custom_search">
+							<form class="products_search_bar_form" method="get" action="/">
+								<div class="input-group">
+									<div class="dropdown vm_search_categ_dropdown">
+										<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+											<i class="fa fa-bars mr-1"></i>
+											<span class="vm_active_text">Tất cả</span>
+										</a>
+										<div class="dropdown-menu" area-labelledly="dropdownMenuLink">
+											
+										</div>
+									</div>
+									<input type="text" name="search" class="form-control search-query" placeholder="Tìm sản phẩm..." autocomplete="off" />
+									<div class="input-group-append">
+										<button type="submit" class="btn btn-primary button_search" aria-label="Search">
+											Tìm kiếm
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="py-2 tp-account-info-desktop">
+							<div class="row justify-content-end align-items-center">
+								<div class="col-auto my-1">
+									<div class="card border-0">
+										<div class="media align-items-center">
+											<header class="mr-xl-3">
+												<a href="/shop/cart" class="d-block position-relative" aria-label="Cart">
+													<i class="fa fa-shopping-basket rounded-circle bg-beta"></i>
+												</a>
+											</header>
+											<div class="media-body d-none d-xl-block">
+												<div class="mb-1">Giỏ hàng</div>
+												<a href="/shop/cart" class="sale_cart_header">
+													<h6 class="mb-0 vm_title_top">0 sản phẩm</h6>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-auto my-1">
+									<div class="card border-0">
+										<div class="media align-items-center">
+											<header class="mr-xl-3">
+												<a href="/shop/wishlist" class="d-block position-relative" aria-label="Wishlist">
+													<i class="fa fa-heart-o rounded-circle bg-beta"></i>
+												</a>
+											</header>
+											<div class="media-body d-none d-xl-block">
+												<div class="mb-1">Yêu thích</div>
+												<a href="/shop/wishlist" class="sale_wishlist_header">
+													<h6 class="mb-0 vm_title_top">Xem danh sách</h6>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-auto my-1">
+									<div class="card border-0">
+										<div class="media align-items-center">
+											<header class="mr-xl-3">
+												<a href="/shop/account" class="d-block position-relative" aria-label="Cart">
+													<i class="fa fa-user-o rounded-circle bg-beta"></i>
+												</a>
+											</header>
+											<div class="media-body d-none d-xl-block">
+												<div class="mb-1">Chào, khách</div>
+												<a href="/shop/account" class="sale_account_header">
+													<h6 class="mb-0 vm_title_top">Tài khoản</h6>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<header id="top" class="mb-3" data-name="Header">
+				<nav class="navbar navbar-expand-md navbar-light bg-light">
+					<div class="container">
+						<div class="collapse navbar-collapse" id="top_menu_collapse" aria-expanded="false">
+							<ul class="nav navbar-nav ml-auto text-right" id="top_menu">
+								<li class="nav-item vm_special_menu dropdown position-static">
+									<a data-toggle="dropdown" href="#" class="nav-link dropdown-toggle o_mega_menu_toggle">
+									<i class="fa fa-th-list mr-1"></i>
+									<span>Danh Mục Sản Phẩm</span></a>
+									<div data-name="Mega Menu" class="dropdown-menu o_mega_menu o_mega_menu_container_size">
+									    <section class="s_d_category_mega_menu_3 vm_category_mega_menu droggol_category_mega_menu_snippet pt0" data-name="Category Menu - 3">
+									        <div class="container-fluid">
+									            <div class="row vm-category-list">
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/2">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=2&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/2">Mực in vmax</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/3">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=3&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/3">Mực in chính hãng</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/5">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=5&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/5">Nạp mực</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/6">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=6&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/6">Máy in</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/8">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=8&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/8">Thiết bị công nghệ</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/10">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=10&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/10">Máy văn phòng</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/9">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=9&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/9">Phụ kiện máy tính</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/12">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=12&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/12">Giấy-sổ-bút</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/15">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=15&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/15">Bìa-kim-kẹp</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/19">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=19&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/19">Nhu yếu phẩm</a>
+									                    </div>
+									                </div>
+
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/16">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=16&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/16">Dụng cụ văn phòng</a>
+									                    </div>
+									                </div>
+									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+									                    <div class="px-4 pb-1 text-center pt-4">
+									                        <a href="/shop/category/16">
+									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=16&amp;field=image_128"/>
+									                        </a>
+									                    </div>
+									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+									                        <a href="/shop/category/16">Dịch vụ khác</a>
+									                    </div>
+									                </div>
+									            </div>
+									        </div>
+									    </section>
+
+									    <section class="s_call_to_action_4 bg-alpha pt8 pb8" data-name="Call To Action - 4" style="">
+									        <div class="container">
+									            <div class="row justify-content-center align-items-center text-center text-md-left s_nb_column_fixed s_col_no_bgcolor">
+									                <div class="col-12 col-md-auto">
+									                    <h6 class="lead mb-2 mb-md-0">VMAX.vn – Siêu thị văn phòng uy tín, hàng chính hãng, giá rẻ!</h6>
+									                </div>
+									                <div class="col-12 col-md-auto">
+									                    <a href="/lien-he" class="btn btn-beta btn-sm"><strong><font class="text-alpha" style="">Liên hệ</font></strong></a>
+									                </div>
+									            </div>
+									        </div>
+									    </section>
+									</div>
+								</li>
+								<li class="nav-item"><a role="menuitem" href="/" class="nav-link active"><span>Trang Chủ</span></a></li>
+								<li class="nav-item"><a role="menuitem" href="/shop" class="nav-link active"><span>Shop</span></a></li>
+								<li class="nav-item"><a role="menuitem" href="/lien-he" class="nav-link active"><span>Liên hệ hỗ trợ</span></a></li>
+								<li class="nav-item"><a role="menuitem" href="/ve-vmax" class="nav-link active"><span>Về Vmax</span></a></li>
+								<li class="nav-item"><a role="menuitem" href="/blog" class="nav-link active"><span>Blog</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+		</xpath>
+	</template>
+
+</odoo>
