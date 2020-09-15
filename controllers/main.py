@@ -46,7 +46,7 @@ class VmaxEcommerce(Website):
 	@http.route('/404', type='http', auth='public', website=True)
 	def vmax_404(self, **kw):
 		return request.render('vmax.404')
-
+	
 	# About Us - Trang giới thiệu về công ty - Quân
 	@http.route('/aboutus', type='http', auth='public', website=True)
 	def vmax_aboutus(self, **kw):

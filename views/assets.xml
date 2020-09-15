@@ -10,6 +10,7 @@
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/reuse.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_header.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_footer.scss" t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_atomic.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/homepage.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/products.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/cart.scss" t-ignore="true"/>

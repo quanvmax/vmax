@@ -2,11 +2,19 @@
 <odoo>
     <template id="404" name="Page not found">
         <t t-call="website.layout">
-            <t t-set="additional_title">Có lỗi !</t>
+            <t t-set="additional_title">:( Lỗi 404 - Không tìm thấy trang yêu cầu</t>
             <div class="oe_structure"/>
             <!-- TO DO -->
             <div class="container" id="page_404">
-                <h1>This is H1</h1>
+                <div class="row">
+                    <div class="col-12">
+                        <h1>:( Lỗi 404 - Không tìm thấy trang</h1>
+                        <div class="error_info">
+                            <h4>Có vẻ như Vmax không tìm thấy trang mà bạn yêu cầu. Hãy chắc chắn rằng đường dẫn của bạn là chính xác và thử lại.</h4>
+                            <a href="/shop" class="vmax_btn vmax_btn--primary"><i class="fa fa-shopping-cart"></i> Tiếp tục mua sắm</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- END TO DO -->
             <div class="oe_structure"/>

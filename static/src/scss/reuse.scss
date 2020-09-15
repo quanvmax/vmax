@@ -1,0 +1,14 @@
+.vmax_btn{
+    text-decoration: none;
+    padding: 0.5em 0.75em;
+    font-size: 1.2em;
+    border-radius: 0.25em;
+}
+.vmax_btn--primary{
+    background: $primary;
+    color: #fff;
+    &:hover{
+        background: $primary-l;
+        color: #fff
+    }
+}
