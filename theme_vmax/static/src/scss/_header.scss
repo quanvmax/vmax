@@ -1,0 +1,215 @@
+html{
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+}
+body {
+    background-color: #ffffff;
+    font-family: $font-stack;
+    font-size: 12px;
+    color: $primary-color;
+    line-height: 1.66;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.text-body {
+    color: #6c757d !important;
+}
+.bg-beta {
+    background-color: #76b9d0!important;
+}
+.dropdown-menu {
+    box-shadow: 0 1.5rem 4rem rgba(73, 80, 87, 0.15);
+    color: #6c757d;
+    border: 0 solid rgba(0, 0, 0, 0.15);
+    border-radius: 0rem;
+    .dropdown-item {
+        color: #212529;
+    }
+}
+.tp_preheader {
+	background-color: $color-top-header-bar;
+    color: $primary-color;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    a {
+    	color: #fff;
+    	text-decoration: none!important;
+    }
+    .slogan {
+        color: #fff;
+    }
+}
+.tp_header {
+    background-color: #FFF;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(108, 117, 125, 0.12);
+    .vm_logo {
+        flex: 0 0 160px;
+    }
+    .tp-account-info-desktop {
+        font-size: $fontsize-14;
+        .fa {
+            font-size: 1.4rem;
+        }
+        .vm_title_top {
+            color: #343a40;
+            font-weight: 500;
+            font-size: $fontsize-13;
+        }
+    }
+    .vm_custom_search {
+        flex-grow: 1;
+        input {
+            padding: 12px;
+        }
+        .vm_search_categ_dropdown {
+            .btn {
+                background-color: #f0f0f0 !important;
+                color: #505050 !important;
+                border-color: #dee2e6 !important;
+                border-right: 0px !important;
+                border-radius: 0px;
+                height: 100%;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .search-query {
+            &:focus {
+                color: #6c757d;
+                background-color: #FFFFFF;
+                border-color: #4298b5;
+                outline: 0;
+                box-shadow: none;
+            }
+        }
+        .input-group-append {
+            .btn {
+                border-radius: 0px;
+            }
+            .button_search {
+                color: #FFFFFF;
+                background-color: #4298b5;
+                border-color: #4298b5;
+                &:hover {
+                    color: #FFFFFF;
+                    background-color: #388099;
+                    border-color: #347990;
+                }
+            }
+        }
+    }
+}
+#top {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    .navbar {
+        padding: 0px;
+        ul {
+            margin: initial !important;
+            .nav-item {
+                padding-left: 1rem;
+                padding-right: 1rem;
+                transition: opacity 1000ms ease 0s;
+                .nav-link {
+                    padding: 1rem 0.8rem;
+                    position: relative;
+                    color: #444;
+                    text-transform: uppercase;
+                    font-size: $fontsize-14;
+                    span {
+                        font-weight: 700;
+                    }
+                    &:hover {
+                        color: #4298b5;
+                    }
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        left: 50%;
+                        right: 50%;
+                        height: 3px;
+                        bottom: 0;
+                        background-color: #4298b5;
+                        transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                        transform: translate3d(0, 0, 0);
+                    }
+                }
+                .avtive {
+                    color: #4298b5;
+                }
+            }
+            .vm_special_menu {
+                background-color: #4298b5;
+                box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.13) inset;
+                
+                .nav-link {
+                    color: #FFFFFF;
+                    &:focus, &:hover {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .dropdown-menu {
+                border: none;
+                max-height: inherit;
+                box-shadow: 0 1.5rem 4rem rgba(73, 80, 87, 0.15);
+                .s_call_to_action_4 {
+                    background-color: #4298b5 !important;
+                    color: #FFFFFF;
+                    .lead {
+                        font-size: $fontsize-13;
+                        color: #fff;
+                    }
+                    .btn-beta {
+                        color: #6c757d;
+                        background-color: #e8edef;
+                        border-color: #e8edef;
+                        border-radius: 0;
+                        .text-alpha {
+                            color: #4298b5 !important;
+                        }
+                    }
+                }
+            }
+            .vm_category_mega_menu {
+                .vm-category-list {
+                    overflow: hidden;
+                    .vm-category {
+                        margin-left: -1px;
+                        margin-bottom: -1px;
+                        border-left: 1px solid #dee2e6;
+                        border-bottom: 1px solid #dee2e6;
+                        .vm-category-image {
+                            width: 120px;
+                            -webkit-transition: all .3s ease;
+                            -o-transition: all .3s ease;
+                            transition: all .3s ease;
+                        }
+                        a {
+                            color: #343a40;
+                            transition: color 0.25s ease-in-out;
+                            text-decoration: none;
+                            &:hover {
+                                color: #4298b5 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .navbar-light {
+        background-color: #FFFFFF !important;
+    }
+}
