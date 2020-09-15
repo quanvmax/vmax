@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="404" name="Page not found">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Có lỗi !</t>
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="container" id="page_404">
+                <h1>This is H1</h1>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="aboutus" name="About Us">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <h1>Đây là trang giới thiệu</h1>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+</odoo>

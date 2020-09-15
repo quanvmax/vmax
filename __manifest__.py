@@ -17,6 +17,15 @@
 		'views/list_product.xml',
 		'views/cart.xml',
 		'views/account.xml',
+		'views/wishlist.xml',
+		'views/compare.xml',
+		'views/404.xml',
+		'views/aboutus.xml',
+		'views/jobs.xml',
+		'views/job_detail.xml',
+		'views/job_apply.xml',
+		'views/blogs.xml',
+		'views/blog_detail.xml'
 	],
 	"images" : [
 		'static/src/img/vmax_screenshot.jpg',

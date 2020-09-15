@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="jobs" name="Jobs">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+                <h1>Đây là trang tuyển dụng</h1>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+</odoo>
