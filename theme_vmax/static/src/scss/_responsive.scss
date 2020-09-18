@@ -65,3 +65,26 @@
 	    width: 100%!important;
 	}
 }
+
+.oxl,.olg,.omd,.osm,.oxs{} /* Onl on ...  - Chỉ có tác dụng trên ...*/
+.exl,.elg,.emd,.esm,.exs{} /* Except on ... - Ngoại trừ ... */
+
+@media (min-width: 1200px){
+    .exl,.olg,.omd,.osm,.oxs{display: none}
+}
+
+@media (max-width: 1199.98px) and (min-width: 992px){
+    .elg,.oxl,.omd,.osm,.oxs{display: none}
+}
+
+@media (max-width: 991.98px) and (min-width: 768px){
+    .emd,.oxl,.olg,.osm,.oxs{display: none}
+}
+
+@media (max-width: 767.98px) and (min-width: 480px){
+    .esm,.oxl,.olg,.omd,.oxs{display: none}
+}
+
+@media (max-width: 479.98px){
+    .exs,.oxl,.olg,.omd,.osm{display: none}
+}

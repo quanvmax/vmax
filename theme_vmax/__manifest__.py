@@ -20,6 +20,7 @@
 		'views/s_home_services.xml',
 		'views/snippets.xml',
 		'views/product_view.xml',
+		'views/website_template.xml',
 	],
 	"images" : [
 		'static/src/img/vmax_screenshot.jpg',

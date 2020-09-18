@@ -242,8 +242,15 @@
 
         <!-- Giao diện trang Chi tiết sản phẩm -->
         <template id="vm_product_details" inherit_id="website_sale.product" name="Product Details">
+
         <!-- Phần Breadcrumb được thay thế lại -->
-        <xpath expr="//section[@id='product_detail']/div" position="replace">
+        <xpath expr="//div[@id='wrap']" position="attributes">
+            <attribute name="class" separator=" " add="main_product_layout" />
+        </xpath>
+
+        <xpath expr="//section[@id='product_detail']/div" position="replace" />
+
+        <xpath expr="//section[@id='product_detail']" position="before">
         <div class="vm_product_breadcrumb">
             <ol class="breadcrumb">
                 <section class="container">
@@ -256,21 +263,16 @@
                 </section>
             </ol>
         </div>
-        <!-- Tên của sản phẩm -->
-        <h1 class="product_title pb-1" itemprop="name" t-field="product.name">Product Name</h1>
-        
         </xpath>
 
         <!-- Thay đổi lại kích thước cột mặc định của hình ảnh, thông tin sp -->
-        <xpath expr="//section[@id='product_detail']/div[2]/div" position="attributes">
-            <attribute name="class" remove="col-md-6 col-xl-8" add="col-md-4 border_right" />
+        <xpath expr="//section[@id='product_detail']/div/div" position="attributes">
+            <attribute name="class" remove="col-md-6 col-xl-8" add="col-md-4 py-3" />
         </xpath>
-        <xpath expr="//section[@id='product_detail']/div[2]/div[2]" position="attributes">
-            <attribute name="class" remove="col-md-6 col-xl-4" add="col-md-5" />
+        <xpath expr="//section[@id='product_detail']/div/div[2]" position="attributes">
+            <attribute name="class" remove="col-md-6 col-xl-4" add="col-md-5 py-3" />
         </xpath>
 
-        <!-- Xóa H1 tên sản phẩm cũ -->
-        <xpath expr="//section[@id='product_detail']/div[2]/div[2]/h1" position="replace"></xpath>
         <!-- Xóa phần mô tả sản phẩm mặc định -->
         <xpath expr="//div[@id='product_details']/p[3]" position="replace"></xpath>
         <xpath expr="//div[@id='product_details']/hr[2]" position="replace"></xpath>
@@ -285,9 +287,16 @@
             <attribute name="class" separator=" " add="w-100 w-md-50" />
         </xpath>
 
+        <xpath expr="//div[@id='product_full_description']" position="attributes">
+            <attribute name="class" separator=" " remove="mt16" />
+        </xpath>
+        <xpath expr="//section[@id='product_detail']" position="attributes">
+            <attribute name="t-attf-class" separator=" " remove="py-2" />
+        </xpath>
+
         <!-- Thêm cột chính sách bảo hành bên phải -->
         <xpath expr="//div[@id='product_details']" position="after">
-            <div class="col-md-3 px-0">
+            <div class="col-md-3 px-0 py-3 bg_info">
                 <div class="vm_col_right">
                     <!-- Hiển thị nếu giá sản phẩm trên 1 triệu -->
                     <t t-if="product.list_price > 1000000">
@@ -339,28 +348,27 @@
         <xpath expr="//section[@id='product_detail']" position="after">
 
             <section class="oe_structure"/>
-            <t t-if="product.vm_description_product">
-                <section id="content">
+            <t t-if="product.vm_description_product">  <!-- != '&lt;p&gt;&lt;br&gt;&lt;/p&gt;' -->
+                <section id="description_product" class="mt-3">
                     <div class="container">
-                        <div class="vm_description_product">
-                            <div class="row">
-                            <div class="col-lg-8">
-                                <h4 class="description_title">Mô tả sản phẩm</h4>
-                                <div class="content">
-                                    <div class="ToogleContent_wrapper">
-                                        <div class="ToogleContent_view More">
-                                            <t t-raw="product.vm_description_product"/>
-                                            <div class="gradient"></div>
-                                        </div>
-                                        <a class="btn-more">Xem Thêm Nội Dung</a>
+                        <div class="row">
+                        <div class="col-auto px-0 bg-white">
+                            <h4 class="description_title">Mô tả sản phẩm <t t-esc="product.name" /></h4>
+                            <div class="content">
+                                <div class="ToogleContent_wrapper">
+                                    <div class="ToogleContent_view More">
+                                        <t t-raw="product.vm_description_product"/>
+                                        <div class="gradient"></div>
                                     </div>
+                                    <a class="btn-more">Xem Thêm Nội Dung</a>
                                 </div>
                             </div>
-                            <!-- <div class="col-lg-4">
-                                <h4 class="description_title">Thông số kỹ thuật</h4>
-
-                            </div> -->
                         </div>
+                        <!-- <div class="col-lg-4">
+                            <h4 class="description_title">Thông số kỹ thuật</h4>
+
+                        </div> -->
+                            
                         </div>
                     </div>
                 </section>
@@ -369,5 +377,13 @@
         </xpath>
         </template>
 
+        <template id="vm_products_recently_viewed" inherit_id="website_sale.s_products_recently_viewed">
+        <xpath expr="//h3" position="replace">
+            <h3>Sản phẩm vừa xem</h3>
+        </xpath>
+        <xpath expr="//section[hasclass('s_wsale_products_recently_viewed')]/div" position="attributes">
+            <attribute name="class" separator=" " add="px-0" />
+        </xpath>
+        </template>
     </data>
 </odoo>

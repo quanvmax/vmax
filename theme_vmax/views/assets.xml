@@ -16,6 +16,7 @@
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/products.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/cart_payment.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/account.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/general.scss' t-ignore="true"/>
             <script type="text/javascript" src="/theme_vmax/static/src/js/scripts.js"></script>
         </xpath>
     </template>

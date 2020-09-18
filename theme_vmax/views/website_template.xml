@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="aboutus" name="About Us">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="blck w100 custom_body_background">
+                <div class="container" id="page_aboutus">
+                    <div class="row welcome">
+                        <div class="col-12"><h4><i class="fa fa-shopping-cart"></i> Vmax - Siêu thị uy tín, hàng chính hãng, giá rẻ !</h4></div>
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">   
+                            <div class="blck w100">
+                                <p>Được thành lập vào năm 1999, Công ty Vmax đi tiên phong trong hoạt động sản xuất mực in tương thích với thương hiệu Vmax. Mực in Vmax được thiết kế theo tiêu chuẩn của nhà sản xuất gốc (OEM), tính đồng bộ tuyệt đối giúp máy in vận hành ổn định và độ an toàn cao. Chất lượng sản phẩm và dịch vụ hoàn hảo đã giúp Mực in Vmax trở thành thương hiệu được ưa chuộng và vươn lên trở thành: Thương hiệu mực in tương thích số 1 tại Việt Nam (Theo thống kê của AC Nielsen tháng 11/2009).</p>
+                                <p>Hiện tại, để đem đến sự tiện lợi cho doanh nghiệp khi mua sắm tại Vmax, chúng tôi còn cung cấp thiết bị, máy móc, đồ dùng văn phòng chính hãng và đã nhận được tin tưởng sử dụng sản phẩm từ hơn 6000 tập đoàn đa quốc gia và các doanh nghiệp trong nước. Quý khách có thể dễ dàng tìm thấy sản phẩm ưng ý: Máy in, Mực in chính hãng tất cả thương hiệu Canon, HP, Brother, Xerox,..., Mực in Vmax, Thiết bị văn phòng (Máy Scan, Photo, Laptop, Máy tính bàn, Máy tính tiền, Máy chấm công,...), Văn phòng phẩm và nhiều sản phẩm khác dành cho văn phòng với chi phí tiết kiệm hơn và tham gia nhiều chương trình khuyến mãi hấp dẫn.</p>
+                                <p>Việc mua hàng cũng trở nên dễ dàng và tiện lợi hơn với Vmax.vn vì chỉ cần 1 cú click chuột, sản phẩm đặt mua sẽ chuyển tới tận tay khách hàng với giá cực tốt, hỗ trợ lắp đặt, hướng dẫn sử dụng nhiệt tình từ đội ngũ kĩ thuật giàu kinh nghiệm của chúng tôi.</p>
+                            </div>
+                        </div>
+                        <div class="esm exs col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <img class="blck w100" src="https://cdn.vmax.vn/pub/media/wysiwyg/CMS/Gioi-thieu-vmax.jpg"/>
+                        </div>
+                    </div><!-- end of row -->
+                    <div class="row achievements">
+                        <div class="col-12"><h4><i class="fa fa-trophy"></i> Thành tựu đạt được</h4></div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <img class="blck w100" src="https://cdn.vmax.vn/pub/media/wysiwyg/CMS/img2.jpg"/>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <img class="blck w100" src="https://cdn.vmax.vn/pub/media/wysiwyg/CMS/img3.jpg"/>
+                        </div>
+                        <div class="col-12">
+                            <ol>
+                                <li>Doanh nghiệp Địa phương tiêu biểu năm 2015” do Phòng Thương mại và Công nghiệp Việt Nam (VCCI) tặng Bằng khen.</li>
+                                <li>100% khách hàng hài lòng với chất lượng Vmax theo kết quả khảo sát được thực hiện ở các công ty lớn tại TPHCM của ACNielsen tháng 11/2009.</li>
+                                <li>Vmax là thành viên chính thức của Hiệp hội mực in quốc tế I – ITC.</li>
+                                <li>Vmax nhận chứng nhận ISO 9001:2008, ủy quyền bởi SGS United Kingdom Ltd.</li>
+                                <li>Vmax nhận giấy chứng nhận chỉ số tín nhiệm TBI, chứng nhận Vmax đã được đánh giá và đăng ký bởi Mạng doanh nghiệp Việt nam và Tổ chức Chứng nhận NQA (National Quality Assurance) – Vương quốc Anh giám sát chất lượng vào năm 2010 và 2011.</li>
+                                <li>Vmax nhận giải thưởng danh hiệu bạch kim danh dự Thương hiệu đáng tin cậy từ Mạng doanh nghiệp Việt Nam.</li>
+                                <li>Vmax có 16 năm kinh nghiệm về sản xuất hộp mực tương thích cho máy in laser và in phun.</li>
+                                <li>Hệ thống chi nhánh Vmax có mặt tại TP.HCM, Hà Nội, Đà Nẵng, Bình Dương. Ngoài ra, Vmax có 8 đại lý tại miền Bắc, 6 đại lý tại miền Trung và 4 đại lý tại miền Nam.</li>
+                            </ol>
+                        </div>
+                    </div><!-- end of row -->
+                    <div class="row why_vmax">
+                        <div class="col-12"><h4><i class="fa fa-lightbulb-o"></i> Vì sao chọn Vmax?</h4></div>
+                        <div class="col-12">
+                            <div class="youtube">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/W2T17_C-Z9U?modestbranding=1&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row benefits">
+                        <div class="col-12">
+                            <h4><i class="fa fa-thumbs-up"></i>Lợi ích khách hàng</h4>
+                            <p>Vmax luôn luôn mong muốn đáp ứng được nhu cầu mua sắm sản phẩm giá tốt với chất lượng đảm bảo
+và dịch vụ hậu mãi chu đáo, cũng như mang lại trải nghiệm mua hàng tuyệt vời đến với khách hàng.</p>
+                        </div>
+                        <div class="col-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="blck w100 box">
+                                            <h5>Tiết kiệm chi phí</h5>
+                                            <p>Mực in Vmax là giải pháp in ấn tiết kiệm, giúp công ty cắt giảm chi phí in ấn đến mức tối đa 30-60%, tiết kiệm trên mỗi bản in. Máy in, thiết bị văn phòng hay văn phòng phẩm tại Vmax luôn đảm bảo ở mức giá tốt nhất cho khách hàng</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="blck w100 box">
+                                            <h5>Chất lượng quốc tế</h5>
+                                            <p>Đặc biệt, mực in Vmax được sản xuất theo công nghệ Mỹ và nguyên vật liệu từ Nhật Bản như drum Fuji, mực Sakata; kết hợp với tiêu chuẩn của Hiệp hội mực in quốc tế I-ITC và quản lý chất lượng ISO</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="blck w100 box">
+                                            <h5>Chăm sóc khách hàng hoàn hảo</h5>
+                                            <p>Vmax luôn mong muốn mang đến cho Khách hàng những quyền lợi đặc biệt khi đồng hành cùng Vmax qua các chương trình khuyến mãi, tri ân, quà tặng vào các dịp đặc biệt cực kì hấp dẫn</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="blck w100 box">
+                                            <h5>Bảo trì, sửa chữa miễn phí</h5>
+                                            <p>Cam kết bảo hành đến giọt mực cuối cùng, nhanh chóng xử lý sự cố để không làm gián đoạn công việc. Nếu xảy ra do lỗi mực in Vmax gây ra, Vmax sẽ chịu trách nhiệm sửa chữa hoặc tặng ngay máy in mới.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="blck w100 box">
+                                            <h5>Dịch vụ bảo hành chu đáo</h5>
+                                            <p>Vmax là đại diện Bảo hành, Sửa chữa và Cung cấp phụ tùng, linh kiện thay thế cho nhà sản xuất với đội ngũ kỹ thuật viên có kiến thức và trình độ cao, năng động nhiệt tình.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end of row -->
+                    <div class="row customer_said">
+                        <div class="col-12"><h4><i class="fa fa-commenting"></i> Khách hàng nói gì về Vmax</h4></div>
+                        <div class="col-12">
+                            <q><i class="fa fa-quote-left"></i> Chúng tôi hoàn toàn yên tâm khi toàn bộ máy in, máy photocopy, thiết bị văn phòng của chúng tôi sử dụng mực của Vmax. Khá ấn tượng bởi đội ngũ kĩ thuật, chuyên nghiệp và nhiệt tình của Vmax. <i class="fa fa-quote-right"></i></q>
+                            <p>- Ông Lê Bảo Quốc - <span>Giám đốc Công ty TNHH MCC</span></p>
+                        </div>
+                        <div class="col-12">
+                            <q><i class="fa fa-quote-left"></i> Vmax Office Supply have been supplying our office for 10 years. I would not consider taking our business elsewhere as the service and delivery times are next to none. Continued success to an excellent company. <i class="fa fa-quote-right"></i></q>
+                            <p>- Jonh Doe - <span>Advisors – Erskine</span></p>
+                        </div>
+                    </div><!-- end of row -->
+                    <div class="row call2action">
+                        <div class="col-12 text-center">
+                            <h3>Vmax - Nơi mua sắm dành cho doanh nghiệp !</h3>
+                            <a href="/shop" class="vmax_btn vmax_btn--primary"><i class="fa fa-shopping-cart"></i> Đi sắm đồ cùng Vmax !</a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+</odoo>

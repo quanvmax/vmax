@@ -6,10 +6,10 @@ from odoo import http, models, fields, _
 from odoo.tools.misc import str2bool, xlwt
 from odoo.addons.website.controllers.main import Website
 
-class HomepageVmax(Website):
+class WebsiteVmax(Website):
 	@http.route('/', type='http', auth="public", website=True)
 	def index(self, **kw):
-		super(HomepageVmax, self).index()
+		super(WebsiteVmax, self).index()
 
 		Products = request.env['product.template'].sudo()
 		
@@ -23,3 +23,7 @@ class HomepageVmax(Website):
 			#'mayin' : Mayin
 		}
 		return request.render('theme_vmax.vm_homepage', data)
+
+	@http.route('/ve-vmax', type='http', auth='public', website=True)
+	def aboutus(self, **kw):
+		return request.render('theme_vmax.aboutus')

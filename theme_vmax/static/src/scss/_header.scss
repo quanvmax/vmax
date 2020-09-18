@@ -63,6 +63,9 @@ h2 {
     }
     .tp-account-info-desktop {
         font-size: $fontsize-14;
+        .card {
+            background-color: transparent;
+        }
         header {
             .fa {
                 font-size: 1.4rem;
@@ -80,6 +83,7 @@ h2 {
                 background-color: #ec4c4c;
             }
         }
+        
         .vm_title_top {
             color: #343a40;
             font-weight: 500;
@@ -104,6 +108,9 @@ h2 {
                 display: flex;
                 align-items: center;
             }
+        }
+        .form-control {
+            background-clip: border-box;
         }
         .search-query {
             &:focus {

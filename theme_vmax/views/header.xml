@@ -160,7 +160,7 @@
 			</div>
 			<header id="top" data-name="Header">
 				<nav class="navbar navbar-expand-md navbar-light bg-light">
-					<div class="container">
+					<div class="container px-0">
 						<div class="collapse navbar-collapse" id="top_menu_collapse" aria-expanded="false">
 							<ul class="nav navbar-nav ml-auto text-right" id="top_menu">
 								<li class="nav-item vm_special_menu dropdown position-static">

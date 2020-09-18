@@ -75,57 +75,57 @@
         			</section>
         		</div>
         		<div class="footer_copyright">
-    <div class="container py-4">
-        <div class="row py-4 vm_delivery_info">
-            <div class="col-12 col-lg-6 col-xl-3">
-                <div class="media">
-                    <span class="fa fa-rocket fa-2x text-alpha"></span>
-                    <div class="media-body pl-3">
-                        <h6>Giao hàng siêu tốc</h6>
-                        <p>Miễn phí tại một số khu vực</p>
+                    <div class="container py-4">
+                        <div class="row py-4 vm_delivery_info">
+                            <div class="col-12 col-lg-6 col-xl-3">
+                                <div class="media">
+                                    <span class="fa fa-rocket fa-2x text-alpha"></span>
+                                    <div class="media-body pl-3">
+                                        <h6>Giao hàng siêu tốc</h6>
+                                        <p>Miễn phí tại một số khu vực</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3">
+                                <div class="media">
+                                    <span class="fa fa-trophy fa-2x text-alpha"></span>
+                                    <div class="media-body pl-3">
+                                        <h6>Chuyên gia về mực in</h6>
+                                        <p>Chất lượng hàng đầu, giá tốt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3">
+                                <div class="media">
+                                    <span class="fa fa-cogs fa-2x text-alpha"></span>
+                                    <div class="media-body pl-3">
+                                        <h6>Bảo dưỡng, bảo trì</h6>
+                                        <p>Làm tận nơi, miễn phí</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3">
+                                <div class="media">
+                                    <span class="fa fa-life-ring fa-2x text-alpha"></span>
+                                    <div class="media-body pl-3">
+                                        <h6>Hỗ trợ khách hàng 24/7</h6>
+                                        <p>Chăm sóc khách hàng hoàn hảo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 justify-content-between">
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-center text-lg-left">
+                                <span>© Vmax 2016 - Bản quyền thuộc Công Ty TNHH Mực In Vmax</span>
+                                <br/>
+                                <span>Giấy chứng nhận Đăng ký Kinh doanh số 0301714093 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 04/05/1999.</span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center text-lg-right">
+                                <img class="mark-lazy" src="https://cdn.vmax.vn/pub/media/wysiwyg/payment/footer-phuong-thuc-thanh-toan-2-min.png" data-src="https://cdn.vmax.vn/pub/media/wysiwyg/payment/footer-phuong-thuc-thanh-toan-2-min.png" alt="Payment" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 col-xl-3">
-                <div class="media">
-                    <span class="fa fa-trophy fa-2x text-alpha"></span>
-                    <div class="media-body pl-3">
-                        <h6>Chuyên gia về mực in</h6>
-                        <p>Chất lượng hàng đầu, giá tốt</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 col-xl-3">
-                <div class="media">
-                    <span class="fa fa-cogs fa-2x text-alpha"></span>
-                    <div class="media-body pl-3">
-                        <h6>Bảo dưỡng, bảo trì</h6>
-                        <p>Làm tận nơi, miễn phí</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 col-xl-3">
-                <div class="media">
-                    <span class="fa fa-life-ring fa-2x text-alpha"></span>
-                    <div class="media-body pl-3">
-                        <h6>Hỗ trợ khách hàng 24/7</h6>
-                        <p>Chăm sóc khách hàng hoàn hảo</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row py-4 justify-content-between">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-center text-lg-left">
-                <span>© Vmax 2016 - Bản quyền thuộc Công Ty TNHH Mực In Vmax</span>
-                <br/>
-                <span>Giấy chứng nhận Đăng ký Kinh doanh số 0301714093 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 04/05/1999.</span>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center text-lg-right">
-                <img class="mark-lazy" src="https://cdn.vmax.vn/pub/media/wysiwyg/payment/footer-phuong-thuc-thanh-toan-2-min.png" data-src="https://cdn.vmax.vn/pub/media/wysiwyg/payment/footer-phuong-thuc-thanh-toan-2-min.png" alt="Payment" />
-            </div>
-        </div>
-    </div>
-</div>
         	</footer>
         </xpath>
     </template>
