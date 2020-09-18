@@ -21,9 +21,7 @@
 						</div>
 						<div class="col-12 col-md-auto py-2 text-md-right">
 							<ul class="list-inline mb-0">
-
-
-								<li class="list-inline-item tp_hide_in_mobile">
+								<!-- <li class="list-inline-item tp_hide_in_mobile">
 									<div class="dropdown">
 
 										<a role="button" href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -41,25 +39,20 @@
 
 										</div>
 									</div>
-								</li>
-
-
+								</li> -->
 								<li class="list-inline-item">
 									<div class="dropdown">
 										<a href="#" class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 											<i class="fa fa-globe"></i> <span>English (US)</span>
 										</a>
 										<div class="dropdown-menu" role="menu" style="">
-
-											<a class="dropdown-item js_change_lang" href="/shop" data-url_code="en">
-												English (US)
-											</a>
-
-											<a class="dropdown-item js_change_lang" href="/fr_BE/shop" data-url_code="fr_BE">
-												Français (BE)
-											</a>
-
-
+											<t t-foreach="languages" t-as="lg">
+												<a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+													class="dropdown-item js_change_lang"
+													t-att-data-url_code="lg[1]">
+													<t t-esc="lg[2].split('/').pop()"/>
+												</a>
+											</t>
 										</div>
 									</div>
 								</li>
@@ -82,15 +75,6 @@
 						<div class="py-2 pr-5 vm_custom_search">
 							<form class="products_search_bar_form" method="get" action="/">
 								<div class="input-group">
-									<div class="dropdown vm_search_categ_dropdown">
-										<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
-											<i class="fa fa-bars mr-1"></i>
-											<span class="vm_active_text">Tất cả</span>
-										</a>
-										<div class="dropdown-menu" area-labelledly="dropdownMenuLink">
-											
-										</div>
-									</div>
 									<input type="text" name="search" class="form-control search-query" placeholder="Tìm sản phẩm..." autocomplete="off" />
 									<div class="input-group-append">
 										<button type="submit" class="btn btn-primary button_search" aria-label="Search">
@@ -105,15 +89,17 @@
 								<div class="col-auto my-1">
 									<div class="card border-0">
 										<div class="media align-items-center">
+											<t t-set="website_sale_order" t-value="website.sale_get_order()" />
 											<header class="mr-xl-3">
 												<a href="/shop/cart" class="d-block position-relative" aria-label="Cart">
 													<i class="fa fa-shopping-basket rounded-circle bg-beta"></i>
 												</a>
+												<sup t-attf-class="my_cart_quantity badge badge-primary #{'' if website_sale_order and website_sale_order.cart_quantity else 'd-none'}" t-esc="website_sale_order and website_sale_order.cart_quantity or ''" t-att-data-order-id="website_sale_order and website_sale_order.id or ''"/>
 											</header>
 											<div class="media-body d-none d-xl-block">
 												<div class="mb-1">Giỏ hàng</div>
 												<a href="/shop/cart" class="sale_cart_header">
-													<h6 class="mb-0 vm_title_top">0 sản phẩm</h6>
+													<h6 class="mb-0 vm_title_top"><t t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"/> sản phẩm</h6>
 												</a>
 											</div>
 										</div>
@@ -122,11 +108,14 @@
 								<div class="col-auto my-1">
 									<div class="card border-0">
 										<div class="media align-items-center">
+											<t t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active"> <t t-set='wishcount' t-value="len(request.env['product.wishlist'].current())"/>
 											<header class="mr-xl-3">
 												<a href="/shop/wishlist" class="d-block position-relative" aria-label="Wishlist">
 													<i class="fa fa-heart-o rounded-circle bg-beta"></i>
 												</a>
+												<sup class="my_wish_quantity o_animate_blink badge badge-primary mb-0 font-weight-bold" t-att-style="not wishcount and 'display:none;'"><t t-esc='wishcount'/></sup>
 											</header>
+											</t>
 											<div class="media-body d-none d-xl-block">
 												<div class="mb-1">Yêu thích</div>
 												<a href="/shop/wishlist" class="sale_wishlist_header">
@@ -140,16 +129,27 @@
 									<div class="card border-0">
 										<div class="media align-items-center">
 											<header class="mr-xl-3">
-												<a href="/shop/account" class="d-block position-relative" aria-label="Cart">
+												<a href="/my/home" class="d-block position-relative" aria-label="Cart">
 													<i class="fa fa-user-o rounded-circle bg-beta"></i>
 												</a>
 											</header>
-											<div class="media-body d-none d-xl-block">
-												<div class="mb-1">Chào, khách</div>
-												<a href="/shop/account" class="sale_account_header">
-													<h6 class="mb-0 vm_title_top">Tài khoản</h6>
-												</a>
-											</div>
+											<t t-if="not user_id._is_public()">
+												<div class="media-body d-none d-xl-block">
+													<div class="mb-1">Chào, <span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/></div>
+													<a id="o_logout" t-attf-href="/web/session/logout?redirect=/" class="sale_wishlist_header">
+														<h6 class="mb-0 vm_title_top">Đăng xuất</h6>
+													</a>
+												</div>
+											</t>
+											<t t-else="">
+												<div class="media-body d-none d-xl-block">
+													<div class="mb-1">Chào, khách</div>
+													<a id="o_login" t-attf-href="/web/signup" class="sale_wishlist_header">
+														<h6 class="mb-0 vm_title_top">Đăng ký</h6>
+													</a>
+												</div>
+											</t>
+
 										</div>
 									</div>
 								</div>
@@ -158,7 +158,7 @@
 					</div>
 				</div>
 			</div>
-			<header id="top" class="mb-3" data-name="Header">
+			<header id="top" data-name="Header">
 				<nav class="navbar navbar-expand-md navbar-light bg-light">
 					<div class="container">
 						<div class="collapse navbar-collapse" id="top_menu_collapse" aria-expanded="false">
@@ -178,7 +178,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/2">Mực in vmax</a>
+									                        <a href="/shop/category/2"> Mực in HP</a>
 									                    </div>
 									                </div>
 
@@ -189,7 +189,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/3">Mực in chính hãng</a>
+									                        <a href="/shop/category/3"> Mực in Canon</a>
 									                    </div>
 									                </div>
 
@@ -200,7 +200,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/5">Nạp mực</a>
+									                        <a href="/shop/category/5"> Mực in Brother</a>
 									                    </div>
 									                </div>
 
@@ -211,7 +211,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/6">Máy in</a>
+									                        <a href="/shop/category/6"> Mực in Xerox</a>
 									                    </div>
 									                </div>
 
@@ -222,7 +222,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/8">Thiết bị công nghệ</a>
+									                        <a href="/shop/category/8"> Mực in Epson</a>
 									                    </div>
 									                </div>
 
@@ -233,7 +233,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/10">Máy văn phòng</a>
+									                        <a href="/shop/category/10"> Mực in Oki</a>
 									                    </div>
 									                </div>
 
@@ -244,7 +244,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/9">Phụ kiện máy tính</a>
+									                        <a href="/shop/category/9"> Máy in đa chức năng</a>
 									                    </div>
 									                </div>
 
@@ -255,7 +255,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/12">Giấy-sổ-bút</a>
+									                        <a href="/shop/category/12"> Máy in laser trắng đen</a>
 									                    </div>
 									                </div>
 
@@ -266,7 +266,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/15">Bìa-kim-kẹp</a>
+									                        <a href="/shop/category/15"> Máy in laser màu</a>
 									                    </div>
 									                </div>
 
@@ -277,7 +277,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/19">Nhu yếu phẩm</a>
+									                        <a href="/shop/category/19"> Máy in phun</a>
 									                    </div>
 									                </div>
 
@@ -288,7 +288,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/16">Dụng cụ văn phòng</a>
+									                        <a href="/shop/category/16"> Máy in kim</a>
 									                    </div>
 									                </div>
 									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
@@ -298,7 +298,7 @@
 									                        </a>
 									                    </div>
 									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/16">Dịch vụ khác</a>
+									                        <a href="/shop/category/16"> Máy in nhãn</a>
 									                    </div>
 									                </div>
 									            </div>
@@ -324,6 +324,7 @@
 								<li class="nav-item"><a role="menuitem" href="/lien-he" class="nav-link active"><span>Liên hệ hỗ trợ</span></a></li>
 								<li class="nav-item"><a role="menuitem" href="/ve-vmax" class="nav-link active"><span>Về Vmax</span></a></li>
 								<li class="nav-item"><a role="menuitem" href="/blog" class="nav-link active"><span>Blog</span></a></li>
+								<li groups="base.group_public" class="nav-item"><a role="menuitem" href="/web/login" class="nav-link active"><span>Đăng nhập</span></a></li>
 							</ul>
 						</div>
 					</div>

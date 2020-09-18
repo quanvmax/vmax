@@ -31,9 +31,15 @@ h2 {
     box-shadow: 0 1.5rem 4rem rgba(73, 80, 87, 0.15);
     color: #6c757d;
     border: 0 solid rgba(0, 0, 0, 0.15);
-    border-radius: 0rem;
+    border-radius: 0;
+    padding: 0;
     .dropdown-item {
         color: #212529;
+    }
+    .active {
+        color: #FFFFFF;
+        text-decoration: none;
+        background-color: #4298b5;
     }
 }
 .tp_preheader {
@@ -57,8 +63,22 @@ h2 {
     }
     .tp-account-info-desktop {
         font-size: $fontsize-14;
-        .fa {
-            font-size: 1.4rem;
+        header {
+            .fa {
+                font-size: 1.4rem;
+            }
+            .my_wish_quantity, .my_cart_quantity {
+                padding: 0.4em 0.6em;
+                border-radius: 40px;
+                vertical-align: top;
+                position: absolute;
+                left: 30px;
+                top: -5px;
+            }
+            .badge-primary {
+                color: #FFFFFF;
+                background-color: #ec4c4c;
+            }
         }
         .vm_title_top {
             color: #343a40;
@@ -69,7 +89,7 @@ h2 {
     .vm_custom_search {
         flex-grow: 1;
         input {
-            padding: 12px;
+            padding: 10px;
         }
         .vm_search_categ_dropdown {
             .btn {

@@ -68,7 +68,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 1em 0;
   padding: 0;
 }
@@ -82,13 +82,13 @@ pre {
   word-wrap: break-word;
 }
 
-input[type="radio"] {vertical-align: text-bottom}
+// input[type="radio"] {vertical-align: text-bottom}
 
-input[type="checkbox"] {vertical-align: bottom}
+// input[type="checkbox"] {vertical-align: bottom}
 
-.ie7 input[type="checkbox"] {vertical-align: baseline}
+// .ie7 input[type="checkbox"] {vertical-align: baseline}
 
-.ie6 input {vertical-align: text-bottom}
+// .ie6 input {vertical-align: text-bottom}
 
 select, input, textarea {font: 99% sans-serif}
 

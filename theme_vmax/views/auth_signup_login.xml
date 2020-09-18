@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<!-- Thay đổi bố cục mặc định -->
+	<template id="vm_box_login" inherit_id="website.login_layout">
+		<xpath expr="//div" position="replace">
+			<section id="vm_signup_login">
+				<div class="container">
+					<div class="row">
+						<div class="oe_website_login_container box" t-raw="0"/>
+					</div>
+				</div>
+			</section>
+		</xpath>
+	</template>
+
+	<template id="vm_login_heading" inherit_id="web.login">
+		<xpath expr="//form" position="before">
+			<h3>Chào mừng đến với Vmax. Đăng nhập ngay!</h3>
+			<div class="logo mt-3"><img src="/web/image/website/1/logo/" class="img img-fluid" alt="Vmax"/></div>
+		</xpath>
+		<!-- Xóa nút Log in as superuser -->
+		<xpath expr="//button[@value='/web/become']" position="replace" />
+	</template>
+	<template id="vm_signup_login" inherit_id="auth_signup.signup">
+		<xpath expr="//form" position="before">
+			<h3>Tạo tài khoản Vmax</h3>
+		</xpath>
+	</template>
+</odoo>

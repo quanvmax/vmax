@@ -7,19 +7,19 @@ from odoo.tools.misc import str2bool, xlwt
 from odoo.addons.website.controllers.main import Website
 
 class HomepageVmax(Website):
-	@http.route()
+	@http.route('/', type='http', auth="public", website=True)
 	def index(self, **kw):
 		super(HomepageVmax, self).index()
 
 		Products = request.env['product.template'].sudo()
 		
-		mucin = Products.search([('public_categ_ids.id', 'child_of', 1)], limit=4)
-		mayin = Products.search([('public_categ_ids.id', 'child_of', 8)], limit=4)
-		website_product_ids = request.env['product.template'].sudo().search([('is_published', '=', True)], limit=8)
+		All_product = Products.sudo().search([('is_published', '=', True)], limit=8)
+		#Mucin = Products.search([('public_categ_ids.id', 'child_of', 1)], limit=4)
+		#Mayin = Products.search([('public_categ_ids.id', 'child_of', 8)], limit=4)
 		
 		data = {
-			'website_product_ids' : website_product_ids,
-			'mucin' : mucin,
-			'mayin' : mayin
+			'website_product_ids' : All_product,
+			#'mucin' : Mucin,
+			#'mayin' : Mayin
 		}
 		return request.render('theme_vmax.vm_homepage', data)

@@ -72,6 +72,7 @@
 				</div>
 			</section>
 
+			<t t-if="website_product_ids">
 			<section class="vm_heading_2 pt48 pb32">
 				<div class="container">
 					<div class="row justify-content-center">
@@ -127,7 +128,8 @@
 					</div>
 				</div>
 			</section>
-
+			</t>
+			<t t-if="mucin">
 			<section class="vm_heading_2 pb32">
 				<div class="container">
 					<div class="row justify-content-center">
@@ -177,55 +179,58 @@
 					</div>
 				</div>
 			</section>
-			<section class="vm_heading_2 pb32">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-12 col-lg-8 text-center">
-							<h2 class="vm_title_homepage mb-3">Máy In Văn Phòng</h2>
+			</t>
+			<t t-if="mayin">
+				<section class="vm_heading_2 pb32">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-12 col-lg-8 text-center">
+								<h2 class="vm_title_homepage mb-3">Máy In Văn Phòng</h2>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-			<section class="vm_products pb32">
-				<div class="container">
-					<div class="list_product row justify-content-center">
-						<t t-foreach="mayin" t-as="c_mayin">
-							<div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-								<div class="h-100 s_card_style shadow-sm">
-								    <div class="d_product_box">
-								       
-								        <div class="d_img_block">
-								        	<a t-attf-href="/shop/product/#{ slug(c_mayin) }">
-								            	<img t-if="c_mayin.image_1920" t-attf-src="/web/image/product.template/#{c_mayin.id}/image_1920" class="img img-fluid d-product-img"/>
-								            </a>
-								        </div>
-								    </div>
-								    <div class="card-body d_description position-relative">
-										<form action="/shop/cart/update" method="post" t-att-data-publish="c_mayin.website_published and 'on' or 'off'">
-										    <h5 class="card-title mt-2 d_product_name text-left mb-1">
-										        <a t-attf-href="/shop/product/#{ slug(c_mayin) }"> <span t-esc="c_mayin.name"/></a>
-										    </h5>
-										    <t t-set="product_variant_id" t-value="c_mayin._get_first_possible_variant_id()"/>
-										    <input name="product_id" t-att-value="product_variant_id" type="hidden"/>
-										    <t t-if="product_variant_id">
-										        <button data-product-product-id="32" data-toggle="tooltip" data-placement="bottom" class="d_action_btn btn btn-lg btn-primary d_add_to_cart_btn a-submit" title="Thêm vào giỏ hàng" data-original-title="Add to Cart">
-										        	<i class="d_action_btn_icon fa fa-shopping-cart"></i>
-										    	</button>
-										    </t>
-										    
-										    <div class="row no-gutters">
-										        <div class="col-8 text-left">
-										            <h6 class="d-inline-block d_product_price"><t t-esc="c_mayin.list_price" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/></h6>
-										        </div>
-										    </div>
-										</form>
-								    </div>
+				</section>
+				<section class="vm_products pb32">
+					<div class="container">
+						<div class="list_product row justify-content-center">
+							<t t-foreach="mayin" t-as="c_mayin">
+								<div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+									<div class="h-100 s_card_style shadow-sm">
+									    <div class="d_product_box">
+									       
+									        <div class="d_img_block">
+									        	<a t-attf-href="/shop/product/#{ slug(c_mayin) }">
+									            	<img t-if="c_mayin.image_1920" t-attf-src="/web/image/product.template/#{c_mayin.id}/image_1920" class="img img-fluid d-product-img"/>
+									            </a>
+									        </div>
+									    </div>
+									    <div class="card-body d_description position-relative">
+											<form action="/shop/cart/update" method="post" t-att-data-publish="c_mayin.website_published and 'on' or 'off'">
+											    <h5 class="card-title mt-2 d_product_name text-left mb-1">
+											        <a t-attf-href="/shop/product/#{ slug(c_mayin) }"> <span t-esc="c_mayin.name"/></a>
+											    </h5>
+											    <t t-set="product_variant_id" t-value="c_mayin._get_first_possible_variant_id()"/>
+											    <input name="product_id" t-att-value="product_variant_id" type="hidden"/>
+											    <t t-if="product_variant_id">
+											        <button data-product-product-id="32" data-toggle="tooltip" data-placement="bottom" class="d_action_btn btn btn-lg btn-primary d_add_to_cart_btn a-submit" title="Thêm vào giỏ hàng" data-original-title="Add to Cart">
+											        	<i class="d_action_btn_icon fa fa-shopping-cart"></i>
+											    	</button>
+											    </t>
+											    
+											    <div class="row no-gutters">
+											        <div class="col-8 text-left">
+											            <h6 class="d-inline-block d_product_price"><t t-esc="c_mayin.list_price" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/></h6>
+											        </div>
+											    </div>
+											</form>
+									    </div>
+									</div>
 								</div>
-							</div>
-						</t>
+							</t>
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			</t>
 			<div class="oe_structure"/>
 			<section class="s_d_brand_snippet_wrapper dr_grid_mode pt32 pb32" data-name="Brands">
 		        <div class="container position-relative">

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    	<template id="vm_cart" inherit_id="website_sale.cart" name="Cart">
+        <!-- Thêm tiêu đề: giỏ hàng -->
+    	<xpath expr="//div[@id='wrap']/div" position="before">
+    		<section class="vm_heading_3 pt32">
+    			<div class="container">
+    				<div class="row justify-content-center s_nb_column_fixed s_col_no_bgcolor">
+    					<div class="col-12 col-lg-8 text-center">
+                            <h2>Giỏ Mua Hàng</h2>
+                        </div>
+    				</div>
+    			</div>
+    		</section>
+    	</xpath>
+    	</template>
+
+    	<template id="vm_cart_lines" inherit_id="website_sale.cart_lines">
+        <!-- Thêm class thead-dark cho thead của table -->
+    	<xpath expr="//table/thead" position="attributes">
+    		<attribute name="class" add="thead-dark" />
+    	</xpath>
+        <!-- Xóa cột action và di chuyển nút Remove xuống phía dưới mô tả sản phẩm -->
+    	<xpath expr="//td[@class='td-action']" position="replace"></xpath>
+    	<xpath expr="//th[@class='text-center td-action']" position="replace"></xpath>
+    	
+    	<xpath expr="//td[@class='td-product_name']" position="inside">
+    		<a href="#" aria-label="Remove from cart" title="Remove from cart" class="js_delete_product no-decoration text-danger btn btn-link btn-sm"><i class="fa fa-trash-o"></i> Remove</a>
+    	</xpath>
+    	</template>
+    </data>
+</odoo>

@@ -1,0 +1,36 @@
+#vm_signup_login {
+	background-color: #f0f0f0;
+	padding: 20px 0;
+	.box {
+		font-size: $fontsize-13;
+		width: 80%;
+		background-color: #fff;
+		color: #757575;
+		margin: auto;
+		.logo {
+			text-align: center;
+			margin: auto;
+		}
+		h3 {
+			text-align: center;
+			font-size: 1.2rem;
+			margin-top: 20px;
+		}
+		form {
+			margin: 20px auto;
+			.btn-primary {
+				color: #FFF;
+				background-color: #4298b5;
+				border-color: #4298b5;
+				border-radius: 0;
+				&:hover {
+					background-color: #388099;
+					border-color: #347990;
+				}
+			}
+			.small {
+				font-size: $fontsize-13;
+			}
+		}
+	}
+}
