@@ -22,42 +22,42 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <a href="#" class="blck w100 job">
+                            <a href="/job/detail" class="blck w100 job">
                                 <p class="job__title">Front-end Website Developer</p>
                                 <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
                                 <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
                             </a>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <a href="#" class="blck w100 job">
+                            <a href="/job/detail" class="blck w100 job">
                                 <p class="job__title">Storekeeper</p>
                                 <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
                                 <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
                             </a>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <a href="#" class="blck w100 job">
+                            <a href="/job/detail" class="blck w100 job">
                                 <p class="job__title">Master Chef</p>
                                 <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
                                 <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
                             </a>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <a href="#" class="blck w100 job">
+                            <a href="/job/detail" class="blck w100 job">
                                 <p class="job__title">Junior Full-stack Website Developer</p>
                                 <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
                                 <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
                             </a>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <a href="#" class="blck w100 job">
+                            <a href="/job/detail" class="blck w100 job">
                                 <p class="job__title">Senior Full-stack Website Developer</p>
                                 <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
                                 <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
                             </a>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <a href="#" class="blck w100 job">
+                            <a href="/job/detail" class="blck w100 job">
                                 <p class="job__title">Junior Back-end Website Developer</p>
                                 <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
                                 <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>

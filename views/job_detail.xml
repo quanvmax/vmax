@@ -4,7 +4,73 @@
         <t t-call="website.layout">
             <div class="oe_structure"/>
             <!-- TO DO -->
-                <h1>Đây là trang chi tiết công việc</h1>
+            <div class="blck w100" id="page_job">
+                <div class="blck w100 big_header">
+                    <div class="texts">
+                        <h1>Vmax tuyển dụng</h1>
+                        <h3>Cơ hội trở thành một phần của đại gia đình Vmax !</h3>
+                    </div>
+                </div><!-- end of big_header -->
+                <div class="container">
+                    <div class="row jnav">
+                        <div class="col-12">
+                            <a href="/jobs" class="a_home">Tuyển dụng </a>
+                            <a href="#">/ Web Front-end Developer</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="jtitle">Web Front-end Developer</h1>
+                        </div>
+                    </div>
+                    <div class="row jdesc">
+                        <div class="col-12">
+                            <p class="iblck jdesc__title jdesc__title--grey">Mô tả công việc</p>
+                            <ul>
+                                <li>Nơi làm việc: 18A/76 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, thành phố Hồ Chí Minh.</li>
+                                <li>Thiết kế và xây dựng landing page.</li>
+                                <li>Tối ưu thêm responsive cho web.</li>
+                                <li>Thiết kế giao diện, UX/UI cho các trang web theo yêu cầu.</li>
+                                <li>Thiết kế bộ nhận diện thương hiệu Vmax và các đối tác khác của Vmax.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row jdesc">
+                        <div class="col-12">
+                            <p class="iblck jdesc__title jdesc__title--black">Yêu cầu đối với ứng viên</p>
+                            <ul>
+                                <li>Đã từng làm các dự án thiết kế và xây dựng website.</li>
+                                <li>Biết sử dụng SCSS, Bootstrap. Biết các front-end framework là một lợi thế (React,VueJS,Angular 8,..)</li>
+                                <li>Biết sử dụng các phầm mềm thiết kế như Photoshop, AI, Illustrator.</li>
+                                <li>Không cần biết nhiều về SEO, nhưng phải biết đủ để tối ưu SEO cho website.</li>
+                                <li>Đối với ứng viên là sinh viên còn đang đi học, phải có mặt trên công ty ít nhất 6 buổi/tuần.</li>
+                                <li>Đối với ứng viên khác, phải có mặt trên công ty 10 buổi/tuần.</li>
+                                <li>Có tinh thần tự học, năng động.</li>
+                                <li>Thị lực tốt, cận không quá 2 độ.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row jdesc">
+                        <div class="col-12">
+                            <p class="iblck jdesc__title jdesc__title--red">Quyền lợi</p>
+                            <ul>
+                                <li>Lương thử việc lên đến 80% lương nhân viên chính thức.</li>
+                                <li>Làm việc 5 ngày/tuần. Được tính lương đầy đủ nếu có yêu cầu làm tăng ca, làm ngoài giờ hoặc làm bù.</li>
+                                <li>Review lương mỗi 6 tháng, tăng lương theo năng lực.</li>
+                                <li>Có lương thưởng tháng 13.</li>
+                                <li>Được đóng đầy đủ thuế và các loại bảo hiểm dành cho người lao động theo quy định của nhà nước.</li>
+                                <li>Được hưởng các chế độ độc quyền chỉ có ở Vmax như trợ cấp sinh đẻ (cho cả nhân viên nam và nữ), trợ cấp ốm đau, trợ cấp tai nạn,..</li>
+                                <li>Công ty có chương trình đặt sách cho nhân viên mỗi tuần đầu và tuần thứ ba của tháng.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row last_row">
+                        <div class="col-12 txt-center">
+                            <a href="#" class="vmax_btn vmax_btn--primary"><i class="fa fa-suitcase"></i> Ứng tuyển ngay !</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- END TO DO -->
             <div class="oe_structure"/>
         </t>

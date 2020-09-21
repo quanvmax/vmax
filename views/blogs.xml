@@ -4,7 +4,113 @@
         <t t-call="website.layout">
             <div class="oe_structure"/>
             <!-- TO DO -->
-                <h1>Đây là trang danh sách các bài viết</h1>
+            <div class="blck w100 blog_search">
+                <div class="container">
+                    <form action="#" method="post">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-10">
+                                    <input type="text" class="form-control" value="Tìm kiếm: cách chọn mực in,...."/>
+                                </div>
+                                <div class="col-2">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container" id="page_blogs">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Bài viết của Vmax</h1>
+                    </div>
+                    <div class="col-12">
+                        <a href="#" class="blck w100 bigblog">
+                            <img src="https://jnj-content-lab.brightspotcdn.com/dims4/default/4f82fe4/2147483647/strip/true/crop/1440x666+0+0/resize/1440x666!/quality/90/?url=http%3A%2F%2Fjnj-brightspot.s3.amazonaws.com%2F82%2F87%2F1f02f86a4ddfb68d44840e7d8cf5%2Flede-doctorfrontlineschina.jpg" />
+                            <div class="texts">
+                                <p class="btitle">Giữ an toàn cho gia đình và người thân trong đại dịch</p>
+                                <p class="bdate">21/09/2020</p>
+                                <p class="bshort">
+                                   Corona là một họ virus lớn, trong đó một số chủng có khả năng gây bệnh khi xâm nhiễm từ động vật sang người, số khác chỉ xâm nhiễm và tồn tại ở các loài động vật bao gồm lạc đà, mèo và dơi. Đôi khi virus corona từ động vật tiến hóa để lây sang người để rồi sau đó lây từ người sang người như trường hợp Hội chứng Hô hấp Trung Đông (MERS) và hội chứng hô hấp cấp nặng (SARS). Hiện tại chủng virus corona gây dịch tại Vũ Hán (2019-nCoV) là một chủng mới chưa từng xuất hiện ở người và có khả năng lây từ người sang người.
+                                </p> 
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-10 offset-sm-1 col-10 offset-1">
+                        <a href="#" class="blck w100 blog">
+                            <img src="https://jnj-content-lab.brightspotcdn.com/dims4/default/4f82fe4/2147483647/strip/true/crop/1440x666+0+0/resize/1440x666!/quality/90/?url=http%3A%2F%2Fjnj-brightspot.s3.amazonaws.com%2F82%2F87%2F1f02f86a4ddfb68d44840e7d8cf5%2Flede-doctorfrontlineschina.jpg" />
+                            <div class="texts">
+                                <p class="btitle">Giữ an toàn cho gia đình và người thân trong đại dịch</p>
+                                <p class="bdate">21/09/2020</p>
+                                <p class="bshort">
+                                   Corona là một họ virus lớn, trong đó một số chủng có khả năng gây bệnh khi xâm nhiễm từ động vật sang người, số khác chỉ xâm nhiễm và tồn tại ở các loài động vật bao gồm lạc đà, mèo và dơi. Đôi khi virus corona từ động vật tiến hóa để lây sang người để rồi sau đó lây từ người sang người như trường hợp Hội chứng Hô hấp Trung Đông (MERS) và hội chứng hô hấp cấp nặng (SARS). Hiện tại chủng virus corona gây dịch tại Vũ Hán (2019-nCoV) là một chủng mới chưa từng xuất hiện ở người và có khả năng lây từ người sang người.
+                                </p> 
+                            </div>
+                        </a>
+                        <a href="#" class="blck w100 blog">
+                            <img src="https://anhngoc.vn/media/product/6374_mf21d.jpg" />
+                            <div class="texts">
+                                <p class="btitle">Đánh giá máy in đa chức năng Canon imageCLASS MF221D</p>
+                                <p class="bdate">20/09/2020</p>
+                                <p class="bshort">
+                                    Canon imageCLASS MF221d là mẫu máy in laser đen trắng khổ A4 thuộc dòng đa chức năng imageCLASS được Canon giới thiệu nhằm đáp ứng nhu cầu của người dùng văn phòng hoặc gia đình muốn in tài liệu hai mặt, tiết kiệm giấy sử dụng mà không làm ảnh hưởng đến hiệu suất và chất lượng công việc. Mẫu máy in 3-trong-1 này có thêm chức năng quét và sao chụp tiện dụng bên cạnh khả năng in ấn thông thường, máy hỗ trợ in với độ phân giải tối đa 1.200x1.200dpi, độ phân giải sao chụp 600x600dpi và độ phân giải quét quang học 600x600dpi (có thể tăng cường lên đến 9.600x9.600dpi).
+                                </p> 
+                            </div>
+                        </a>
+                        <a href="#" class="blck w100 blog">
+                            <img src="https://store.leapcontent.vn/file/Logonhandienthuonghieu/logo-nhan-dien-thuong-hieu-7.jpg" />
+                            <div class="texts">
+                                <p class="btitle">Logo và bộ nhận dạng thương hiệu</p>
+                                <p class="bdate">19/09/2020</p>
+                                <p class="bshort">
+                                    Logo không phải là thương hiệu, cũng không phải là bộ nhận diện của bạn. Thiết kế logo, thiết kế bộ nhận diện và thương hiệu đều có những vai trò khác nhau, chúng cùng nhau tạo thành một nhóm hình ảnh giúp truyền nhận thức, giá trị của một doanh nghiệp và sản phẩm đến khách hàng, người tiêu dùng.
+                                </p> 
+                            </div>
+                        </a>
+                        <a href="#" class="blck w100 blog">
+                            <img src="https://znews-photo.zadn.vn/w660/Uploaded/sgorvz/2016_09_07/giam_moi_mat_3.jpg" />
+                            <div class="texts">
+                                <p class="btitle">7 biện pháp đơn giản giúp giảm nhức mỏi mắt tại nhà</p>
+                                <p class="bdate">19/09/2020</p>
+                                <p class="bshort">
+                                    Sử dụng trà hoa cúc, dưa chuột, nước hoa hồng hay áp dụng các bài tập cho mắt sẽ giúp bạn giảm nhức mỏi mắt ngay tại nhà, giữ cho đôi mắt luôn khỏe đẹp.
+                                </p> 
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-4 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
+                        <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Nhóm bài viết</p>
+                            <ul>
+                                <li><a href="#">Tin tức (<span>53</span>)</a></li>
+                                <li><a href="#">Bí kíp công sở (<span>111</span>)</a></li>
+                                <li><a href="#">Mẹo vặt (<span>159</span>)</a></li>
+                                <li><a href="#">Giải trí (<span>154</span>)</a></li>
+                                <li><a href="#">Tuyển dụng (<span>7</span>)</a></li>
+                            </ul>
+                        </div>
+                        <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Bài viết được quan tâm</p>
+                            <ul>
+                                <li><a href="#">Tự cách ly trong mùa đại dịch 2020</a></li>
+                                <li><a href="#">Cải thiện sức khỏe dân văn phòng</a></li>
+                                <li><a href="#">Để không ngủ gục khi làm việc</a></li>
+                                <li><a href="#">Một tuần nhậu bao nhiêu lần là đủ?</a></li>
+                                <li><a href="#">Ngày nghỉ thì làm gì?</a></li>
+                            </ul>
+                        </div>
+                        <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Bài viết mới</p>
+                            <ul>
+                                <li><a href="#">Logo và bộ nhận diện thương hiệu</a></li>
+                                <li><a href="#">Bí quyết tài chính: phương pháp 6 hũ</a></li>
+                                <li><a href="#">Tiếng chim hót trong bụi mận gai</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- END TO DO -->
             <div class="oe_structure"/>
         </t>

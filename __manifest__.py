@@ -25,6 +25,7 @@
 		'views/jobs.xml',
 		'views/job_detail.xml',
 		'views/job_apply.xml',
+		'views/job_thanks.xml',
 		'views/blogs.xml',
 		'views/blog_detail.xml'
 	],

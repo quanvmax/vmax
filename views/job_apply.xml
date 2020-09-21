@@ -4,7 +4,85 @@
         <t t-call="website.layout">
             <div class="oe_structure"/>
             <!-- TO DO -->
-                <h1>Đây là trang ứng tuyển cho công việc</h1>
+            <div class="container" id="page_job_apply">
+                <div class="row">
+                    <div class="col-12">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1>Ứng tuyển vị trí: Web Front-end Developer</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                                    <label for="app_name">Họ và tên <span><i class="fa fa-asterisk"></i></span></label>
+                                    <input type="text" class="form-control" id="app_name" name="app_name" />
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                                    <label for="app_gender">Giới tính</label>
+                                    <select id="app_gender" name="app_gender" class="form-control">
+                                        <option value="male"> Nam</option>
+                                        <option value="female"> Nữ</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                                    <label for="app_phone1">Số điện thoại 1 <span><i class="fa fa-asterisk"></i></span></label>
+                                    <input type="text" class="form-control" id="app_phone1" name="app_phone1" />
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                                    <label for="app_phone2">Số điện thoại 2</label>
+                                    <input type="text" class="form-control" id="app_phone2" name="app_phone2" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="app_email">Email <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="email" class="form-control" id="app_email" name="app_email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="app_address">Địa chỉ thường trú hiện tại <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="text" class="form-control" id="app_address" name="app_address" />
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <label for="app_exp">Kinh nghiệm chuyên ngành</label>
+                                    <select id="app_exp" name="app_exp" class="form-control">
+                                        <option value="0">Người mới tiếp xúc</option>
+                                        <option value="1">Kinh nghiệm 1 năm</option>
+                                        <option value="2">Kinh nghiệm 2 năm</option>
+                                        <option value="3">Kinh nghiệm hơn 2 năm</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <label for="app_salary">Mức lương mong muốn</label>
+                                    <select id="app_salary" name="app_salary" class="form-control">
+                                        <option value="0">2,000,000 VND - 5,000,000 VND</option>
+                                        <option value="1">6,000,000 VND - 10,000,000 VND</option>
+                                        <option value="2">12,000,000 VND - 17,000,000 VND</option>
+                                        <option value="2">20,000,000 VND - 26,000,000 VND</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="app_cv">Nộp CV tại đây (định dạng PDF) <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="file" class="form-control" id="app_cv" name="app_cv" />
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <ol>
+                                        <li>Vui lòng kiểm tra lại tất cả thông tin và đảm bảo rằng chúng hoàn toàn chính xác trước khi nộp đơn ứng tuyển.</li>
+                                        <li>Mức lương mong muốn chưa bao gồm các khoản trừ bảo hiểm, thuế, và các phụ cấp, lương thưởng khác.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="form-group txt-center">
+                                <button type="submit" class="vmax_btn vmax_btn--primary">Ứng tuyển</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <!-- END TO DO -->
             <div class="oe_structure"/>
         </t>

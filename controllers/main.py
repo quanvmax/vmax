@@ -72,6 +72,11 @@ class VmaxEcommerce(Website):
 	def vmax_job_apply(self, **kw):
 		return request.render('vmax.job_apply')
 
+	# Job/Thanks - Trang cảm ơn vì đã ứng tuyển
+	@http.route('/job/thanks', type='http', auth='public', website=True)
+	def vmax_job_thanks(self, **kw):
+		return request.render('vmax.job_thanks')
+
 	# Blogs - Trang danh sách bài viết - Quân
 	@http.route('/blogs', type='http', auth='public', website=True)
 	def vmax_blogs(self, **kw):

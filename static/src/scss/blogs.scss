@@ -1,0 +1,140 @@
+.blog_search{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background: $primary;
+    box-shadow: inset 2px 2px 5px 5px rgba(0,0,0,0.2);
+
+    form{
+        input[type="text"]{
+            border: 0px;
+            border-bottom: 4px dashed #fff;
+            font-size: 2em;
+            background: inherit;
+            color: #fff;
+            padding: 0em 0em 0.25em 0em;
+            border-radius: 0em;
+            &:focus{
+                outline: 0px;
+                box-shadow: 0px 0px 0px 0px #fff;
+                border-bottom: 4px solid #fff;
+            }
+        }
+        button[type="submit"]{
+            background: inherit;
+            color: #fff;
+            font-size: 2em;
+            border: 0px;
+        }
+    }
+}
+#page_blogs{
+    h1{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-bottom: 0.25em;
+        display: inline-block;
+        border-bottom: 2px solid $primary;
+    }
+    .bigblog{
+        height: 24em;
+        background: $third;
+        box-shadow: inset 2px 2px 5px 5px rgba(0,0,0,0.2);
+        border-radius: 1em;
+        margin-bottom: 2em;
+        img{
+            float: left;
+            width: 30%;
+            height: 24em;
+        }
+        .texts{
+            float: right;
+            width: 70%;
+            height: 24em;
+            padding: 2em;
+            .btitle{
+                font-size: 2em;
+                color: #fff;
+            }
+            .bdate{
+                font-size: 1.6em;
+                color: #fff;
+                font-style: italic;
+            }
+            .bshort{
+                color: #fff;
+                font-size: 1.4em;
+            }
+        }
+    }
+    .blog{
+        margin-bottom: 1em;
+        box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
+        height: 35em;
+        overflow: hidden;
+        &:hover{
+            .btitle{
+                color: $primary;
+            }
+        }
+        img{
+            display: block;
+            width: 100%;
+            height: 20em;
+        }
+        .texts{
+            width: 100%;
+            padding: 2em;
+            height: 15em;
+            overflow: hidden;
+
+            .btitle{
+               color: #000;
+                font-size: 1.3em;
+                font-weight: 600;
+            }
+            .bdate{
+                color: #c4c5c6;
+                font-size: 1.2em;
+                font-style: italic;
+            }
+            .bshort{
+                font-size: 1.1em;
+                color: #000;
+                height: 8em;
+                overflow: hidden;
+            }
+        }
+    }
+    .bwidget{
+        border: 4px solid #000;
+        margin-bottom: 2em;
+        padding: 1em;
+        text-align: right;
+
+        .bwidget__title{
+            font-weight: 600;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 1.4em;
+        }
+        ul{
+            li{
+                a{
+                    font-size: 1.2em;
+                    display: block;
+                    color: #000;
+                    padding: 0.75em 0em;
+                    border-bottom: 1px solid #c4c5c6;
+                    span{
+                        color: $primary;
+                    }
+                }
+                &:last-child{
+                    a{
+                        border-bottom: 0em;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="job_thanks" name="Job Thanks">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            
+            <div class="container" id="page_job_thanks">
+                <div class="row">
+                    <div class="col-12 jthanks__header">
+                        <h1>Cảm ơn bạn !</h1>
+                        <h3>Vì đã ứng tuyển vào công ty Vmax của chúng tôi.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 jthanks__section">
+                        <p>Hồ sơ ứng tuyển của bạn đã được gửi đến bộ phận tuyển dụng Vmax. Vmax sẽ liên lạc với bạn sau khi đã xem xét qua hồ sơ ứng tuyển, hãy kiểm tra email thường xuyên và luôn giữ điện thoại bên mình.</p>
+                        <p>Xin chân thành cảm ơn bạn đã lựa chọn Vmax là nơi để làm việc và hợp tác lâu dài. Rất mong được gặp bạn trong thòi gian sớm nhất !</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 txt-center">
+                        <a href="/home" class="vmax_btn vmax_btn--primary">Trang chủ <i class="fa fa-home"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+</odoo>
