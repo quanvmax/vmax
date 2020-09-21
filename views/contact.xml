@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="contact" name="Contact">
+        <t t-call="website.layout">
+            <div class="oe_structure" />
+            <!-- TO DO -->
+            <div class="container" id="page_contact">
+                <div class="row">
+                    <div class="col-12 txt-center page_contact__header">
+                        <h1>Liên hệ Vmax</h1>
+                        <p class="blck w100">Liên hệ với Vmax nếu bạn muốn yêu cầu hỗ trợ kỹ thuật hoặc tư vấn. Thư liên hệ sẽ được Vmax tiếp nhận và phản hồi sớm nhất có thể.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 page_contact__form">
+                        <form method="post" action="#">
+                            <div class="form-group">
+                                <label for="name">Họ và tên <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="title">Tiêu đề <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="content">Nội dung liên hệ <span><i class="fa fa-asterisk"></i></span></label>
+                                <textarea rows="10" cols="20" class="form-control" id="content" />
+                            </div>
+                            <div class="form-group txt-center">
+                                <button type="submit" class="vmax_btn vmax_btn--primary"><i class="fa fa-paper-plane"></i> Gửi</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 page_contact__address">
+                        <h4><i class="fa fa-building"></i> Trụ sở Vmax tại các khu vực</h4>
+                        <ul>
+                            <li>Vmax Hà Nội  : 138 Kim Mã, Ba Đình, Hà Nội.</li>
+                            <li>Vmax Đà Nẵng : K338/42, Hoàng Diệu, Phường Nam Dương, Quận Hải Châu, Thành Phố Đà Nẵng, Bình Hiên, Hải Châu, Đà Nẵng.</li>
+                            <li>Vmax Hồ Chí Minh : 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1.</li>
+                        </ul>
+                        <h4><i class="fa fa-phone"></i> Số điện thoại các khu vực</h4>
+                        <ul>
+                            <li>Vmax Hà Nội  : 024 3848 9940</li>
+                            <li>Vmax Đà Nẵng : 0236 3821 199</li>
+                            <li>Vmax Hồ Chí Minh : 028 3911 9966</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- TO DO -->
+            <div class="oe_structure" />
+        </t>
+    </template>
+</odoo>

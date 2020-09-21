@@ -4,7 +4,68 @@
         <t t-call="website.layout">
             <div class="oe_structure"/>
             <!-- TO DO -->
-                <h1>Đây là trang tuyển dụng</h1>
+            <div class="blck w100" id="page_jobs">
+                <div class="blck w100 big_header">
+                    <div class="texts">
+                        <h1>Vmax tuyển dụng</h1>
+                        <h3>Cơ hội trở thành một phần của đại gia đình Vmax !</h3>
+                    </div>
+                </div><!-- end of big_header -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="why_vmax">
+                                <h3><i class="fa fa-lightbulb-o"></i> Vì sao chọn  Vmax ?</h3>
+                                <p>Hơn 20 năm hình thành và phát triển, trở thành một trong những thương hiệu mực in hàng đầu Việt Nam với chất lượng quốc tế, chúng tôi luôn hiểu rằng con người là yếu tố quyết định đối với sự thành công và phát triển của Công ty. Tại VMAX, sự nghiệp của các bạn sẽ được phát triển cùng với sự lớn mạnh của chúng tôi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="#" class="blck w100 job">
+                                <p class="job__title">Front-end Website Developer</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="#" class="blck w100 job">
+                                <p class="job__title">Storekeeper</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="#" class="blck w100 job">
+                                <p class="job__title">Master Chef</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="#" class="blck w100 job">
+                                <p class="job__title">Junior Full-stack Website Developer</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="#" class="blck w100 job">
+                                <p class="job__title">Senior Full-stack Website Developer</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="#" class="blck w100 job">
+                                <p class="job__title">Junior Back-end Website Developer</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- END TO DO -->
             <div class="oe_structure"/>
         </t>

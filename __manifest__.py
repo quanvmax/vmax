@@ -21,6 +21,7 @@
 		'views/compare.xml',
 		'views/404.xml',
 		'views/aboutus.xml',
+		'views/contact.xml',
 		'views/jobs.xml',
 		'views/job_detail.xml',
 		'views/job_apply.xml',

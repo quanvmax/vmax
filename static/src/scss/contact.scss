@@ -1,0 +1,103 @@
+#page_contact{
+    .page_contact__header{
+        color: #000;
+        margin: 1em 0em;
+        h1{
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 1.3em;
+            margin: 1em 0em;
+        }
+    }
+    .page_contact__form{
+        padding: 2em;
+        border-top: 4px solid $primary;
+        border-bottom: 4px solid $primary;
+        border-left: 4px solid $primary;
+        border-radius: 1em 0em 0em 1em;
+        box-shadow: -1px 1px 1px 1px rgba(0,0,0,0.2);
+
+        @media (max-width: 767.98px){
+            border-right: 4px solid $primary;
+            border-radius: 1em 1em 0em 0em;
+            box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        }
+        label{
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #000;
+            span{
+                color: #ff0000;
+                font-size: 0.5em;
+                i{
+                    float: right;
+                    margin-left: 0.5em;
+                }
+            }
+        }
+        input[type="text"],input[type="email"]{
+            border: 0px;
+            border-bottom: 2px dashed #A1A1A1;
+            border-radius: 0em;
+            padding: 0.5em 0.5em 0.5em 0em;
+            font-size: 1.1em;
+            &:focus{
+                outline: none;
+                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+                border-bottom: 2px solid $second;
+            }
+        }
+        textarea{
+            resize: none;
+            padding: 0.5em;
+            font-size: 1.1em;
+            border-radius: 0em;
+            width: 100%;
+            min-height: 14em;
+            border: 2px dashed #A1A1A1;
+            margin-top: 0.75em;
+            &:focus{
+                outline: none;
+                box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+                border: 2px solid $second;
+            }
+        }
+        button[type="submit"]{
+            border: 0em;
+            @media (max-width: 991.98px){
+                width: 100%;
+            }
+        }
+    }
+    .page_contact__address{
+        padding: 2em;
+        border-left: 4px dashed #fff;        
+        color: #fff;
+        background: $primary;
+        border-radius: 0em 1em 1em 0em;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+
+        @media (max-width: 767.98px){
+            border: 0px dashed #fff;
+            border-radius: 0em 0em 1em 1em;
+        }
+        h4{
+            color: #fff;
+            font-size: 1.75em;
+            margin-bottom: 0.75em;
+            padding-bottom: 0.5em;
+            display: block;
+            border-bottom: 2px solid #fff;
+        }
+        ul{
+            li{
+                font-size: 1.2em;
+                margin-bottom: 0.5em;
+                &:last-child{
+                    margin-bottom: 1.5em;
+                }
+            }
+        }
+    }
+}

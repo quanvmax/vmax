@@ -52,6 +52,11 @@ class VmaxEcommerce(Website):
 	def vmax_aboutus(self, **kw):
 		return request.render('vmax.aboutus')
 
+	# Contact - Trang liên hệ Vmax
+	@http.route('/contact', type='http', auth='public', website=True)
+	def vmax_contact(self, **kw):
+		return request.render('vmax.contact')
+
 	# Jobs - Trang tuyển dụng - Quân
 	@http.route('/jobs', type='http', auth='public', website=True)
 	def vmax_jobs(self, **kw):
