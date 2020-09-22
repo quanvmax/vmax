@@ -4,113 +4,189 @@
         <t t-call="website.layout">
             <div class="oe_structure"/>
             <!-- TO DO -->
-            <div class="blck w100 blog_search">
+            <div class="container-fluid blog_search">
                 <div class="container">
                     <form action="#" method="post">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-10">
-                                    <input type="text" class="form-control" value="Tìm kiếm: cách chọn mực in,...."/>
-                                </div>
-                                <div class="col-2">
-                                    <button type="submit"><i class="fa fa-search"></i></button>
-                                </div>
+                        <div class="row">
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                <input type="text" class="form-control" value="Tìm kiếm: cách chọn mực in,...."/>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="container" id="page_blogs">
+            <div class="container-fluid" id="page_blogs">
                 <div class="row">
-                    <div class="col-12">
-                        <h1>Bài viết của Vmax</h1>
+                    <div class="col-12 txt-center">
+                        <h2>Bài viết của Vmax</h2>
                     </div>
-                    <div class="col-12">
-                        <a href="#" class="blck w100 bigblog">
-                            <img src="https://jnj-content-lab.brightspotcdn.com/dims4/default/4f82fe4/2147483647/strip/true/crop/1440x666+0+0/resize/1440x666!/quality/90/?url=http%3A%2F%2Fjnj-brightspot.s3.amazonaws.com%2F82%2F87%2F1f02f86a4ddfb68d44840e7d8cf5%2Flede-doctorfrontlineschina.jpg" />
-                            <div class="texts">
-                                <p class="btitle">Giữ an toàn cho gia đình và người thân trong đại dịch</p>
-                                <p class="bdate">21/09/2020</p>
-                                <p class="bshort">
-                                   Corona là một họ virus lớn, trong đó một số chủng có khả năng gây bệnh khi xâm nhiễm từ động vật sang người, số khác chỉ xâm nhiễm và tồn tại ở các loài động vật bao gồm lạc đà, mèo và dơi. Đôi khi virus corona từ động vật tiến hóa để lây sang người để rồi sau đó lây từ người sang người như trường hợp Hội chứng Hô hấp Trung Đông (MERS) và hội chứng hô hấp cấp nặng (SARS). Hiện tại chủng virus corona gây dịch tại Vũ Hán (2019-nCoV) là một chủng mới chưa từng xuất hiện ở người và có khả năng lây từ người sang người.
-                                </p> 
+                </div>
+                <div class="row">
+                    <div class="col-xl-8 offset-xl-1 col-lg-9 offset-lg-0 col-md-9 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://jnj-content-lab.brightspotcdn.com/dims4/default/4f82fe4/2147483647/strip/true/crop/1440x666+0+0/resize/1440x666!/quality/90/?url=http%3A%2F%2Fjnj-brightspot.s3.amazonaws.com%2F82%2F87%2F1f02f86a4ddfb68d44840e7d8cf5%2Flede-doctorfrontlineschina.jpg"/>
+                                        <a href="#" class="blog__title">Phòng tránh và tự cách ly trong mùa dịch bệnh</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">22/09/2020</p>
+                                            <p class="blog__short">
+                                                Vi-rút gây bệnh COVID-19 chủ yếu lây truyền qua các giọt bắn văng ra khi người nhiễm bệnh ho, hắt hơi hoặc thở ra. Những giọt bắn này quá nặng nên không thể bay lơ lửng trong không khí và nhanh chóng rơi xuống sàn nhà hoặc các bề mặt.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://image.plo.vn/w800/Uploaded/2020/bpcpcwvo/2015_01_14/1-5-benh-de-mac-neu-thuong-xuyen-ngu-guc-dau-tren-ban-1421200712247_bfew.jpg"/>
+                                        <a href="#" class="blog__title">5 bệnh dễ mắc nếu thường xuyên ngủ gục đầu trên bàn</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">22/09/2020</p>
+                                            <p class="blog__short">
+                                                Dân văn phòng do bị hạn chế về điều kiện và thời gian nên rất nhiều người chọn cách nghỉ trưa với tư thế hay tay khoanh trên bàn làm việc và gối đầu lên tay để chợp mắt. Bạn cho rằng ngủ ở tư thế này trong vài vài phút thì sẽ không hề gì, nhưng trên thực tế, kiểu ngủ này về lâu dài sẽ gây tác hại khôn lường cho sức khỏe của bạn.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe_800x400.jpg"/>
+                                        <a href="#" class="blog__title">Những thức uống giúp bạn tỉnh táo mà không cần uống cà phê</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">21/09/2020</p>
+                                            <p class="blog__short">
+                                                Uống cà phê giúp bạn tỉnh táo, nhưng nếu uống quá nhiều sẽ gây ra những tác dụng phụ như khó chịu, nhức đầu, mất ngủ. Do đó, những thức uống được chỉ ra trong bài viết sau sẽ giúp bạn tỉnh táo mà không cần phải dùng cà phê.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://www.thnad.net/wp-content/uploads/2019/09/muc-in-duoc-chia-thanh-nhieu-loai-va-mau-sac-khac-nhau.jpg"/>
+                                        <a href="#" class="blog__title">Mực in giả: lợi bất cập hại</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">20/09/2020</p>
+                                            <p class="blog__short">
+                                                Trên thị trường hiện nay đã xuất hiện nhiều mực in giả của các tên tuổi có tiếng như HP, Canon, Samsung… được bán với giá rẻ hơn rất nhiều so với mực in chính hãng. Tuy nhiên, chất lượng cũng như thiệt hại mà loại mực in giả này mang lại không phải ai cũng rõ.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://jnj-content-lab.brightspotcdn.com/dims4/default/4f82fe4/2147483647/strip/true/crop/1440x666+0+0/resize/1440x666!/quality/90/?url=http%3A%2F%2Fjnj-brightspot.s3.amazonaws.com%2F82%2F87%2F1f02f86a4ddfb68d44840e7d8cf5%2Flede-doctorfrontlineschina.jpg"/>
+                                        <a href="#" class="blog__title">Phòng tránh và tự cách ly trong mùa dịch bệnh</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">22/09/2020</p>
+                                            <p class="blog__short">
+                                                Vi-rút gây bệnh COVID-19 chủ yếu lây truyền qua các giọt bắn văng ra khi người nhiễm bệnh ho, hắt hơi hoặc thở ra. Những giọt bắn này quá nặng nên không thể bay lơ lửng trong không khí và nhanh chóng rơi xuống sàn nhà hoặc các bề mặt.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://image.plo.vn/w800/Uploaded/2020/bpcpcwvo/2015_01_14/1-5-benh-de-mac-neu-thuong-xuyen-ngu-guc-dau-tren-ban-1421200712247_bfew.jpg"/>
+                                        <a href="#" class="blog__title">5 bệnh dễ mắc nếu thường xuyên ngủ gục đầu trên bàn</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">22/09/2020</p>
+                                            <p class="blog__short">
+                                                Dân văn phòng do bị hạn chế về điều kiện và thời gian nên rất nhiều người chọn cách nghỉ trưa với tư thế hay tay khoanh trên bàn làm việc và gối đầu lên tay để chợp mắt. Bạn cho rằng ngủ ở tư thế này trong vài vài phút thì sẽ không hề gì, nhưng trên thực tế, kiểu ngủ này về lâu dài sẽ gây tác hại khôn lường cho sức khỏe của bạn.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe_800x400.jpg"/>
+                                        <a href="#" class="blog__title">Những thức uống giúp bạn tỉnh táo mà không cần uống cà phê</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">21/09/2020</p>
+                                            <p class="blog__short">
+                                                Uống cà phê giúp bạn tỉnh táo, nhưng nếu uống quá nhiều sẽ gây ra những tác dụng phụ như khó chịu, nhức đầu, mất ngủ. Do đó, những thức uống được chỉ ra trong bài viết sau sẽ giúp bạn tỉnh táo mà không cần phải dùng cà phê.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://www.thnad.net/wp-content/uploads/2019/09/muc-in-duoc-chia-thanh-nhieu-loai-va-mau-sac-khac-nhau.jpg"/>
+                                        <a href="#" class="blog__title">Mực in giả: lợi bất cập hại</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">20/09/2020</p>
+                                            <p class="blog__short">
+                                                Trên thị trường hiện nay đã xuất hiện nhiều mực in giả của các tên tuổi có tiếng như HP, Canon, Samsung… được bán với giá rẻ hơn rất nhiều so với mực in chính hãng. Tuy nhiên, chất lượng cũng như thiệt hại mà loại mực in giả này mang lại không phải ai cũng rõ.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div><!-- end of row -->
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="blck w100 pagination txt-center">
+                                        <a href="#" class="pagi__arrow"><i class="fa fa-chevron-left"></i></a>
+                                        <a href="#" class="pagi__number pagi__active">1</a>
+                                        <a href="#" class="pagi__number">2</a>
+                                        <a href="#" class="pagi__number">3</a>
+                                        <a href="#" class="pagi__number">4</a>
+                                        <a href="#" class="pagi__number">5</a>
+                                        <a href="#" class="pagi__number">6</a>
+                                        <a href="#" class="pagi__number">7</a>
+                                        <a href="#" class="pagi__arrow"><i class="fa fa-chevron-right"></i></a>
+                                    </div>
+                                    <div class="blck w100 pagination--mobile">
+                                        <form action="#" method="post">
+                                            <select class="form-control">
+                                                <option value="1">Trang 1</option>
+                                                <option value="2">Trang 2</option>
+                                                <option value="3">Trang 3</option>
+                                                <option value="4">Trang 4</option>
+                                                <option value="5">Trang 5</option>
+                                                <option value="6">Trang 6</option>
+                                                <option value="7">Trang 7</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-10 offset-sm-1 col-10 offset-1">
-                        <a href="#" class="blck w100 blog">
-                            <img src="https://jnj-content-lab.brightspotcdn.com/dims4/default/4f82fe4/2147483647/strip/true/crop/1440x666+0+0/resize/1440x666!/quality/90/?url=http%3A%2F%2Fjnj-brightspot.s3.amazonaws.com%2F82%2F87%2F1f02f86a4ddfb68d44840e7d8cf5%2Flede-doctorfrontlineschina.jpg" />
-                            <div class="texts">
-                                <p class="btitle">Giữ an toàn cho gia đình và người thân trong đại dịch</p>
-                                <p class="bdate">21/09/2020</p>
-                                <p class="bshort">
-                                   Corona là một họ virus lớn, trong đó một số chủng có khả năng gây bệnh khi xâm nhiễm từ động vật sang người, số khác chỉ xâm nhiễm và tồn tại ở các loài động vật bao gồm lạc đà, mèo và dơi. Đôi khi virus corona từ động vật tiến hóa để lây sang người để rồi sau đó lây từ người sang người như trường hợp Hội chứng Hô hấp Trung Đông (MERS) và hội chứng hô hấp cấp nặng (SARS). Hiện tại chủng virus corona gây dịch tại Vũ Hán (2019-nCoV) là một chủng mới chưa từng xuất hiện ở người và có khả năng lây từ người sang người.
-                                </p> 
-                            </div>
-                        </a>
-                        <a href="#" class="blck w100 blog">
-                            <img src="https://anhngoc.vn/media/product/6374_mf21d.jpg" />
-                            <div class="texts">
-                                <p class="btitle">Đánh giá máy in đa chức năng Canon imageCLASS MF221D</p>
-                                <p class="bdate">20/09/2020</p>
-                                <p class="bshort">
-                                    Canon imageCLASS MF221d là mẫu máy in laser đen trắng khổ A4 thuộc dòng đa chức năng imageCLASS được Canon giới thiệu nhằm đáp ứng nhu cầu của người dùng văn phòng hoặc gia đình muốn in tài liệu hai mặt, tiết kiệm giấy sử dụng mà không làm ảnh hưởng đến hiệu suất và chất lượng công việc. Mẫu máy in 3-trong-1 này có thêm chức năng quét và sao chụp tiện dụng bên cạnh khả năng in ấn thông thường, máy hỗ trợ in với độ phân giải tối đa 1.200x1.200dpi, độ phân giải sao chụp 600x600dpi và độ phân giải quét quang học 600x600dpi (có thể tăng cường lên đến 9.600x9.600dpi).
-                                </p> 
-                            </div>
-                        </a>
-                        <a href="#" class="blck w100 blog">
-                            <img src="https://store.leapcontent.vn/file/Logonhandienthuonghieu/logo-nhan-dien-thuong-hieu-7.jpg" />
-                            <div class="texts">
-                                <p class="btitle">Logo và bộ nhận dạng thương hiệu</p>
-                                <p class="bdate">19/09/2020</p>
-                                <p class="bshort">
-                                    Logo không phải là thương hiệu, cũng không phải là bộ nhận diện của bạn. Thiết kế logo, thiết kế bộ nhận diện và thương hiệu đều có những vai trò khác nhau, chúng cùng nhau tạo thành một nhóm hình ảnh giúp truyền nhận thức, giá trị của một doanh nghiệp và sản phẩm đến khách hàng, người tiêu dùng.
-                                </p> 
-                            </div>
-                        </a>
-                        <a href="#" class="blck w100 blog">
-                            <img src="https://znews-photo.zadn.vn/w660/Uploaded/sgorvz/2016_09_07/giam_moi_mat_3.jpg" />
-                            <div class="texts">
-                                <p class="btitle">7 biện pháp đơn giản giúp giảm nhức mỏi mắt tại nhà</p>
-                                <p class="bdate">19/09/2020</p>
-                                <p class="bshort">
-                                    Sử dụng trà hoa cúc, dưa chuột, nước hoa hồng hay áp dụng các bài tập cho mắt sẽ giúp bạn giảm nhức mỏi mắt ngay tại nhà, giữ cho đôi mắt luôn khỏe đẹp.
-                                </p> 
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-4 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
+                    <div class="col-xl-2 offset-xl-0 col-lg-3 offset-lg-0 col-md-3 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
                         <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Được quan tâm nhiều</p>
+                            <ul>
+                                <li><a href="#">Cách phân biệt mực in thật và giả</a></li>
+                                <li><a href="#">Để có buổi sáng năng động</a></li>
+                                <li><a href="#">Ngủ trưa thật nhanh và hiệu quả</a></li>
+                                <li><a href="#">Uống bia hợp lý</a></li>
+                                <li><a href="#">Các trò chơi team building thú vị</a></li>
+                            </ul>
+                        </div>
+                         <div class="blck w100 bwidget">
                             <p class="bwidget__title">Nhóm bài viết</p>
                             <ul>
-                                <li><a href="#">Tin tức (<span>53</span>)</a></li>
-                                <li><a href="#">Bí kíp công sở (<span>111</span>)</a></li>
-                                <li><a href="#">Mẹo vặt (<span>159</span>)</a></li>
-                                <li><a href="#">Giải trí (<span>154</span>)</a></li>
-                                <li><a href="#">Tuyển dụng (<span>7</span>)</a></li>
-                            </ul>
-                        </div>
-                        <div class="blck w100 bwidget">
-                            <p class="bwidget__title">Bài viết được quan tâm</p>
-                            <ul>
-                                <li><a href="#">Tự cách ly trong mùa đại dịch 2020</a></li>
-                                <li><a href="#">Cải thiện sức khỏe dân văn phòng</a></li>
-                                <li><a href="#">Để không ngủ gục khi làm việc</a></li>
-                                <li><a href="#">Một tuần nhậu bao nhiêu lần là đủ?</a></li>
-                                <li><a href="#">Ngày nghỉ thì làm gì?</a></li>
-                            </ul>
-                        </div>
-                        <div class="blck w100 bwidget">
-                            <p class="bwidget__title">Bài viết mới</p>
-                            <ul>
-                                <li><a href="#">Logo và bộ nhận diện thương hiệu</a></li>
-                                <li><a href="#">Bí quyết tài chính: phương pháp 6 hũ</a></li>
-                                <li><a href="#">Tiếng chim hót trong bụi mận gai</a></li>
+                                <li><a href="#">Tin tức (<span>100</span>)</a></li>
+                                <li><a href="#">Mẹo (<span>50</span>)</a></li>
+                                <li><a href="#">Giải trí (<span>99</span>)</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div><!-- end of container-fluid -->
             <!-- END TO DO -->
             <div class="oe_structure"/>
         </t>

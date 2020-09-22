@@ -6,11 +6,12 @@
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_variables.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_fonts.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_mixins.scss" t-ignore="true"/>
-            <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_responsive.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_reuse.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_header.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_footer.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_atomic.scss" t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/_responsive.scss" t-ignore="true"/>
+            
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/homepage.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/products.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/cart.scss" t-ignore="true"/>
@@ -24,6 +25,7 @@
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/job_apply.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/job_thanks.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/blogs.scss" t-ignore="true"/>
+            
         </xpath>
     </template>
 </odoo>
