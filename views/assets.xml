@@ -25,7 +25,8 @@
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/job_apply.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/job_thanks.scss" t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/blogs.scss" t-ignore="true"/>
-            
+            <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/blog_detail.scss" t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href="/vmax/static/src/scss/compare.scss" t-ignore="true"/>
         </xpath>
     </template>
 </odoo>

@@ -4,7 +4,106 @@
         <t t-call="website.layout">
             <div class="oe_structure"/>
             <!-- TO DO -->
-                <h1>Đây là trang chi tiết bài viết</h1>
+            <div class="container-fluid blog_search">
+                <div class="container">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                <input type="text" class="form-control" value="Tìm kiếm: cách chọn mực in,...."/>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-fluid" id="page_blog_detail">
+                <div class="row">
+                    <div class="col-xl-8 offset-xl-1 col-lg-9 offset-lg-0 col-md-9 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0 txt-left page_address">
+                        <a href="/blogs" >Bài viết</a>
+                        <a href="#"> / Mẹo</a>
+                        <p href="#"> / Những thức uống giúp bạn tỉnh táo mà không cần uống cà phê</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-7 offset-xl-1 col-lg-8 offset-lg-0 col-md-8 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+                        <div class="blck w100 blog_detail">
+                            <div class="blog_detail__opening">
+                                <p class="blog_detail__date">23/09/2020</p>
+                                <h2>Những thức uống giúp bạn tỉnh táo mà không cần uống cà phê</h2> 
+                                <img class="blog_detail__thumbnail" src="https://cdn.cnn.com/cnnnext/dam/assets/200526153607-starbucks-coffee.jpg"/>
+                            </div>
+                            <div class="blog_detail__content">
+                                <p style="font-size: 14px; font-style: italic">Uống cà phê giúp bạn tỉnh táo, nhưng nếu uống quá nhiều sẽ gây ra những tác dụng phụ như khó chịu, nhức đầu, mất ngủ. Do đó, những thức uống chỉ ra trong bài viết sau sẽ giúp bạn tỉnh táo mà không cần phải dùng cà phê.</p>
+                                
+                                <h3>1. <span style="color: #ff0000">Nước</span> giúp bạn duy trì tình trạng tỉnh táo</h3>
+                                <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe_800x400.jpg"/>
+                                <p style="font-size: 14px">
+                                    Một ly nước vào sáng sớm sẽ giúp bạn tiếp thêm sinh lực, tăng cường sự trao đổi chất. Nó không chứa calo và siêu dưỡng ẩm. Nước lạnh là sự lựa chọn tốt nhất, bởi nó có khả năng đánh thức các dây thần kinh sau khi tiếp xúc với da do sự thay đổi đột ngột của nhiệt độ. Do đó, ngoài uống nước ra bạn có thể rửa mặt, rửa tay chân để tỉnh táo hơn.
+                                </p>
+
+                                <h3>2. <span style="color: #ff0000">Táo</span> hoặc giấm táo, nước ép táo siêu thực phẩm cho sức khỏe</h3>
+                                <img src="https://tieudungvne.mediacdn.vn/thumb_w/1200/2019/4/8/don-gian-voi-cach-lam-nuoc-ep-tao-hinh-1-1554690594926368362304.jpg"/>
+                                <p style="font-size: 14px">
+                                    Trong táo, giấm táo hoặc nước ép táo chứa lượng đường fructose tự nhiên, chứa nhiều probiotic và Vitamin B giúp tăng cường năng lượng. Nhờ đó bạn có thể duy trì sự tỉnh táo trong vòng nhiều giờ. Tuy nhiên, các dưỡng chất có trong táo hấp thụ rất chậm nên bạn cần có thời gian (khoảng 10 phút sau khi ăn) mới có thể tỉnh táo.
+Thay vì uống cà phê, nếu đang cảm thấy mệt mỏi hoặc buồn ngủ hãy ăn táo hoặc pha nước giấm táo để uống. Cách làm này giúp bạn giảm cân hiệu quả và tiếp thêm lượng máu lên não nhé!
+                                </p>
+
+                                <h3>3. <span style="color: #ff0000">Matcha</span> giúp tỉnh táo thay thế cà phê tốt nhất</h3>
+                                <img src="https://chefjob.vn/wp-content/uploads/2020/07/matcha-la-bot-tra-xanh.jpg"/>
+                                <p style="font-size: 14px">
+                                    Matcha là bột mịn được nghiền từ lá trà, chúng có hàm lượng caffeine thấp hơn cà phê, nhưng lại chứa chất chống oxy hóa mạnh mẽ. Bên cạnh đó Axit amin L-Theanine có trong trà xanh sẽ giúp bạn thư giãn và tỉnh táo hơn.
+                                </p>
+
+                                <h3>4. <span style="color: #ff0000">Trà xanh </span>làm dịu bớt căng thẳng, tăng sự tỉnh táo</h3>
+                                <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe-2_800x400.jpg"/>
+                                <p style="font-size: 14px">
+                                    Các Thiamine có trong trà xanh có khả năng giải tỏa sự căng thẳng và làm tăng sự tỉnh táo tức thì. Nếu bạn quá căng thẳng hoặc mệt mỏi, hãy uống 1 tách trà xanh để cảm nhận sự tỉnh táo tốt nhất.
+                                </p>
+
+                                <h3>5. <span style="color: #ff0000">Nước chanh </span> và chanh tràn đầy năng lượng cho cơ thể</h3>
+                                <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe-202006021339454879.jpg"/>
+                                <p style="font-size: 14px">
+                                    Bất cứ lúc nào mệt mỏi, hãy uống một ly nước chanh hoặc cam. Đây là loại thức uống được nhiều chị em yêu thích, không chỉ giúp bạn tránh khỏi những cơn buồn ngủ rũ rượi mà còn giúp loại bỏ độc tố, tăng quá trình trao đổi chất. Lưu ý, lúc đói đừng uống nước chanh, lượng axit citric có trong chanh dễ khiến dạ dày của bạn bị ảnh hưởng.
+                                </p>
+
+                                <h3>6. <span style="color: #ff0000">Socola </span> nóng</h3>
+                                <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe-202006081552063554.jpg"/>
+                                <p style="font-size: 14px">
+                                    Kích thích hệ thần kinh, tăng cường sự nhận thức, socola là thức uống được nhiều người yêu thích. Bột ca cao giúp lưu thông máu lên não, kích thích hệ thần kinh, tốt cho sức khỏe, đẩy lùi cơn buồn ngủ hiệu quả.
+                                </p>
+                                <p style="font-size: 14px; font-style: italic">
+                                    Nếu bạn không muốn uống quá nhiều cà phê mà vẫn muốn duy trì sự tỉnh táo trong suốt 1 ngày làm việc thì chắc chắn những thức uống này sẽ là một trong những sự lựa chọn hoàn hảo bạn có thể tham khảo.
+                                </p>
+                            </div>
+                        </div><!-- end of blog_detail -->
+                        <div class="blck w100 other_blogs">
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-0 col-lg-4 offset-lg-0 col-md-4 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+                        <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Được quan tâm nhiều</p>
+                            <ul>
+                                <li><a href="#">Cách phân biệt mực in thật và giả</a></li>
+                                <li><a href="#">Để có buổi sáng năng động</a></li>
+                                <li><a href="#">Ngủ trưa thật nhanh và hiệu quả</a></li>
+                                <li><a href="#">Uống bia hợp lý</a></li>
+                                <li><a href="#">Các trò chơi team building thú vị</a></li>
+                            </ul>
+                        </div>
+                         <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Nhóm bài viết</p>
+                            <ul>
+                                <li><a href="#">Tin tức (<span>100</span>)</a></li>
+                                <li><a href="#">Mẹo (<span>50</span>)</a></li>
+                                <li><a href="#">Giải trí (<span>99</span>)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- END TO DO -->
             <div class="oe_structure"/>
         </t>

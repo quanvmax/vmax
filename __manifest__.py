@@ -27,7 +27,8 @@
 		'views/job_apply.xml',
 		'views/job_thanks.xml',
 		'views/blogs.xml',
-		'views/blog_detail.xml'
+		'views/blog_detail.xml',
+		'views/compare.xml'
 	],
 	"images" : [
 		'static/src/img/vmax_screenshot.jpg',

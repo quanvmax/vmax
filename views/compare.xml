@@ -4,7 +4,192 @@
         <t t-call="website.layout">
             <div class="oe_structure"/>
             <!-- TO DO -->
-                <h1>Đây là trang so sánh các sản phẩm</h1>
+            <div class="container-fluid blog_search">
+                <div class="container">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                <input type="text" class="form-control" value="Tìm kiếm sản phẩm: mực in Vmax,...."/>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-fluid" id="page_compare">
+                <div class="row">
+                    <div class="col-10 offset-1">
+                        <div class="container-fluid">
+                            <h1>So sánh sản phẩm</h1> 
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                    <div class="compro">
+                                        <div class="compro__basic">
+                                            <img src="https://psershop.com/_sh/8/826m.jpg" />
+                                            <a href="#" class="cpname">Original DR CT Mod (Sailor Grip)</a>
+                                            <a href="#" class="cpbutton cpbutton--add2cart"><i class="fa fa-shopping-cart"></i><span class="elg emd"> Thêm vào giỏ hàng</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2wish"><i class="fa fa-heart"></i><span class="elg emd"> Thêm vào yêu thích</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2trash"><i class="fa fa-trash"></i><span class="emd"> Loại khỏi so sánh</span></a>
+                                        </div>
+                                        <div class="compro__detail">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Giá tiền</th>
+                                                    <td>393,000 VNĐ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Màu sắc</th>
+                                                    <td>Đen - Black</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Vật liệu</th>
+                                                    <td>Nhựa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Loại</th>
+                                                    <td>Bút quay 2 đầu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Trọng lượng</th>
+                                                    <td>20 gram</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Độ dài tổng</th>
+                                                    <td>20.5 cm</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- end of col -->
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                    <div class="compro">
+                                        <div class="compro__basic">
+                                            <img src="https://psershop.com/_sh/8/829m.jpg" />
+                                            <a href="#" class="cpname">Light's FriXion Mod V2</a>
+                                            <a href="#" class="cpbutton cpbutton--add2cart"><i class="fa fa-shopping-cart"></i><span class="elg emd"> Thêm vào giỏ hàng</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2wish"><i class="fa fa-heart"></i><span class="elg emd"> Thêm vào yêu thích</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2trash"><i class="fa fa-trash"></i><span class="emd"> Loại khỏi so sánh</span></a>
+                                        </div>
+                                        <div class="compro__detail">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Giá tiền</th>
+                                                    <td>323,000 VNĐ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Màu sắc</th>
+                                                    <td>Cam - Orange</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Vật liệu</th>
+                                                    <td>Nhựa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Loại</th>
+                                                    <td>Bút quay 2 đầu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Trọng lượng</th>
+                                                    <td>20 gram</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Độ dài tổng</th>
+                                                    <td>22 cm</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- end of col -->
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                    <div class="compro">
+                                        <div class="compro__basic">
+                                            <img src="https://psershop.com/_sh/8/822m.jpg" />
+                                            <a href="#" class="cpname">Kururi G3 転 Mod</a>
+                                            <a href="#" class="cpbutton cpbutton--add2cart"><i class="fa fa-shopping-cart"></i><span class="elg emd"> Thêm vào giỏ hàng</span></a>
+                                            <a href="#" class="cpbutton cpbutton--added2wish"><i class="fa fa-heart"></i><span class="elg emd"> Đã thích</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2trash"><i class="fa fa-trash"></i><span class="emd"> Loại khỏi so sánh</span></a>
+                                        </div>
+                                        <div class="compro__detail">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Giá tiền</th>
+                                                    <td>185,000 VNĐ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Màu sắc</th>
+                                                    <td>Không xác định</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Vật liệu</th>
+                                                    <td>Nhựa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Loại</th>
+                                                    <td>Bút quay 2 đầu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Trọng lượng</th>
+                                                    <td>15.5 gram</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Độ dài tổng</th>
+                                                    <td>21 cm</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- end of col -->
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                    <div class="compro">
+                                        <div class="compro__basic">
+                                            <img src="https://psershop.com/_sh/3/366m.jpg" />
+                                            <a href="#" class="cpname">Whirl LED Mod</a>
+                                            <a href="#" class="cpbutton cpbutton--add2cart"><i class="fa fa-shopping-cart"></i><span class="elg emd"> Thêm vào giỏ hàng</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2wish"><i class="fa fa-heart"></i><span class="elg emd"> Thêm vào yêu thích</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2trash"><i class="fa fa-trash"></i><span class="emd"> Loại khỏi so sánh</span></a>
+                                        </div>
+                                        <div class="compro__detail">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Giá tiền</th>
+                                                    <td>395,000 VNĐ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Màu sắc</th>
+                                                    <td>Không xác định</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Vật liệu</th>
+                                                    <td>Nhựa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Loại</th>
+                                                    <td>Bút quay 2 đầu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Trọng lượng</th>
+                                                    <td>24.7 gram</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Độ dài tổng</th>
+                                                    <td>22.5 cm</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- end of col -->
+                            </div><!-- end of row -->
+                            <div class="row">
+                                <div class="col-12 txt-center" style="margin: 2em 0em">
+                                    <a href="/shop" class="vmax_btn vmax_btn--primary">Quay về trang mua sắm</a>
+                                </div>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- END TO DO -->
             <div class="oe_structure"/>
         </t>
