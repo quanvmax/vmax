@@ -28,7 +28,8 @@
 		'views/job_thanks.xml',
 		'views/blogs.xml',
 		'views/blog_detail.xml',
-		'views/compare.xml'
+		'views/compare.xml',
+		'views/wishlist.xml'
 	],
 	"images" : [
 		'static/src/img/vmax_screenshot.jpg',
