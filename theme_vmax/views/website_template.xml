@@ -114,4 +114,954 @@ và dịch vụ hậu mãi chu đáo, cũng như mang lại trải nghiệm mua 
             <div class="oe_structure"/>
         </t>
     </template>
+
+    <template id="blog_detail" name="Blog Detail">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="container-fluid blog_search">
+                <div class="container">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                <input type="text" class="form-control" value="Tìm kiếm: cách chọn mực in,...."/>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-fluid" id="page_blog_detail">
+                <div class="row">
+                    <div class="col-xl-8 offset-xl-1 col-lg-9 offset-lg-0 col-md-9 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0 txt-left page_address">
+                        <a href="/blogs" >Bài viết</a>
+                        <a href="#"> / Mẹo</a>
+                        <p href="#"> / Những thức uống giúp bạn tỉnh táo mà không cần uống cà phê</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-7 offset-xl-1 col-lg-8 offset-lg-0 col-md-8 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+                        <div class="blck w100 blog_detail">
+                            <div class="blog_detail__opening">
+                                <p class="blog_detail__date">23/09/2020</p>
+                                <h2>Những thức uống giúp bạn tỉnh táo mà không cần uống cà phê</h2> 
+                                <img class="blog_detail__thumbnail" src="https://cdn.cnn.com/cnnnext/dam/assets/200526153607-starbucks-coffee.jpg"/>
+                            </div>
+                            <div class="blog_detail__content">
+                                <p style="font-size: 14px; font-style: italic">Uống cà phê giúp bạn tỉnh táo, nhưng nếu uống quá nhiều sẽ gây ra những tác dụng phụ như khó chịu, nhức đầu, mất ngủ. Do đó, những thức uống chỉ ra trong bài viết sau sẽ giúp bạn tỉnh táo mà không cần phải dùng cà phê.</p>
+                                
+                                <h3>1. <span style="color: #ff0000">Nước</span> giúp bạn duy trì tình trạng tỉnh táo</h3>
+                                <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe_800x400.jpg"/>
+                                <p style="font-size: 14px">
+                                    Một ly nước vào sáng sớm sẽ giúp bạn tiếp thêm sinh lực, tăng cường sự trao đổi chất. Nó không chứa calo và siêu dưỡng ẩm. Nước lạnh là sự lựa chọn tốt nhất, bởi nó có khả năng đánh thức các dây thần kinh sau khi tiếp xúc với da do sự thay đổi đột ngột của nhiệt độ. Do đó, ngoài uống nước ra bạn có thể rửa mặt, rửa tay chân để tỉnh táo hơn.
+                                </p>
+
+                                <h3>2. <span style="color: #ff0000">Táo</span> hoặc giấm táo, nước ép táo siêu thực phẩm cho sức khỏe</h3>
+                                <img src="https://tieudungvne.mediacdn.vn/thumb_w/1200/2019/4/8/don-gian-voi-cach-lam-nuoc-ep-tao-hinh-1-1554690594926368362304.jpg"/>
+                                <p style="font-size: 14px">
+                                    Trong táo, giấm táo hoặc nước ép táo chứa lượng đường fructose tự nhiên, chứa nhiều probiotic và Vitamin B giúp tăng cường năng lượng. Nhờ đó bạn có thể duy trì sự tỉnh táo trong vòng nhiều giờ. Tuy nhiên, các dưỡng chất có trong táo hấp thụ rất chậm nên bạn cần có thời gian (khoảng 10 phút sau khi ăn) mới có thể tỉnh táo.
+Thay vì uống cà phê, nếu đang cảm thấy mệt mỏi hoặc buồn ngủ hãy ăn táo hoặc pha nước giấm táo để uống. Cách làm này giúp bạn giảm cân hiệu quả và tiếp thêm lượng máu lên não nhé!
+                                </p>
+
+                                <h3>3. <span style="color: #ff0000">Matcha</span> giúp tỉnh táo thay thế cà phê tốt nhất</h3>
+                                <img src="https://chefjob.vn/wp-content/uploads/2020/07/matcha-la-bot-tra-xanh.jpg"/>
+                                <p style="font-size: 14px">
+                                    Matcha là bột mịn được nghiền từ lá trà, chúng có hàm lượng caffeine thấp hơn cà phê, nhưng lại chứa chất chống oxy hóa mạnh mẽ. Bên cạnh đó Axit amin L-Theanine có trong trà xanh sẽ giúp bạn thư giãn và tỉnh táo hơn.
+                                </p>
+
+                                <h3>4. <span style="color: #ff0000">Trà xanh </span>làm dịu bớt căng thẳng, tăng sự tỉnh táo</h3>
+                                <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe-2_800x400.jpg"/>
+                                <p style="font-size: 14px">
+                                    Các Thiamine có trong trà xanh có khả năng giải tỏa sự căng thẳng và làm tăng sự tỉnh táo tức thì. Nếu bạn quá căng thẳng hoặc mệt mỏi, hãy uống 1 tách trà xanh để cảm nhận sự tỉnh táo tốt nhất.
+                                </p>
+
+                                <h3>5. <span style="color: #ff0000">Nước chanh </span> và chanh tràn đầy năng lượng cho cơ thể</h3>
+                                <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe-202006021339454879.jpg"/>
+                                <p style="font-size: 14px">
+                                    Bất cứ lúc nào mệt mỏi, hãy uống một ly nước chanh hoặc cam. Đây là loại thức uống được nhiều chị em yêu thích, không chỉ giúp bạn tránh khỏi những cơn buồn ngủ rũ rượi mà còn giúp loại bỏ độc tố, tăng quá trình trao đổi chất. Lưu ý, lúc đói đừng uống nước chanh, lượng axit citric có trong chanh dễ khiến dạ dày của bạn bị ảnh hưởng.
+                                </p>
+
+                                <h3>6. <span style="color: #ff0000">Socola </span> nóng</h3>
+                                <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe-202006081552063554.jpg"/>
+                                <p style="font-size: 14px">
+                                    Kích thích hệ thần kinh, tăng cường sự nhận thức, socola là thức uống được nhiều người yêu thích. Bột ca cao giúp lưu thông máu lên não, kích thích hệ thần kinh, tốt cho sức khỏe, đẩy lùi cơn buồn ngủ hiệu quả.
+                                </p>
+                                <p style="font-size: 14px; font-style: italic">
+                                    Nếu bạn không muốn uống quá nhiều cà phê mà vẫn muốn duy trì sự tỉnh táo trong suốt 1 ngày làm việc thì chắc chắn những thức uống này sẽ là một trong những sự lựa chọn hoàn hảo bạn có thể tham khảo.
+                                </p>
+                            </div>
+                        </div><!-- end of blog_detail -->
+                        <div class="blck w100 other_blogs">
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-0 col-lg-4 offset-lg-0 col-md-4 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+                        <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Được quan tâm nhiều</p>
+                            <ul>
+                                <li><a href="#">Cách phân biệt mực in thật và giả</a></li>
+                                <li><a href="#">Để có buổi sáng năng động</a></li>
+                                <li><a href="#">Ngủ trưa thật nhanh và hiệu quả</a></li>
+                                <li><a href="#">Uống bia hợp lý</a></li>
+                                <li><a href="#">Các trò chơi team building thú vị</a></li>
+                            </ul>
+                        </div>
+                         <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Nhóm bài viết</p>
+                            <ul>
+                                <li><a href="#">Tin tức (<span>100</span>)</a></li>
+                                <li><a href="#">Mẹo (<span>50</span>)</a></li>
+                                <li><a href="#">Giải trí (<span>99</span>)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="blogs" name="Blogs">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="container-fluid blog_search">
+                <div class="container">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                <input type="text" class="form-control" value="Tìm kiếm: cách chọn mực in,...."/>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-fluid" id="page_blogs">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Bài viết của Vmax</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-8 offset-xl-1 col-lg-9 offset-lg-0 col-md-9 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://jnj-content-lab.brightspotcdn.com/dims4/default/4f82fe4/2147483647/strip/true/crop/1440x666+0+0/resize/1440x666!/quality/90/?url=http%3A%2F%2Fjnj-brightspot.s3.amazonaws.com%2F82%2F87%2F1f02f86a4ddfb68d44840e7d8cf5%2Flede-doctorfrontlineschina.jpg"/>
+                                        <a href="/blogs/detail" class="blog__title">Phòng tránh và tự cách ly trong mùa dịch bệnh</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">22/09/2020</p>
+                                            <p class="blog__short">
+                                                Vi-rút gây bệnh COVID-19 chủ yếu lây truyền qua các giọt bắn văng ra khi người nhiễm bệnh ho, hắt hơi hoặc thở ra. Những giọt bắn này quá nặng nên không thể bay lơ lửng trong không khí và nhanh chóng rơi xuống sàn nhà hoặc các bề mặt.
+                                            </p>
+                                        </div>
+                                        <a href="/blogs/detail" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://image.plo.vn/w800/Uploaded/2020/bpcpcwvo/2015_01_14/1-5-benh-de-mac-neu-thuong-xuyen-ngu-guc-dau-tren-ban-1421200712247_bfew.jpg"/>
+                                        <a href="/blogs/detail" class="blog__title">5 bệnh dễ mắc nếu thường xuyên ngủ gục đầu trên bàn</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">22/09/2020</p>
+                                            <p class="blog__short">
+                                                Dân văn phòng do bị hạn chế về điều kiện và thời gian nên rất nhiều người chọn cách nghỉ trưa với tư thế hay tay khoanh trên bàn làm việc và gối đầu lên tay để chợp mắt. Bạn cho rằng ngủ ở tư thế này trong vài vài phút thì sẽ không hề gì, nhưng trên thực tế, kiểu ngủ này về lâu dài sẽ gây tác hại khôn lường cho sức khỏe của bạn.
+                                            </p>
+                                        </div>
+                                        <a href="/blogs/detail" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe_800x400.jpg"/>
+                                        <a href="/blogs/detail" class="blog__title">Những thức uống giúp bạn tỉnh táo mà không cần uống cà phê</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">21/09/2020</p>
+                                            <p class="blog__short">
+                                                Uống cà phê giúp bạn tỉnh táo, nhưng nếu uống quá nhiều sẽ gây ra những tác dụng phụ như khó chịu, nhức đầu, mất ngủ. Do đó, những thức uống được chỉ ra trong bài viết sau sẽ giúp bạn tỉnh táo mà không cần phải dùng cà phê.
+                                            </p>
+                                        </div>
+                                        <a href="/blogs/detail" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://www.thnad.net/wp-content/uploads/2019/09/muc-in-duoc-chia-thanh-nhieu-loai-va-mau-sac-khac-nhau.jpg"/>
+                                        <a href="/blogs/detail" class="blog__title">Mực in giả: lợi bất cập hại</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">20/09/2020</p>
+                                            <p class="blog__short">
+                                                Trên thị trường hiện nay đã xuất hiện nhiều mực in giả của các tên tuổi có tiếng như HP, Canon, Samsung… được bán với giá rẻ hơn rất nhiều so với mực in chính hãng. Tuy nhiên, chất lượng cũng như thiệt hại mà loại mực in giả này mang lại không phải ai cũng rõ.
+                                            </p>
+                                        </div>
+                                        <a href="/blogs/detail" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://jnj-content-lab.brightspotcdn.com/dims4/default/4f82fe4/2147483647/strip/true/crop/1440x666+0+0/resize/1440x666!/quality/90/?url=http%3A%2F%2Fjnj-brightspot.s3.amazonaws.com%2F82%2F87%2F1f02f86a4ddfb68d44840e7d8cf5%2Flede-doctorfrontlineschina.jpg"/>
+                                        <a href="/blogs/detail" class="blog__title">Phòng tránh và tự cách ly trong mùa dịch bệnh</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">22/09/2020</p>
+                                            <p class="blog__short">
+                                                Vi-rút gây bệnh COVID-19 chủ yếu lây truyền qua các giọt bắn văng ra khi người nhiễm bệnh ho, hắt hơi hoặc thở ra. Những giọt bắn này quá nặng nên không thể bay lơ lửng trong không khí và nhanh chóng rơi xuống sàn nhà hoặc các bề mặt.
+                                            </p>
+                                        </div>
+                                        <a href="/blogs/detail" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://image.plo.vn/w800/Uploaded/2020/bpcpcwvo/2015_01_14/1-5-benh-de-mac-neu-thuong-xuyen-ngu-guc-dau-tren-ban-1421200712247_bfew.jpg"/>
+                                        <a href="/blogs/detail" class="blog__title">5 bệnh dễ mắc nếu thường xuyên ngủ gục đầu trên bàn</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">22/09/2020</p>
+                                            <p class="blog__short">
+                                                Dân văn phòng do bị hạn chế về điều kiện và thời gian nên rất nhiều người chọn cách nghỉ trưa với tư thế hay tay khoanh trên bàn làm việc và gối đầu lên tay để chợp mắt. Bạn cho rằng ngủ ở tư thế này trong vài vài phút thì sẽ không hề gì, nhưng trên thực tế, kiểu ngủ này về lâu dài sẽ gây tác hại khôn lường cho sức khỏe của bạn.
+                                            </p>
+                                        </div>
+                                        <a href="/blogs/detail" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://cdn.tgdd.vn/Files/2018/05/07/1086923/nhung-thuc-uong-giup-ban-tinh-tao-ma-khong-can-uong-ca-phe_800x400.jpg"/>
+                                        <a href="/blogs/detail" class="blog__title">Những thức uống giúp bạn tỉnh táo mà không cần uống cà phê</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">21/09/2020</p>
+                                            <p class="blog__short">
+                                                Uống cà phê giúp bạn tỉnh táo, nhưng nếu uống quá nhiều sẽ gây ra những tác dụng phụ như khó chịu, nhức đầu, mất ngủ. Do đó, những thức uống được chỉ ra trong bài viết sau sẽ giúp bạn tỉnh táo mà không cần phải dùng cà phê.
+                                            </p>
+                                        </div>
+                                        <a href="/blogs/detail" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="blog">
+                                        <img src="https://www.thnad.net/wp-content/uploads/2019/09/muc-in-duoc-chia-thanh-nhieu-loai-va-mau-sac-khac-nhau.jpg"/>
+                                        <a href="/blogs/detail" class="blog__title">Mực in giả: lợi bất cập hại</a>
+                                        <div class="blck w100 btexts">
+                                            <p class="blog__date">20/09/2020</p>
+                                            <p class="blog__short">
+                                                Trên thị trường hiện nay đã xuất hiện nhiều mực in giả của các tên tuổi có tiếng như HP, Canon, Samsung… được bán với giá rẻ hơn rất nhiều so với mực in chính hãng. Tuy nhiên, chất lượng cũng như thiệt hại mà loại mực in giả này mang lại không phải ai cũng rõ.
+                                            </p>
+                                        </div>
+                                        <a href="/blogs/detail" class="breadmore">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div><!-- end of row -->
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="blck w100 pagination text-center">
+                                        <a href="/blogs/detail" class="pagi__arrow"><i class="fa fa-chevron-left"></i></a>
+                                        <a href="/blogs/detail" class="pagi__number pagi__active">1</a>
+                                        <a href="/blogs/detail" class="pagi__number">2</a>
+                                        <a href="/blogs/detail" class="pagi__number">3</a>
+                                        <a href="/blogs/detail" class="pagi__number">4</a>
+                                        <a href="/blogs/detail" class="pagi__number">5</a>
+                                        <a href="/blogs/detail" class="pagi__number">6</a>
+                                        <a href="/blogs/detail" class="pagi__number">7</a>
+                                        <a href="/blogs/detail" class="pagi__arrow"><i class="fa fa-chevron-right"></i></a>
+                                    </div>
+                                    <div class="blck w100 pagination--mobile">
+                                        <form action="#" method="post">
+                                            <select class="form-control">
+                                                <option value="1">Trang 1</option>
+                                                <option value="2">Trang 2</option>
+                                                <option value="3">Trang 3</option>
+                                                <option value="4">Trang 4</option>
+                                                <option value="5">Trang 5</option>
+                                                <option value="6">Trang 6</option>
+                                                <option value="7">Trang 7</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-0 col-lg-3 offset-lg-0 col-md-3 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+                        <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Được quan tâm nhiều</p>
+                            <ul>
+                                <li><a href="/blogs/detail">Cách phân biệt mực in thật và giả</a></li>
+                                <li><a href="/blogs/detail">Để có buổi sáng năng động</a></li>
+                                <li><a href="/blogs/detail">Ngủ trưa thật nhanh và hiệu quả</a></li>
+                                <li><a href="/blogs/detail">Uống bia hợp lý</a></li>
+                                <li><a href="/blogs/detail">Các trò chơi team building thú vị</a></li>
+                            </ul>
+                        </div>
+                         <div class="blck w100 bwidget">
+                            <p class="bwidget__title">Nhóm bài viết</p>
+                            <ul>
+                                <li><a href="/blogs/detail">Tin tức (<span>100</span>)</a></li>
+                                <li><a href="/blogs/detail">Mẹo (<span>50</span>)</a></li>
+                                <li><a href="/blogs/detail">Giải trí (<span>99</span>)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of container-fluid -->
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="compare" name="Compare">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="container-fluid blog_search">
+                <div class="container">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                <input type="text" class="form-control" value="Tìm kiếm sản phẩm: mực in Vmax,...."/>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-fluid" id="page_compare">
+                <div class="row">
+                    <div class="col-10 offset-1">
+                        <div class="container-fluid">
+                            <h1>So sánh sản phẩm</h1> 
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                    <div class="compro">
+                                        <div class="compro__basic">
+                                            <img src="https://psershop.com/_sh/8/826m.jpg" />
+                                            <a href="#" class="cpname">Original DR CT Mod (Sailor Grip)</a>
+                                            <a href="#" class="cpbutton cpbutton--add2cart"><i class="fa fa-shopping-cart"></i><span class="elg emd"> Thêm vào giỏ hàng</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2wish"><i class="fa fa-heart"></i><span class="elg emd"> Thêm vào yêu thích</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2trash"><i class="fa fa-trash"></i><span class="emd"> Loại khỏi so sánh</span></a>
+                                        </div>
+                                        <div class="compro__detail">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Giá tiền</th>
+                                                    <td>393,000 VNĐ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Màu sắc</th>
+                                                    <td>Đen - Black</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Vật liệu</th>
+                                                    <td>Nhựa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Loại</th>
+                                                    <td>Bút quay 2 đầu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Trọng lượng</th>
+                                                    <td>20 gram</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Độ dài tổng</th>
+                                                    <td>20.5 cm</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- end of col -->
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                    <div class="compro">
+                                        <div class="compro__basic">
+                                            <img src="https://psershop.com/_sh/8/829m.jpg" />
+                                            <a href="#" class="cpname">Light's FriXion Mod V2</a>
+                                            <a href="#" class="cpbutton cpbutton--add2cart"><i class="fa fa-shopping-cart"></i><span class="elg emd"> Thêm vào giỏ hàng</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2wish"><i class="fa fa-heart"></i><span class="elg emd"> Thêm vào yêu thích</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2trash"><i class="fa fa-trash"></i><span class="emd"> Loại khỏi so sánh</span></a>
+                                        </div>
+                                        <div class="compro__detail">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Giá tiền</th>
+                                                    <td>323,000 VNĐ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Màu sắc</th>
+                                                    <td>Cam - Orange</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Vật liệu</th>
+                                                    <td>Nhựa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Loại</th>
+                                                    <td>Bút quay 2 đầu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Trọng lượng</th>
+                                                    <td>20 gram</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Độ dài tổng</th>
+                                                    <td>22 cm</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- end of col -->
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                    <div class="compro">
+                                        <div class="compro__basic">
+                                            <img src="https://psershop.com/_sh/8/822m.jpg" />
+                                            <a href="#" class="cpname">Kururi G3 転 Mod</a>
+                                            <a href="#" class="cpbutton cpbutton--add2cart"><i class="fa fa-shopping-cart"></i><span class="elg emd"> Thêm vào giỏ hàng</span></a>
+                                            <a href="#" class="cpbutton cpbutton--added2wish"><i class="fa fa-heart"></i><span class="elg emd"> Đã thích</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2trash"><i class="fa fa-trash"></i><span class="emd"> Loại khỏi so sánh</span></a>
+                                        </div>
+                                        <div class="compro__detail">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Giá tiền</th>
+                                                    <td>185,000 VNĐ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Màu sắc</th>
+                                                    <td>Không xác định</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Vật liệu</th>
+                                                    <td>Nhựa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Loại</th>
+                                                    <td>Bút quay 2 đầu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Trọng lượng</th>
+                                                    <td>15.5 gram</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Độ dài tổng</th>
+                                                    <td>21 cm</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- end of col -->
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                    <div class="compro">
+                                        <div class="compro__basic">
+                                            <img src="https://psershop.com/_sh/3/366m.jpg" />
+                                            <a href="#" class="cpname">Whirl LED Mod</a>
+                                            <a href="#" class="cpbutton cpbutton--add2cart"><i class="fa fa-shopping-cart"></i><span class="elg emd"> Thêm vào giỏ hàng</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2wish"><i class="fa fa-heart"></i><span class="elg emd"> Thêm vào yêu thích</span></a>
+                                            <a href="#" class="cpbutton cpbutton--add2trash"><i class="fa fa-trash"></i><span class="emd"> Loại khỏi so sánh</span></a>
+                                        </div>
+                                        <div class="compro__detail">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Giá tiền</th>
+                                                    <td>395,000 VNĐ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Màu sắc</th>
+                                                    <td>Không xác định</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Vật liệu</th>
+                                                    <td>Nhựa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Loại</th>
+                                                    <td>Bút quay 2 đầu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Trọng lượng</th>
+                                                    <td>24.7 gram</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Độ dài tổng</th>
+                                                    <td>22.5 cm</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- end of col -->
+                            </div><!-- end of row -->
+                            <div class="row">
+                                <div class="col-12 text-center" style="margin: 2em 0em">
+                                    <a href="/shop" class="vmax_btn vmax_btn--primary">Quay về trang mua sắm</a>
+                                </div>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="contact" name="Contact">
+        <t t-call="website.layout">
+            <div class="oe_structure" />
+            <!-- TO DO -->
+            <div class="container pt32 pb32" id="page_contact">
+                <div class="row">
+                    <div class="col-12 text-center page_contact__header">
+                        <h1>Liên hệ Vmax</h1>
+                        <p class="blck w100">Liên hệ với Vmax nếu bạn muốn yêu cầu hỗ trợ kỹ thuật hoặc tư vấn. Thư liên hệ sẽ được Vmax tiếp nhận và phản hồi sớm nhất có thể.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 page_contact__form">
+                        <form method="post" action="#">
+                            <div class="form-group">
+                                <label for="name">Họ và tên <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="title">Tiêu đề <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="text" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="content">Nội dung liên hệ <span><i class="fa fa-asterisk"></i></span></label>
+                                <textarea rows="10" cols="20" class="form-control" id="content" />
+                            </div>
+                            <div class="form-group text-center">
+                                <button type="submit" class="vmax_btn vmax_btn--primary"><i class="fa fa-paper-plane"></i> Gửi</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 page_contact__address">
+                        <h4><i class="fa fa-building"></i> Trụ sở Vmax tại các khu vực</h4>
+                        <ul>
+                            <li>Vmax Hà Nội  : 138 Kim Mã, Ba Đình, Hà Nội.</li>
+                            <li>Vmax Đà Nẵng : K338/42, Hoàng Diệu, Phường Nam Dương, Quận Hải Châu, Thành Phố Đà Nẵng, Bình Hiên, Hải Châu, Đà Nẵng.</li>
+                            <li>Vmax Hồ Chí Minh : 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1.</li>
+                        </ul>
+                        <h4><i class="fa fa-phone"></i> Số điện thoại các khu vực</h4>
+                        <ul>
+                            <li>Vmax Hà Nội  : 024 3848 9940</li>
+                            <li>Vmax Đà Nẵng : 0236 3821 199</li>
+                            <li>Vmax Hồ Chí Minh : 028 3911 9966</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- TO DO -->
+            <div class="oe_structure" />
+        </t>
+    </template>
+
+    <template id="job_apply" name="Job Apply">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="container" id="page_job_apply">
+                <div class="row">
+                    <div class="col-12">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1>Ứng tuyển vị trí: Web Front-end Developer</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                                    <label for="app_name">Họ và tên <span><i class="fa fa-asterisk"></i></span></label>
+                                    <input type="text" class="form-control" id="app_name" name="app_name" />
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                                    <label for="app_gender">Giới tính</label>
+                                    <select id="app_gender" name="app_gender" class="form-control">
+                                        <option value="male"> Nam</option>
+                                        <option value="female"> Nữ</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                                    <label for="app_phone1">Số điện thoại 1 <span><i class="fa fa-asterisk"></i></span></label>
+                                    <input type="text" class="form-control" id="app_phone1" name="app_phone1" />
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                                    <label for="app_phone2">Số điện thoại 2</label>
+                                    <input type="text" class="form-control" id="app_phone2" name="app_phone2" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="app_email">Email <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="email" class="form-control" id="app_email" name="app_email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="app_address">Địa chỉ thường trú hiện tại <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="text" class="form-control" id="app_address" name="app_address" />
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <label for="app_exp">Kinh nghiệm chuyên ngành</label>
+                                    <select id="app_exp" name="app_exp" class="form-control">
+                                        <option value="0">Người mới tiếp xúc</option>
+                                        <option value="1">Kinh nghiệm 1 năm</option>
+                                        <option value="2">Kinh nghiệm 2 năm</option>
+                                        <option value="3">Kinh nghiệm hơn 2 năm</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <label for="app_salary">Mức lương mong muốn</label>
+                                    <select id="app_salary" name="app_salary" class="form-control">
+                                        <option value="0">2,000,000 VND - 5,000,000 VND</option>
+                                        <option value="1">6,000,000 VND - 10,000,000 VND</option>
+                                        <option value="2">12,000,000 VND - 17,000,000 VND</option>
+                                        <option value="2">20,000,000 VND - 26,000,000 VND</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="app_cv">Nộp CV tại đây (định dạng PDF) <span><i class="fa fa-asterisk"></i></span></label>
+                                <input type="file" class="form-control" id="app_cv" name="app_cv" />
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <ol>
+                                        <li>Vui lòng kiểm tra lại tất cả thông tin và đảm bảo rằng chúng hoàn toàn chính xác trước khi nộp đơn ứng tuyển.</li>
+                                        <li>Mức lương mong muốn chưa bao gồm các khoản trừ bảo hiểm, thuế, và các phụ cấp, lương thưởng khác.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="form-group text-center">
+                                <button type="submit" class="vmax_btn vmax_btn--primary">Ứng tuyển</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="job_detail" name="Job Detail">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="blck w100" id="page_job">
+                <div class="blck w100 big_header">
+                    <div class="texts">
+                        <h1>Vmax tuyển dụng</h1>
+                        <h3>Cơ hội trở thành một phần của đại gia đình Vmax !</h3>
+                    </div>
+                </div><!-- end of big_header -->
+                <div class="container">
+                    <div class="row jnav">
+                        <div class="col-12">
+                            <a href="/tuyen-dung" class="a_home">Tuyển dụng </a>
+                            <a href="#">/ Web Front-end Developer</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="jtitle">Web Front-end Developer</h1>
+                        </div>
+                    </div>
+                    <div class="row jdesc">
+                        <div class="col-12">
+                            <p class="iblck jdesc__title jdesc__title--grey">Mô tả công việc</p>
+                            <ul>
+                                <li>Nơi làm việc: 18A/76 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, thành phố Hồ Chí Minh.</li>
+                                <li>Thiết kế và xây dựng landing page.</li>
+                                <li>Tối ưu thêm responsive cho web.</li>
+                                <li>Thiết kế giao diện, UX/UI cho các trang web theo yêu cầu.</li>
+                                <li>Thiết kế bộ nhận diện thương hiệu Vmax và các đối tác khác của Vmax.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row jdesc">
+                        <div class="col-12">
+                            <p class="iblck jdesc__title jdesc__title--black">Yêu cầu đối với ứng viên</p>
+                            <ul>
+                                <li>Đã từng làm các dự án thiết kế và xây dựng website.</li>
+                                <li>Biết sử dụng SCSS, Bootstrap. Biết các front-end framework là một lợi thế (React,VueJS,Angular 8,..)</li>
+                                <li>Biết sử dụng các phầm mềm thiết kế như Photoshop, AI, Illustrator.</li>
+                                <li>Không cần biết nhiều về SEO, nhưng phải biết đủ để tối ưu SEO cho website.</li>
+                                <li>Đối với ứng viên là sinh viên còn đang đi học, phải có mặt trên công ty ít nhất 6 buổi/tuần.</li>
+                                <li>Đối với ứng viên khác, phải có mặt trên công ty 10 buổi/tuần.</li>
+                                <li>Có tinh thần tự học, năng động.</li>
+                                <li>Thị lực tốt, cận không quá 2 độ.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row jdesc">
+                        <div class="col-12">
+                            <p class="iblck jdesc__title jdesc__title--red">Quyền lợi</p>
+                            <ul>
+                                <li>Lương thử việc lên đến 80% lương nhân viên chính thức.</li>
+                                <li>Làm việc 5 ngày/tuần. Được tính lương đầy đủ nếu có yêu cầu làm tăng ca, làm ngoài giờ hoặc làm bù.</li>
+                                <li>Review lương mỗi 6 tháng, tăng lương theo năng lực.</li>
+                                <li>Có lương thưởng tháng 13.</li>
+                                <li>Được đóng đầy đủ thuế và các loại bảo hiểm dành cho người lao động theo quy định của nhà nước.</li>
+                                <li>Được hưởng các chế độ độc quyền chỉ có ở Vmax như trợ cấp sinh đẻ (cho cả nhân viên nam và nữ), trợ cấp ốm đau, trợ cấp tai nạn,..</li>
+                                <li>Công ty có chương trình đặt sách cho nhân viên mỗi tuần đầu và tuần thứ ba của tháng.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row last_row">
+                        <div class="col-12 text-center">
+                            <a href="/tuyen-dung/ung-tuyen" class="vmax_btn vmax_btn--primary"><i class="fa fa-suitcase"></i> Ứng tuyển ngay !</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="job_thanks" name="Job Thanks">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            
+            <div class="container" id="page_job_thanks">
+                <div class="row">
+                    <div class="col-12 jthanks__header">
+                        <h1>Cảm ơn bạn !</h1>
+                        <h3>Vì đã ứng tuyển vào công ty Vmax của chúng tôi.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 jthanks__section">
+                        <p>Hồ sơ ứng tuyển của bạn đã được gửi đến bộ phận tuyển dụng Vmax. Vmax sẽ liên lạc với bạn sau khi đã xem xét qua hồ sơ ứng tuyển, hãy kiểm tra email thường xuyên và luôn giữ điện thoại bên mình.</p>
+                        <p>Xin chân thành cảm ơn bạn đã lựa chọn Vmax là nơi để làm việc và hợp tác lâu dài. Rất mong được gặp bạn trong thòi gian sớm nhất !</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="/home" class="vmax_btn vmax_btn--primary">Trang chủ <i class="fa fa-home"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="jobs" name="Jobs">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="blck w100" id="page_jobs">
+                <div class="blck w100 big_header">
+                    <div class="texts">
+                        <h1>Vmax tuyển dụng</h1>
+                        <h3>Cơ hội trở thành một phần của đại gia đình Vmax !</h3>
+                    </div>
+                </div><!-- end of big_header -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="why_vmax">
+                                <h3><i class="fa fa-lightbulb-o"></i> Vì sao chọn  Vmax ?</h3>
+                                <p>Hơn 20 năm hình thành và phát triển, trở thành một trong những thương hiệu mực in hàng đầu Việt Nam với chất lượng quốc tế, chúng tôi luôn hiểu rằng con người là yếu tố quyết định đối với sự thành công và phát triển của Công ty. Tại VMAX, sự nghiệp của các bạn sẽ được phát triển cùng với sự lớn mạnh của chúng tôi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="/tuyen-dung/chi-tiet" class="blck w100 job">
+                                <p class="job__title">Front-end Website Developer</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="/tuyen-dung/chi-tiet" class="blck w100 job">
+                                <p class="job__title">Storekeeper</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="/tuyen-dung/chi-tiet" class="blck w100 job">
+                                <p class="job__title">Master Chef</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="/tuyen-dung/chi-tiet" class="blck w100 job">
+                                <p class="job__title">Junior Full-stack Website Developer</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="/tuyen-dung/chi-tiet" class="blck w100 job">
+                                <p class="job__title">Senior Full-stack Website Developer</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <a href="/tuyen-dung/chi-tiet" class="blck w100 job">
+                                <p class="job__title">Junior Back-end Website Developer</p>
+                                <p class="job__address"><i class="fa fa-building"></i> 18A/67 Nguyễn Thị Minh Khai, Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                                <p class="job__date"><i class="fa fa-clock-o"></i> 18/09/2020</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
+
+    <template id="wishlist" name="Wishlist">
+        <t t-call="website.layout">
+            <div class="oe_structure"/>
+            <!-- TO DO -->
+            <div class="container-fluid blog_search">
+                <div class="container">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+                                <input type="text" class="form-control" value="Tìm kiếm sản phẩm: mực in Vmax,...."/>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-fluid" id="page_wishlist">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>Sản phẩm yêu thích </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1 col-lg-12 offset-lg-0 col-md-12 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="wl_widget esm exs">
+                                    <h4>Có thể bạn sẽ thích </h4>
+                                    <div class="item">
+                                        <img src="https://cdn.nguyenkimmall.com/images/detailed/644/10036203-may-in-phun-mau-da-nang-canon-pixma-g2010-den-1.jpg" />
+                                        <a href="/shop">Máy in Laser Trắng Đen Canon LBP6230DN</a>
+                                        <p>3,200,000 VND</p>
+                                    </div>
+                                    <div class="item">
+                                        <img src="https://www.sieuthivienthong.com/imgs/art/p_37819_CANON-MF264DW.jpg" />
+                                        <a href="/shop">Máy in Laser không dây đa chức năng Canon imageCLASS MF264DW</a>
+                                        <p>5,100,000 VND</p>
+                                    </div>
+                                    <div class="item">
+                                        <img src="https://www.sieuthivienthong.com/imgs/art/p_36052_HP-M404dn.jpg" />
+                                        <a href="/shop">Máy in Laser HP LaserJet Pro M404dn</a>
+                                        <p>4,800,000 VND</p>
+                                    </div>
+                                </div>
+                            </div><!-- end of may_like -->
+                            <div class="col-xl-6 col-lg-6 col-md-9 col-sm-12 col-12">
+                                <div class="row favourites">
+                                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
+                                        <div class="item">
+                                            <img src="https://psershop.com/_sh/8/828m.jpg"/>
+                                            <div class="texts">
+                                                <a class="name" href="#">Menowa BT VGG Mod</a>
+                                                <p>560,000 VND</p>
+                                                <a href="#" class="fbutton fbutton__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                                <a href="#" class="fbutton fbutton__remove"><i class="fa fa-trash"></i> Xóa</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
+                                        <div class="item">
+                                            <img src="https://cf.shopee.vn/file/3e4de78168c877918f9b0c4507d6313f"/>
+                                            <div class="texts">
+                                                <a class="name" href="#">Tăm cay vị hải sản</a>
+                                                <p>55,000 VND</p>
+                                                <a href="#" class="fbutton fbutton__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                                <a href="#" class="fbutton fbutton__remove"><i class="fa fa-trash"></i> Xóa</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
+                                        <div class="item">
+                                            <img src="https://cf.shopee.vn/file/5cbed9ed5811c037bf588e67072d0c32"/>
+                                            <div class="texts">
+                                                <a class="name" href="#">Tập vẽ mỹ thuật A4</a>
+                                                <p>12,000 VND</p>
+                                                <a href="#" class="fbutton fbutton__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                                <a href="#" class="fbutton fbutton__remove"><i class="fa fa-trash"></i> Xóa</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
+                                        <div class="item">
+                                            <img src="https://ae01.alicdn.com/kf/He9cab1fe3fd24c2e9e4f23cb87a6f962w/Bluetooth-D-Th-ng-Tai-Nghe-Cho-C-G-i-N-Tai-Nghe-Tai-Nghe-T.png"/>
+                                            <div class="texts">
+                                                <a class="name" href="#">Tai nghe Off Bluetooth</a>
+                                                <p>525,000 VND</p>
+                                                <a href="#" class="fbutton fbutton__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                                <a href="#" class="fbutton fbutton__remove"><i class="fa fa-trash"></i> Xóa</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end of favourites -->
+                            <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-0 col-md-9 offset-md-3 col-sm-12 offset-sm-0 col-12 offset-0">
+                                <div class="wl_widget best_sell">
+                                    <h4>Bán chạy</h4>
+                                    <div class="row">
+                                        <div class="col-xl-12 offset-xl-0 col-lg-12 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
+                                            <div class="item">
+                                                <img src="https://cf.shopee.vn/file/6a1082bad5f8d9ba1e8de940e115eb02"/>
+                                                <a href="/shop">Mì siêu cay SamYang Hàn Quốc</a>
+                                                <p>40,000 VND</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 offset-xl-0 col-lg-12 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
+                                            <div class="item">
+                                                <img src="https://prooffice.vn/wp-content/uploads/2019/04/giay-a4-ik-plus-70-gsm.jpg" />
+                                                <a href="/shop">Giấy A4 IK Plus</a>
+                                                <p>72,000 VND</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 offset-xl-0 col-lg-12 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
+                                            <div class="item">
+                                                <img src="https://cdn.vmax.vn/pub/media/catalog/product/cache/8872124951f387c8ded3f228faa55bea/m/u/muc-in-vmax-cf502a.jpg" />
+                                                <a href="/shop">Mực Laser Vmax HP màu CF502A (Yellow)</a>
+                                                <p>1,055,000 VND</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end of col -->
+                        </div><!-- end of row -->
+                    </div>
+                </div>
+            </div>
+            <!-- END TO DO -->
+            <div class="oe_structure"/>
+        </t>
+    </template>
 </odoo>

@@ -3,11 +3,11 @@
 	"name"                 :  "Vmax",
 	"category"             :  "Theme/eCommerce",
 	"version"              :  "1.0",
-	"sequence"             :  1,
+	"sequence"             :  10,
 	"author"               :  "Xuan Hong",
 	"license"              :  "Other proprietary",
 	"description"          :  """Giao diện website Vmax - Mực in, máy in chính hãng.""",
-	"depends" : ['website', 'website_theme_install', 'sale', 'product', 'sale_management', 'website_sale', 'website_sale_wishlist'],
+	"depends" : ['website', 'sale_management', 'website_sale', 'mail', 'website_sale_wishlist'],
 	"data" : [
 		'views/assets.xml',
 		'views/header.xml',

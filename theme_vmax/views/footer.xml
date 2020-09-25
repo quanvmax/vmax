@@ -7,7 +7,7 @@
         			<section class="s_text_block pt-48 pb-36">
         				<div class="container">
         					<div class="row">
-        						<div class="col-6 col-lg-3 mb-4">
+        						<div class="col-sm-6 col-lg-3 mb-4">
         							<h6 class="mb-3">Về Vmax</h6>
         							<ul>
         								<li class="my-2"><a href="#">Giới thiệu</a></li>
@@ -17,7 +17,7 @@
         								<li class="my-2"><a href="#">Hệ thống cửa hàng</a></li>
         							</ul>
         						</div>
-        						<div class="col-6 col-lg-3 mb-4">
+        						<div class="col-sm-6 col-lg-3 mb-4">
         							<h6 class="mb-3">Hỗ trợ mua hàng</h6>
         							<ul>
         								<li class="my-2"><a href="#">Hướng dẫn mua hàng trực tuyến</a></li>
@@ -28,7 +28,7 @@
         								<li class="my-2"><a href="#">Chính sách bảo mật</a></li>
         							</ul>
         						</div>
-        						<div class="col-6 col-lg-3 mb-4">
+        						<div class="col-md-6 col-lg-3 mb-4">
         							<h6 class="mb-3">Tài khoản</h6>
         							<ul>
         								<li class="my-2"><a href="#">Quản Lý Tài Khoản</a></li>
@@ -37,7 +37,7 @@
         								<li class="my-2"><a href="#">Địa Chỉ Của Tôi</a></li>
         							</ul>
         						</div>
-        						<div class="col-12 col-lg-3 mb-4">
+        						<div class="col-md-6 col-lg-3 mb-4">
         							<h6 class="mb-3">Thông tin liên hệ</h6>
         							<ul>
         								<li class="my-2">
@@ -76,8 +76,8 @@
         		</div>
         		<div class="footer_copyright">
                     <div class="container py-4">
-                        <div class="row py-4 vm_delivery_info">
-                            <div class="col-12 col-lg-6 col-xl-3">
+                        <div class="row vm_delivery_info">
+                            <div class="col-sm-6 col-md-3 col-xl-3 my-3">
                                 <div class="media">
                                     <span class="fa fa-rocket fa-2x text-alpha"></span>
                                     <div class="media-body pl-3">
@@ -86,7 +86,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-3">
+                            <div class="col-sm-6 col-md-3 col-xl-3 my-3">
                                 <div class="media">
                                     <span class="fa fa-trophy fa-2x text-alpha"></span>
                                     <div class="media-body pl-3">
@@ -95,7 +95,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-3">
+                            <div class="col-sm-6 col-md-3 col-xl-3 my-3">
                                 <div class="media">
                                     <span class="fa fa-cogs fa-2x text-alpha"></span>
                                     <div class="media-body pl-3">
@@ -104,7 +104,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-3">
+                            <div class="col-sm-6 col-md-3 col-xl-3 my-3">
                                 <div class="media">
                                     <span class="fa fa-life-ring fa-2x text-alpha"></span>
                                     <div class="media-body pl-3">

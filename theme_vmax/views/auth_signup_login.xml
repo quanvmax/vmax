@@ -15,7 +15,6 @@
 
 	<template id="vm_login_heading" inherit_id="web.login">
 		<xpath expr="//form" position="before">
-			<h3>Chào mừng đến với Vmax. Đăng nhập ngay!</h3>
 			<div class="logo mt-3"><img src="/web/image/website/1/logo/" class="img img-fluid" alt="Vmax"/></div>
 		</xpath>
 		<!-- Xóa nút Log in as superuser -->

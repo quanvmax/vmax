@@ -139,7 +139,6 @@
 			position: relative;
 			.card {
 				border: none;
-				height: 100%;
 				.oe_product_image {
 					height: 100%;
 				}
@@ -149,6 +148,7 @@
 						text-align: left;
 						.o_wsale_products_item_title {
 							font-weight: normal;
+							min-height: 30px;
 							a {
 								color: #343a40;
 								text-decoration: none;
@@ -320,7 +320,7 @@
 			color: rgb(255, 52, 37);
 			vertical-align: middle;
 		}
-		.con_hang {
+		.available {
 			display: block;
 			color: #158d1e;
 			font-size: 16px;

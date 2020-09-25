@@ -6,11 +6,11 @@
 			<div class="oe_structure"/>
 			
 			<section class="top_categories pt32">
-				<div class="container">
+				<div class="container px-0">
 					<div class="row justify-content-center">
 						<div class="col-12 col-md-4 my-2">
 	                        <div class="card h-100 d-flex">
-	                            <a href="/shop/category/muc-in-vmax-1" class="d-flex align-items-center" style="flex-grow:1;">
+	                            <a href="#" class="d-flex align-items-center" style="flex-grow:1;">
 	                                <div class="pr-1" style="width: 67%;">
 	                                    <img style="max-height: 376px; object-fit:contain;" src="/theme_vmax/static/src/img/c_mucin_1.png" class="d-block w-100"/>
 	                                </div>
@@ -23,14 +23,14 @@
 	                                <h4 class="text-center title_cat">Mực in chính hãng</h4>
 	                                <p class="text-center">Mực in chính hãng đi kèm với từng dòng máy in thích hợp, đạt hiệu quả in ấn tốt nhất</p>
 	                                <div class="text-center">
-	                                    <a class="btn btn-outline-primary rounded-circle" href="/shop/category/muc-in-vmax-1">Xem sản phẩm</a>
+	                                    <a class="btn btn-outline-primary rounded-circle" href="#">Xem sản phẩm</a>
 	                                </div>
 	                            </div>
 	                        </div>
 	                    </div>
 	                    <div class="col-12 col-md-4 my-2">
 	                        <div class="card h-100 d-flex">
-	                            <a href="/shop/category/thiet-bi-dien-tu" class="d-flex align-items-center" style="flex-grow:1;">
+	                            <a href="#" class="d-flex align-items-center" style="flex-grow:1;">
 	                                <div class="pr-1" style="width: 67%;">
 	                                    <img style="max-height: 376px; object-fit:contain;" src="/theme_vmax/static/src/img/c_mayin_1.jpg" class="d-block w-100"/>
 	                                </div>
@@ -43,14 +43,14 @@
 	                                <h4 class="text-center title_cat">Máy in văn phòng</h4>
 	                                <p class="text-center">Vmax chuyên phân phối hàng chính hãng, đảm bảo chất lượng xuất sắc với chi phí thấp nhất</p>
 	                                <div class="text-center">
-	                                    <a class="btn btn-outline-primary rounded-circle" href="/shop/category/may-in-8">Xem sản phẩm</a>
+	                                    <a class="btn btn-outline-primary rounded-circle" href="#">Xem sản phẩm</a>
 	                                </div>
 	                            </div>
 	                        </div>
 	                    </div>
 	                    <div class="col-12 col-md-4 my-2">
 	                        <div class="card h-100 d-flex">
-	                            <a href="/shop/category/van-phong-pham" class="d-flex align-items-center" style="flex-grow:1;">
+	                            <a href="#" class="d-flex align-items-center" style="flex-grow:1;">
 	                                <div class="pr-1" style="width: 67%;">
 	                                    <img style="max-height: 376px; object-fit:contain;" src="/theme_vmax/static/src/img/c_vpp_1.jpg" class="d-block w-100"/>
 	                                </div>
@@ -63,7 +63,7 @@
 	                                <h4 class="text-center title_cat">Văn phòng phẩm</h4>
 	                                <p class="text-center">Các vật phẩm cần dùng cho các hoạt động trong văn phòng như Giấy, Bút viết, Bìa hồ sơ, Sổ, Kẹp giấy, Dụng cụ văn phòng, Thực phẩm văn phòng,...</p>
 	                                <div class="text-center">
-	                                    <a class="btn btn-outline-primary rounded-circle" href="/shop/category/van-phong-pham">Xem sản phẩm</a>
+	                                    <a class="btn btn-outline-primary rounded-circle" href="#">Xem sản phẩm</a>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -232,80 +232,198 @@
 				</section>
 			</t>
 			<div class="oe_structure"/>
-			<section class="s_d_brand_snippet_wrapper dr_grid_mode pt32 pb32" data-name="Brands">
-		        <div class="container position-relative">
-		          <h3 class="tp_underline_title pb-3">Đối tác</h3>
-		          <div class="s_d_brand_snippet mt-4"><div class="row">
-		            
-		                    <div class="col-md-3 col-6">
-		                        <div class="bg-white">
-		                            <a class="d-block border mb-3 py-3 dr-animation-scale" href="/shop?attrib=0-1">
-		                                <img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_7.png"/>
-		                            </a>
-		                        </div>
-		                    </div>
-		                
-		                    <div class="col-md-3 col-6">
-		                        <div class="bg-white">
-		                            <a class="d-block border mb-3 py-3 dr-animation-scale" href="/shop?attrib=0-2">
-		                                <img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_9.png"/>
-		                            </a>
-		                        </div>
-		                    </div>
-		                
-		                    <div class="col-md-3 col-6">
-		                        <div class="bg-white">
-		                            <a class="d-block border mb-3 py-3 dr-animation-scale" href="/shop?attrib=0-3">
-		                                <img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_2.png"/>
-		                            </a>
-		                        </div>
-		                    </div>
-		                
-		                    <div class="col-md-3 col-6">
-		                        <div class="bg-white">
-		                            <a class="d-block border mb-3 py-3 dr-animation-scale" href="/shop?attrib=0-4">
-		                                <img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_8.png"/>
-		                            </a>
-		                        </div>
-		                    </div>
-		                
-		                    <div class="col-md-3 col-6">
-		                        <div class="bg-white">
-		                            <a class="d-block border mb-3 py-3 dr-animation-scale" href="/shop?attrib=0-5">
-		                                <img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_11.png"/>
-		                            </a>
-		                        </div>
-		                    </div>
-		                
-		                    <div class="col-md-3 col-6">
-		                        <div class="bg-white">
-		                            <a class="d-block border mb-3 py-3 dr-animation-scale" href="/shop?attrib=0-6">
-		                                <img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_5.png"/>
-		                            </a>
-		                        </div>
-		                    </div>
-		                
-		                    <div class="col-md-3 col-6">
-		                        <div class="bg-white">
-		                            <a class="d-block border mb-3 py-3 dr-animation-scale" href="/shop?attrib=0-7">
-		                                <img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_16.png"/>
-		                            </a>
-		                        </div>
-		                    </div>
-		                
-		                    <div class="col-md-3 col-6">
-		                        <div class="bg-white">
-		                            <a class="d-block border mb-3 py-3 dr-animation-scale" href="/shop?attrib=0-8">
-		                                <img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_15.png"/>
-		                            </a>
-		                        </div>
-		                    </div>
-		        </div>
-		    </div>
-		          <!-- <a class="btn btn-outline-primary d_all_brands_btn o_default_snippet_text" href="/shop/all_brands">View All Brands</a> -->
-		        </div>
-		      </section>
+			
 		<div class="oe_structure"/>
 	</t>
 	</template>
+
+	<template id="vm_homepage_new" name="Homepage Vmax New">
+		<t t-call="website.layout">
+			<t t-set="additional_title">Vmax | Mực in chính hãng | Máy in văn phòng</t>
+			<div class="wrapper">
+
+				<div class="oe_structure"/>
+
+				<t t-if="categories">
+				<section id="categories" class="pt16">
+					<div class="container px-0">
+						<div class="vm_Heading">
+							<h2 class="title">Danh mục sản phẩm</h2>
+						</div>
+						<div class="categories__flex">
+							<t t-foreach="categories" t-as="category">
+							
+								<div class="categories__item">
+									<a t-att-href="'/shop/category/' + str(category.id)">
+										<span class="image">
+											<img class="img img-fluid" t-attf-src="/web/image/product.public.category/#{category.id}/image_1920" />
+										</span>
+										<p class="categories__title"><t t-esc='category.name'/></p>
+									</a>
+								</div>
+							
+							</t>
+						</div>
+					</div>
+				</section>
+				</t>
+				<t t-if="best_sellers">
+				<section id="best_seller" class="mt16">
+					<div class="container bg-white">
+						<div class="vm_Heading">
+							<h2 class="title">Sản phẩm được mua nhiều</h2>
+						</div>
+						<div id="owl_best" class="row owl-carousel owl-theme mx-0">
+							<t t-foreach="best_sellers" t-as="product">
+								<div class="vm_component item" t-att-data-id="product.id">
+								    <!-- <p class="p-sku">Mã SP: LTLG013</p> -->
+								    <div class="p-img">
+								        <a t-attf-href="/shop/product/#{ slug(product) }">
+								            <img t-if="product.image_1920" t-attf-src="/web/image/product.template/#{product.id}/image_1920" class="img img-fluid d-product-img"/>
+								        </a>
+								    </div>
+								    <div class="p-info">
+								        <h3 class="p-name"><a t-attf-href="/shop/product/#{ slug(product) }"> <span t-esc="product.name"/></a></h3>
+								        <span class="p-price"><t t-esc="product.list_price" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/></span>
+								    </div>
+								    <!-- <div class="p-action">
+								        <span class="p-qty"><i class="fa fa-check" aria-hidden="true"></i> Còn hàng  </span>
+								        <a href="javascript:void(0)" class="p-buy"> <i class="fa fa-shopping-cart"></i> Thêm vào giỏ</a>
+								    </div> -->
+								</div>
+							</t>
+						</div>
+					</div>
+				</section>
+				</t>
+				<section id="cat_mayin" class="mt16"></section>
+				<section id="cat_mucin" class="mt16"></section>
+				<t t-if="products">
+				<section id="product_foryou" class="mt16">
+					<div class="container bg-white">
+						<div class="vm_Heading">
+							<h2 class="title">Dành cho bạn</h2>
+						</div>
+						<div id="products_grid">
+							<div id="vm_products_grid_view">
+		                        <div class="container">
+		                            <div class="row vmp_list_box">
+		                            	<t t-foreach="products" t-as="product">
+		                            		<t t-set="combination_info" t-value="product._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)"/>
+		                            		<div t-attf-class="col-sm-6 col-md-4 col-lg-3 list-items mb-3">
+	                                            <div class="s_card_style">
+													<form action="/shop/cart/update" method="post" class="card oe_product_cart"
+													t-att-data-publish="product.website_published and 'on' or 'off'"
+													itemscope="itemscope" itemtype="http://schema.org/Product">
+	                                            	<div class="card-body p-1">
+	                                            		<a t-attf-href="/shop/product/#{ slug(product) }" class="d-block h-100">
+										                    <span t-field="product.image_1920"
+										                        t-options="{'widget': 'image', 'preview_image': 'image_1024' if product_image_big else 'image_256'}"
+										                        class="d-flex h-100 justify-content-center align-items-center"/>
+										                </a>
+										                <div class="card-body p-0 text-center o_wsale_product_information">
+											                <div class="p-2 o_wsale_product_information_text">
+											                    <h6 class="o_wsale_products_item_title">
+											                        <a itemprop="name" t-attf-href="/shop/product/#{ slug(product) }" t-att-content="product.name" t-field="product.name" />
+											                        <a role="button" t-if="not product.website_published" t-attf-href="/shop/product/#{ slug(product) }" class="btn btn-sm btn-danger" title="This product is unpublished.">Unpublished</a>
+											                    </h6>
+											                    <div class="product_price" itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer">
+											                    	<del t-attf-class="text-danger mr-2 {{'' if combination_info['has_discounted_price'] else 'd-none'}}" style="white-space: nowrap;" t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
+											                        <span t-if="combination_info['price']" t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
+											                        <span itemprop="price" style="display:none;" t-esc="combination_info['price']" />
+											                        <span itemprop="priceCurrency" style="display:none;" t-esc="website.currency_id.name" />
+											                    </div>
+											                </div>
+											            </div>
+										            </div>
+										        </form>
+	                                            </div>
+	                                        </div>
+		                            	</t>
+		                            </div>
+		                        </div>
+		                    </div>
+						</div>
+					</div>
+				</section>
+				</t>
+				<div class="oe_structure"/>
+				<section class="s_d_brand_snippet_wrapper dr_grid_mode pt32 pb32" data-name="Brands">
+					<div class="container position-relative px-0">
+						<h3 class="tp_underline_title pb-3">Đối tác</h3>
+						<div class="s_d_brand_snippet mt-4">
+							<div id="owl_brands" class="row mx-0 owl-carousel owl-theme">
+								<div class="item">
+									<div class="bg-white">
+										<a class="d-block border mb-3 py-3 dr-animation-scale" href="#">
+											<img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_7.png"/>
+										</a>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="bg-white">
+										<a class="d-block border mb-3 py-3 dr-animation-scale" href="#">
+											<img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_9.png"/>
+										</a>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="bg-white">
+										<a class="d-block border mb-3 py-3 dr-animation-scale" href="#">
+											<img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_2.png"/>
+										</a>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="bg-white">
+										<a class="d-block border mb-3 py-3 dr-animation-scale" href="#">
+											<img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_8.png"/>
+										</a>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="bg-white">
+										<a class="d-block border mb-3 py-3 dr-animation-scale" href="#">
+											<img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_11.png"/>
+										</a>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="bg-white">
+										<a class="d-block border mb-3 py-3 dr-animation-scale" href="#">
+											<img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_5.png"/>
+										</a>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="bg-white">
+										<a class="d-block border mb-3 py-3 dr-animation-scale" href="#">
+											<img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_16.png"/>
+										</a>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="bg-white">
+										<a class="d-block border mb-3 py-3 dr-animation-scale" href="#">
+											<img class="d-block img img-fluid w-50 mx-auto" src="https://cdn.vmax.vn/pub/media/wysiwyg/brand/branch_15.png"/>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <a class="btn btn-outline-primary d_all_brands_btn o_default_snippet_text" href="/shop/all_brands">View All Brands</a> -->
+					</div>
+				</section>
+			</div>
+			<div class="oe_structure"/>
+		</t>
+	</template>
+	
 </odoo>

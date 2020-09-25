@@ -49,6 +49,9 @@
 	.list-services .item {
 	    width: 50%!important;
 	}
+	.wrapper .categories__flex .categories__item {
+		width: 33%!important;
+	}
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -58,11 +61,17 @@
 	.list-services .item {
 	    width: 50%!important;
 	}
+	.wrapper .categories__flex .categories__item {
+		width: 33%!important;
+	}
 }
 
 @media all and (max-width: 480px) {
 	.list-services .item {
 	    width: 100%!important;
+	}
+	.wrapper .categories__flex .categories__item {
+		width: 50%!important;
 	}
 }
 

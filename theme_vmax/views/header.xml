@@ -163,144 +163,27 @@
 					<div class="container px-0">
 						<div class="collapse navbar-collapse" id="top_menu_collapse" aria-expanded="false">
 							<ul class="nav navbar-nav ml-auto text-right" id="top_menu">
+								<t t-if="categories">
 								<li class="nav-item vm_special_menu dropdown position-static">
 									<a data-toggle="dropdown" href="#" class="nav-link dropdown-toggle o_mega_menu_toggle">
 									<i class="fa fa-th-list mr-1"></i>
 									<span>Danh Mục Sản Phẩm</span></a>
 									<div data-name="Mega Menu" class="dropdown-menu o_mega_menu o_mega_menu_container_size">
-									    <section class="s_d_category_mega_menu_3 vm_category_mega_menu droggol_category_mega_menu_snippet pt0" data-name="Category Menu - 3">
+									    <section class="s_d_category_mega_menu_3 vm_category_mega_menu droggol_category_mega_menu_snippet pt0" data-name="Category Menu">
 									        <div class="container-fluid">
 									            <div class="row vm-category-list">
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/2">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=2&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/2"> Mực in HP</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/3">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=3&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/3"> Mực in Canon</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/5">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=5&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/5"> Mực in Brother</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/6">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=6&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/6"> Mực in Xerox</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/8">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=8&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/8"> Mực in Epson</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/10">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=10&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/10"> Mực in Oki</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/9">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=9&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/9"> Máy in đa chức năng</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/12">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=12&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/12"> Máy in laser trắng đen</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/15">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=15&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/15"> Máy in laser màu</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/19">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=19&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/19"> Máy in phun</a>
-									                    </div>
-									                </div>
-
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/16">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=16&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/16"> Máy in kim</a>
-									                    </div>
-									                </div>
-									                <div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
-									                    <div class="px-4 pb-1 text-center pt-4">
-									                        <a href="/shop/category/16">
-									                            <img class="img img-fluid vm-category-image" src="/web/image?model=product.public.category&amp;id=16&amp;field=image_128"/>
-									                        </a>
-									                    </div>
-									                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
-									                        <a href="/shop/category/16"> Máy in nhãn</a>
-									                    </div>
-									                </div>
+									            	<t t-foreach="categories" t-as="category">
+									            		<div class="col-6 col-sm-4 col-md-3 col-lg-2 vm-category">
+										                    <div class="px-4 pb-1 text-center pt-4">
+										                        <a t-att-href="'/shop/category/' + str(category.id)">
+										                            <img class="img img-fluid vm-category-image" t-attf-src="/web/image/product.public.category/#{category.id}/image_1920" />
+										                        </a>
+										                    </div>
+										                    <div class="text-center text-uppercase font-weight-bold d-product-name mb-2">
+										                        <a t-att-href="'/shop/category/' + str(category.id)"> <t t-esc='category.name'/></a>
+										                    </div>
+										                </div>
+									            	</t>
 									            </div>
 									        </div>
 									    </section>
@@ -319,12 +202,15 @@
 									    </section>
 									</div>
 								</li>
-								<li class="nav-item"><a role="menuitem" href="/" class="nav-link active"><span>Trang Chủ</span></a></li>
-								<li class="nav-item"><a role="menuitem" href="/shop" class="nav-link active"><span>Shop</span></a></li>
-								<li class="nav-item"><a role="menuitem" href="/lien-he" class="nav-link active"><span>Liên hệ hỗ trợ</span></a></li>
-								<li class="nav-item"><a role="menuitem" href="/ve-vmax" class="nav-link active"><span>Về Vmax</span></a></li>
-								<li class="nav-item"><a role="menuitem" href="/blog" class="nav-link active"><span>Blog</span></a></li>
-								<li groups="base.group_public" class="nav-item"><a role="menuitem" href="/web/login" class="nav-link active"><span>Đăng nhập</span></a></li>
+								</t>
+								<t t-foreach="website.menu_id.child_id" t-as="submenu">
+						            <t t-call="website.submenu">
+						                <t t-set="item_class" t-value="'nav-item'"/>
+						                <t t-set="link_class" t-value="'nav-link'"/>
+						            </t>
+						        </t>
+								<li groups="base.group_public" class="nav-item"><a role="menuitem" href="/web/login" class="nav-link"><span>Đăng nhập</span></a></li>
+
 							</ul>
 						</div>
 					</div>

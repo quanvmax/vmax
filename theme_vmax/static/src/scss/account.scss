@@ -1,12 +1,15 @@
 #vm_signup_login {
 	background-color: #f0f0f0;
-	padding: 20px 0;
+	padding-top: 50px;
+    height: 100vh;
 	.box {
 		font-size: $fontsize-13;
-		width: 80%;
+		width: 410px;
 		background-color: #fff;
 		color: #757575;
 		margin: auto;
+		padding: 40px 0;
+		box-shadow: -40px 40px 160px 0 rgba(0, 0, 0, 0.08), -8px 8px 15px 0 rgba(120, 120, 120, 0.04), 3px 3px 30px 0 rgba(0, 0, 0, 0.04) !important;
 		.logo {
 			text-align: center;
 			margin: auto;
@@ -33,6 +36,7 @@
 			}
 			.small {
 				font-size: $fontsize-13;
+				text-align: center;
 			}
 		}
 	}
