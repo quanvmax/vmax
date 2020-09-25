@@ -4,128 +4,126 @@
         <t t-call="website.layout">
             <div class="oe_structure"/>
             <!-- TO DO -->
-            <div class="container-fluid blog_search">
-                <div class="container">
-                    <form action="#" method="post">
-                        <div class="row">
-                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-                                <input type="text" class="form-control" value="Tìm kiếm sản phẩm: mực in Vmax,...."/>
-                            </div>
-                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                            </div>
+            <div class="container" id="page_wishlist">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Sản phẩm yêu thích</h2>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://psershop.com/_sh/8/828m.jpg" />
+                            <a href="#" class="name">Menowa BT VGG Mod</a>
+                            <p>560,000 VND</p>
+                            <a href="#" class="button button__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                            <a href="#" class="button button__remove"><i class="fa fa-trash"></i> Xóa</a>
                         </div>
-                    </form>
-                </div>
-            </div>
-            <div class="container-fluid" id="page_wishlist">
-                <div class="row">
-                    <div class="col-12 txt-center">
-                        <h1>Sản phẩm yêu thích </h1>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-10 offset-xl-1 col-lg-12 offset-lg-0 col-md-12 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-3 col-md-3">
-                                <div class="wl_widget esm exs">
-                                    <h4>Có thể bạn sẽ thích </h4>
-                                    <div class="item">
-                                        <img src="https://cdn.nguyenkimmall.com/images/detailed/644/10036203-may-in-phun-mau-da-nang-canon-pixma-g2010-den-1.jpg" />
-                                        <a href="/shop">Máy in Laser Trắng Đen Canon LBP6230DN</a>
-                                        <p>3,200,000 VND</p>
-                                    </div>
-                                    <div class="item">
-                                        <img src="https://www.sieuthivienthong.com/imgs/art/p_37819_CANON-MF264DW.jpg" />
-                                        <a href="/shop">Máy in Laser không dây đa chức năng Canon imageCLASS MF264DW</a>
-                                        <p>5,100,000 VND</p>
-                                    </div>
-                                    <div class="item">
-                                        <img src="https://www.sieuthivienthong.com/imgs/art/p_36052_HP-M404dn.jpg" />
-                                        <a href="/shop">Máy in Laser HP LaserJet Pro M404dn</a>
-                                        <p>4,800,000 VND</p>
-                                    </div>
-                                </div>
-                            </div><!-- end of may_like -->
-                            <div class="col-xl-6 col-lg-6 col-md-9 col-sm-12 col-12">
-                                <div class="row favourites">
-                                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
-                                        <div class="item">
-                                            <img src="https://psershop.com/_sh/8/828m.jpg"/>
-                                            <div class="texts">
-                                                <a class="name" href="#">Menowa BT VGG Mod</a>
-                                                <p>560,000 VND</p>
-                                                <a href="#" class="fbutton fbutton__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
-                                                <a href="#" class="fbutton fbutton__remove"><i class="fa fa-trash"></i> Xóa</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
-                                        <div class="item">
-                                            <img src="https://cf.shopee.vn/file/3e4de78168c877918f9b0c4507d6313f"/>
-                                            <div class="texts">
-                                                <a class="name" href="#">Tăm cay vị hải sản</a>
-                                                <p>55,000 VND</p>
-                                                <a href="#" class="fbutton fbutton__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
-                                                <a href="#" class="fbutton fbutton__remove"><i class="fa fa-trash"></i> Xóa</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
-                                        <div class="item">
-                                            <img src="https://cf.shopee.vn/file/5cbed9ed5811c037bf588e67072d0c32"/>
-                                            <div class="texts">
-                                                <a class="name" href="#">Tập vẽ mỹ thuật A4</a>
-                                                <p>12,000 VND</p>
-                                                <a href="#" class="fbutton fbutton__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
-                                                <a href="#" class="fbutton fbutton__remove"><i class="fa fa-trash"></i> Xóa</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
-                                        <div class="item">
-                                            <img src="https://ae01.alicdn.com/kf/He9cab1fe3fd24c2e9e4f23cb87a6f962w/Bluetooth-D-Th-ng-Tai-Nghe-Cho-C-G-i-N-Tai-Nghe-Tai-Nghe-T.png"/>
-                                            <div class="texts">
-                                                <a class="name" href="#">Tai nghe Off Bluetooth</a>
-                                                <p>525,000 VND</p>
-                                                <a href="#" class="fbutton fbutton__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
-                                                <a href="#" class="fbutton fbutton__remove"><i class="fa fa-trash"></i> Xóa</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- end of favourites -->
-                            <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-0 col-md-9 offset-md-3 col-sm-12 offset-sm-0 col-12 offset-0">
-                                <div class="wl_widget best_sell">
-                                    <h4>Bán chạy</h4>
-                                    <div class="row">
-                                        <div class="col-xl-12 offset-xl-0 col-lg-12 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
-                                            <div class="item">
-                                                <img src="https://cf.shopee.vn/file/6a1082bad5f8d9ba1e8de940e115eb02"/>
-                                                <a href="/shop">Mì siêu cay SamYang Hàn Quốc</a>
-                                                <p>40,000 VND</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-12 offset-xl-0 col-lg-12 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
-                                            <div class="item">
-                                                <img src="https://prooffice.vn/wp-content/uploads/2019/04/giay-a4-ik-plus-70-gsm.jpg" />
-                                                <a href="/shop">Giấy A4 IK Plus</a>
-                                                <p>72,000 VND</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-12 offset-xl-0 col-lg-12 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1">
-                                            <div class="item">
-                                                <img src="https://cdn.vmax.vn/pub/media/catalog/product/cache/8872124951f387c8ded3f228faa55bea/m/u/muc-in-vmax-cf502a.jpg" />
-                                                <a href="/shop">Mực Laser Vmax HP màu CF502A (Yellow)</a>
-                                                <p>1,055,000 VND</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- end of col -->
-                        </div><!-- end of row -->
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://cf.shopee.vn/file/3e4de78168c877918f9b0c4507d6313f" />
+                            <a href="#" class="name">Tăm cay vị hải sản</a>
+                            <p>55,000 VND</p>
+                            <a href="#" class="button button__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                            <a href="#" class="button button__remove"><i class="fa fa-trash"></i> Xóa</a>
+                        </div>
                     </div>
-                </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://cf.shopee.vn/file/5cbed9ed5811c037bf588e67072d0c32" />
+                            <a href="#" class="name">Tập vẽ mỹ thuật A4</a>
+                            <p>12,000 VND</p>
+                            <a href="#" class="button button__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                            <a href="#" class="button button__remove"><i class="fa fa-trash"></i> Xóa</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://ae01.alicdn.com/kf/He9cab1fe3fd24c2e9e4f23cb87a6f962w/Bluetooth-D-Th-ng-Tai-Nghe-Cho-C-G-i-N-Tai-Nghe-Tai-Nghe-T.png" />
+                            <a href="#" class="name">Tai nghe Off Bluetooth</a>
+                            <p>525,000 VND</p>
+                            <a href="#" class="button button__add2cart"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                            <a href="#" class="button button__remove"><i class="fa fa-trash"></i> Xóa</a>
+                        </div>
+                    </div>
+                    <div class="col-12 vmax_btns">
+                        <a href="#" class="vmax_btn vmax_btn--third">Xóa tất cả</a>
+                        <a href="/shop" class="vmax_btn vmax_btn--primary">Tiếp tục mua sắm</a>
+                    </div>
+                </div><!-- end of row -->
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Sản phẩm yêu thích</h2>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://psershop.com/_sh/8/828m.jpg" />
+                            <a href="#" class="name">Menowa BT VGG Mod</a>
+                            <p>560,000 VND</p>
+                            <a href="#" class="button button__remove">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://cf.shopee.vn/file/3e4de78168c877918f9b0c4507d6313f" />
+                            <a href="#" class="name">Tăm cay vị hải sản</a>
+                            <p>55,000 VND</p>
+                            <a href="#" class="button button__remove">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://cf.shopee.vn/file/5cbed9ed5811c037bf588e67072d0c32" />
+                            <a href="#" class="name">Tập vẽ mỹ thuật A4</a>
+                            <p>12,000 VND</p>
+                            <a href="#" class="button button__remove">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://ae01.alicdn.com/kf/He9cab1fe3fd24c2e9e4f23cb87a6f962w/Bluetooth-D-Th-ng-Tai-Nghe-Cho-C-G-i-N-Tai-Nghe-Tai-Nghe-T.png" />
+                            <a href="#" class="name">Tai nghe Off Bluetooth</a>
+                            <p>525,000 VND</p>
+                            <a href="#" class="button button__remove">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div><!-- end of row -->
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Sản phẩm yêu thích</h2>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://psershop.com/_sh/8/828m.jpg" />
+                            <a href="#" class="name">Menowa BT VGG Mod</a>
+                            <p>560,000 VND</p>
+                            <a href="#" class="button button__remove">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://cf.shopee.vn/file/3e4de78168c877918f9b0c4507d6313f" />
+                            <a href="#" class="name">Tăm cay vị hải sản</a>
+                            <p>55,000 VND</p>
+                            <a href="#" class="button button__remove">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://cf.shopee.vn/file/5cbed9ed5811c037bf588e67072d0c32" />
+                            <a href="#" class="name">Tập vẽ mỹ thuật A4</a>
+                            <p>12,000 VND</p>
+                            <a href="#" class="button button__remove">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="item">
+                            <img src="https://ae01.alicdn.com/kf/He9cab1fe3fd24c2e9e4f23cb87a6f962w/Bluetooth-D-Th-ng-Tai-Nghe-Cho-C-G-i-N-Tai-Nghe-Tai-Nghe-T.png" />
+                            <a href="#" class="name">Tai nghe Off Bluetooth</a>
+                            <p>525,000 VND</p>
+                            <a href="#" class="button button__remove">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div><!-- end of row -->
             </div>
             <!-- END TO DO -->
             <div class="oe_structure"/>

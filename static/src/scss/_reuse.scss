@@ -12,3 +12,11 @@
         color: #fff
     }
 }
+.vmax_btn--third{
+    background: $third;
+    color: #fff;
+    &:hover{
+        background: $third-d;
+        color: #fff;
+    }
+}
