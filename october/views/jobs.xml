@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+<template id="page_jobs" name="Tuyển dụng | Vmax">
+    <t t-call="website.layout">
+        <div class="wrap">
+            <!-- Snippet -->
+            <div class="oe_structure"/>
+            <!-- end of snippet -->
+            
+            <!-- Big banner -->
+            <div class="container-fluid bigbanner">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 offset-xl-1 offset-lg-1 offset-md-0 offset-sm-0 offset-0 frame__lt"><img src="https://employer.jobsgo.vn/uploads/media/img/2195_pictures_library_2195_20170301103740_4904.jpg" /></div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 esm exs"><img src="https://employer.jobsgo.vn/uploads/media/img/2195_pictures_library_2195_20170301103740_2723.jpg" /></div>
+                    <div class="col-xl-3 col-lg-3 emd esm exs"><img src="https://resources-biletino.s3-external-3.amazonaws.com/content/event/7898/original" /></div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 frame__rt"><img src="https://english.best/media/toeic_images/1/business_meeting_at_office.jpg" /></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4 offset-xl-1 offset-lg-1 offset-md-0 offset-sm-0 offset-0">
+                        <img src="https://cdn.vietnambiz.vn/thumb_w/600/2019/11/14/nguyen-chi-thanh-15736939179381524496979-crop-1573693940508656967501.jpg" />   
+                    </div>
+                    <div class="col-4 pos__rel">
+                        <div class="bigbanner__texts">
+                            <h1><span>VMAX</span> TUYỂN DỤNG</h1>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+                        <img src="https://cdn.vmax.vn/pub/media/wysiwyg/CMS/Gioi-thieu-vmax.jpg" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 offset-xl-1 offset-lg-1 offset-md-0 offset-sm-0 offset-0 frame__lb"><img src="https://cdn.vmax.vn/pub/media/wysiwyg/CMS/img2.jpg" /></div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 esm exs"><img src="https://employer.jobsgo.vn/uploads/media/img/2195_pictures_library_2195_20170301103740_6319.jpg" /></div>
+                    <div class="col-xl-3 col-lg-3 emd esm exs"><img src="https://poipic5.coccoc.com/1000x750/poi/previews/20160923/13081-09e7c3d017f383312bb91f751cfa1249.jpg" /></div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 frame__rb"><img src="https://cdn.nhanlucnganhluat.vn/uploads/images/5270b2b5/source/2018-11/2195_pictures_library_2195_20170301103740_3771.jpg"/></div>
+                </div>
+               
+            </div>
+            <!-- end of big banner -->
+
+            <!--  Begin why_vmax -->
+            <div class="container why_vmax">
+                <div class="blck w100 txt-center">
+                    <h1>Vì sao chọn Vmax ?</h1>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row why_vmax__widget">
+                            <h3>Thù lao hậu hĩnh, khuyến khích cá nhân cống hiến hết mình</h3>
+                            <p>Vmax luôn lấy yếu tố con người làm gốc rễ cho sự phát triển doanh nghiệp, mọi cống hiến của từng cá nhân đều được trân trọng, vì vậy Vmax sẵn sàng chi trả mức lương hậu hĩnh tương ứng năng lực để khuyến khích nhân viên ngày càng cống hiến hết mình cho công ty.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row why_vmax__widget">
+                            <h3>Lương thưởng tháng 13 và rất nhiều chính sách hỗ trợ nhân viên</h3>
+                            <p>Vmax đặc biệt có rất nhiều chính sách hỗ trợ dành cho nhân viên của mình như lương thưởng tháng 13, hỗ trợ ốm đau, tai nạn, thăm hỏi sinh nhật, đám tiệc,..</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row why_vmax__widget">
+                            <h3>Tham gia trọn gói các loại bảo hiểm khi làm việc chính thức</h3>
+                            <p>Bạn sẽ không cần phải lo lắng về các loại bảo hiểm xã hội hay bảo hiểm y tế, Vmax đảm bảo rằng mọi nhân viên đều sẽ được tham gia đầy đủ các loại bảo hiểm theo đúng quy định của pháp luật Nhà nước.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row why_vmax__widget">
+                            <h3>Các hoạt động du lịch, team building hàng năm</h3>
+                            <p>Không chỉ hoạt động đơn thuần như một doanh nghiệp, Vmax luôn muốn gây dựng một tập thể vững mạnh thông qua các hoạt động đi chơi, đi du lịch, các hoạt động team building,.. nhằm tạo cơ hội cho mọi người có thể gắn kết với nhau nhiều hơn.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row why_vmax__widget">
+                            <h3>Cơ hội thăng tiến</h3>
+                            <p>Tại Vmax, nhân viên sẽ được đánh giá năng lực làm việc mỗi 6 tháng, đi kèm với mức tăng lương theo năng suất làm việc là cơ hội thăng tiến nếu có sự cống hiến xuất sắc trong quá trình làm việc tại công ty.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="row why_vmax__widget">
+                            <h3>Nguồn tri thức quý giá và miễn phí</h3>
+                            <p>Vmax có các chương trình đặt mua sách mỗi tháng cho nhân viên và có cả các khóa học đào tạo chuyên môn - nơi mà không chỉ trau dồi trình độ trong lĩnh vực của bản thân mà còn nhiều lĩnh vực ngành nghề khác.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of why_vmax -->
+            
+            <div class="blck w100 txt-center jobs_title">
+                <h1>Cơ hội nghề nghiệp</h1>
+            </div>
+
+            <!-- Begin loop -->
+            <t t-if="jobs">
+                <t t-set="index" t-value='0' />
+                <t t-foreach="jobs" t-as="job">
+                    <t t-if="job.website_published">
+                        <div t-attf-class="container job {{ 'job__two' if (index % 2 == 0) else 'job__one' }}">
+                            <a href="#"><span class="job__name" t-field="job.name"/></a>
+                            <span class="job__address" t-field="job.address_id" t-options="{'widget': 'contact', 'fields' : ['address'] , 'no_tag_br' : True}" />
+                            <a href="#" class="job__seemore">Xem chi tiết</a>
+                        </div> 
+                        <t t-set="index" t-value='index + 1'/>
+                    </t>
+                </t>
+            </t>
+            <!-- end of loop -->
+
+            <!-- Snippet -->
+            <div class="oe_structure"/>
+            <!-- end of snippet -->
+        </div>
+    </t>
+</template>
+</odoo>

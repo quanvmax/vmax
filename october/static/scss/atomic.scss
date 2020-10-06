@@ -1,0 +1,20 @@
+.blck { display: block }
+.iblck { display: block }
+.fl { float: left }
+.fr { float: right }
+.txt-center { text-align: center }
+.txt-left { text-align: left }
+.txt-right { text-align: right }
+.w100 { width: 100% }
+.h100 { height: 100% }
+
+// Extra large devices
+@media (min-width: 1200px){ .exl,.olg,.omd,.osm,.oxs{ display: none }}
+// Large devices
+@media (max-width: 1199.99px) and (min-width: 992px){ .oxl,.elg,.omd,.osm,.oxs { display: none }}
+// Medium devices 
+@media (max-width: 991.99px) and (min-width: 768px){ .oxl,.olg,.emd,.osm,.oxs { display: none }}
+// Small devices
+@media (max-width: 767.99px) and (min-width: 480px){ .oxl,.olg,.omd,.esm,.oxs { display: none }}
+// Extra small devices
+@media (max-width: 479.99px){ .oxl,.olg,.omd,.osm,.exs { display: none }}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+<template id="page_job_thankyou">
+    <t t-call="website.layout">
+        <div class="wrap">
+            <!-- Snippet -->
+            <div class="oe_structure"/>
+            <!-- end of snippet -->
+
+            <h1>This is job thank you page</h1>
+            
+            <!-- Snippet -->
+            <div class="oe_structure"/>
+            <!-- end of snippet -->
+        </div>
+    </t>
+</template>
+</odoo>
