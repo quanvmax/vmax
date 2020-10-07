@@ -19,7 +19,7 @@
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/general.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/owl.carousel.min.css' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/owl.theme.default.min.css' t-ignore="true"/>
-
+            <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/jobs.scss' t-ignore="true"/>
             <script type="text/javascript" src="/theme_vmax/static/src/js/scripts.js"/>
             <script type="text/javascript" src="/theme_vmax/static/src/js/owl.carousel.min.js"/>
         </xpath>

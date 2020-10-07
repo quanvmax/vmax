@@ -15,7 +15,7 @@ class WebsiteVmax(Website):
 		Products = request.env['product.template']
 		
 		All_product = Products.sudo().search([('is_published', '=', True)], limit=8)
-		Best_seller = Products.sudo().search([('is_published', '=', True)], limit=8)
+		Best_seller = Products.sudo().search([('is_published', '=', True)], limit=5)
 		Category_menu = Category.sudo().search([], limit=5)
 		#Mucin = Products.search([('public_categ_ids.id', 'child_of', 1)], limit=4)
 		#Mayin = Products.search([('public_categ_ids.id', 'child_of', 8)], limit=4)
@@ -42,7 +42,8 @@ class WebsiteVmax(Website):
 	# Jobs - Trang tuyển dụng - Quân
 	@http.route('/tuyen-dung', type='http', auth='public', website=True)
 	def vmax_jobs(self, **kw):
-		return request.render('theme_vmax.jobs')
+		jobs = request.env['hr.job'].sudo().search([])
+		return request.render("theme_vmax.jobs", {"jobs" : jobs})
 
 	# Job/Detail - Trang chi tiết công việc - Quân
 	@http.route('/tuyen-dung/chi-tiet', type='http', auth='public', website=True)
