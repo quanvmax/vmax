@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 #page__jobs{
-    padding-bottom: 100px;
     font-family: 'Open Sans';
 
     .bigbanner{
@@ -19,13 +18,12 @@
                     h1{
                         font-size: 3em;
                         color: #000;
-                        text-shadow: 1px 1px 2px;
                         transform: uppercase;
                         margin: 0em;
                         font-family: 'Josefin Sans', sans-serif;
                         span{color: #ff0000}
                         @media (max-width: 767.99px){
-                            font-size: 1.8em
+                            font-size: 1.8em;
                         }
                     }
                     h3{
@@ -53,36 +51,91 @@
             .frame__rb{ img { border-radius: 0% 0% 50% 0% } }
         }
     }
-    .why_vmax{
-        .why_vmax__widget{
-            padding: 1em 2em;
-            .fa{
-                display: inline-block;
-                color: $third;
-                font-size: 5em;
-                
-            }
-            h3{
-                color: $third;
-                margin-bottom: 1em;
-            }
-            p{
-                font-size: 1.2em
-            }
-            &:hover{
-                .fa,h3{ color: $primary }
-            }
-        }
-    }
+
     .jobs_title{
+        position: relative;
+        min-height: 200px;
+
         h1{
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
             display: inline-block;
             text-transform: uppercase;
-            padding: 2em 0em 0.25em 0em;
-            margin-bottom: 1em;
-            border-bottom: 4px solid $primary;
+            text-align: center;
+            background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(210,1,1,1) 53%, rgba(196,2,2,1) 100%);
+            color: #fff;
+            border: 5px solid #fff;
+            box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+            border-radius: 28px;
+            font-size: 28px;
+            padding: 20px 28px;
+
+            @media (max-width: 991.99px){
+                font-size: 24px;
+                padding: 18px 24px;
+            }
+            @media (max-width: 767.99px){
+                font-size: 20px;
+                padding: 16px 20px;
+            }
+            @media (max-width: 479.99px){
+                font-size: 16px;
+                padding: 14px 16px;
+            }
         }
     }
+
+    .why_vmax{
+        .why_vmax__widget{
+            h3{
+                display: block;
+                height: 100px;
+                padding: 14px 14px 0px 14px;
+                margin-bottom: 14px;
+                color: $third;
+                font-size: 22px;
+            }
+            p{
+                display: block;
+                padding: 0px 14px;
+                height: 140px;
+                font-size: 14px;
+                margin-bottom: 14px;
+            }
+            &:hover{
+                h3{ color: $primary }
+            }
+            @media (max-width: 991.99px){
+                h3{font-size: 20px}
+                p{ 
+                    font-size: 14px;
+                    height: 220px;
+                }
+            }
+            @media (max-width: 767.99px){
+                h3{
+                    font-size: 16px;
+                    height: 60px;
+                }
+                p{
+                    font-size: 14px;
+                    height: 180px;   
+                }
+            }
+            @media (max-width: 575.99px){
+                h3{ font-size: 22px}
+                p{ 
+                    font-size: 16px;
+                    min-height: 0px;
+                    overflow: auto;
+                }
+            }
+        }
+    }
+    
     .job{
         padding: 5em 2em;
         @media (max-width: 767.99px){

@@ -20,6 +20,7 @@
 		<!-- Xóa nút Log in as superuser -->
 		<xpath expr="//button[@value='/web/become']" position="replace" />
 	</template>
+	
 	<template id="vm_signup_login" inherit_id="auth_signup.signup">
 		<xpath expr="//form" position="before">
 			<h3>Tạo tài khoản Vmax</h3>

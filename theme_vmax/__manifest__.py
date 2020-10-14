@@ -7,7 +7,7 @@
 	"author"               :  "Vmax Front-end team",
 	"license"              :  "Other proprietary",
 	"description"          :  """Giao diện website Vmax - Mực in, máy in chính hãng.""",
-	"depends" : ['website', 'sale_management', 'website_sale', 'mail', 'website_sale_wishlist','website_hr_recruitment'],
+	"depends" : ['website', 'sale_management', 'website_sale', 'mail', 'website_sale_wishlist','website_sale_comparison','website_hr_recruitment'],
 	"data" : [
 		'views/assets.xml',
 		'views/header.xml',
@@ -18,10 +18,14 @@
 		'views/auth_signup_login.xml',
 		'views/404.xml',
 		'views/s_home_services.xml',
+		'views/s_job_detail_header.xml',
 		'views/snippets.xml',
 		'views/product_view.xml',
 		'views/website_template.xml',
-		'views/jobs.xml'
+		'views/jobs.xml',
+		'views/job_detail.xml',
+		'views/job_apply.xml',
+		'views/job_thankyou.xml'
 	],
 	"images" : [
 		'static/src/img/vmax_screenshot.jpg',

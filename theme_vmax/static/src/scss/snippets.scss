@@ -32,3 +32,51 @@
 		}
 	}
 }
+.job_detail_header{
+	position: relative;
+	background-image: url('https://lesrivesexperience.com/wp-content/uploads/2018/11/sunset-on-saigon-river.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 500px;
+	box-shadow: inset 5px 5px 5px 5px rgba(0,0,0,0.2);
+
+	.texts{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		h1,h3,h4{
+			display: inline-block;
+			padding: 14px 20px;
+			border-radius: 7px;
+			margin-bottom: 7px;
+			box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+			opacity: 0.8;
+			color: #fff;
+		}
+
+		h1{ background: $primary }
+		h3{ background: #FFF300; color: #000 }
+		h4{ background: $third }
+	}
+	a{
+		display: inline-block;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		z-index: 80;
+		transform: translate(-50%,-50%);
+		background: radial-gradient(circle, rgba(243,0,0,1) 0%, rgba(212,1,1,1) 59%, rgba(172,2,2,1) 100%);
+		color: #fff;
+		font-size: 16px;
+		padding: 10px 20px;
+		border: 7px solid #fff;
+		border-radius: 28px;
+		&:hover{
+			text-decoration: none;
+			box-shadow: inset 0px 0px 4px 4px rgba(0,0,0,0.2);
+		}
+	}
+	
+}

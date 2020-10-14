@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-<template id="jobs" name="Tuyển dụng | Vmax">
-    <t t-call="website.layout">
-        <div class="wrap">
+    <template id="jobs" name="Tuyển dụng | Vmax" inherit_id="website_hr_recruitment.index">
+        <xpath expr="//div" position="replace">
             <!-- Snippet --><div class="oe_structure"/><!-- end of snippet -->
-            
             <div class="blck w100" id="page__jobs">
                 <!-- Big banner -->
                 <div class="container-fluid bigbanner">
@@ -29,7 +27,7 @@
 
                 <!--  Begin why_vmax -->
                 <div class="container why_vmax">
-                    <div class="blck w100 txt-center jobs_title"><h1>Vì sao chọn Vmax ?</h1></div>
+                    <div class="blck w100 jobs_title"><h1>Vì sao chọn Vmax ?</h1></div>
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
                             <div class="row why_vmax__widget">
@@ -71,7 +69,7 @@
                 </div><!-- end of why_vmax -->
 
                 <div class="container">
-                    <div class="blck w100 txt-center jobs_title">
+                    <div class="blck w100 jobs_title">
                         <h1>Cơ hội nghề nghiệp</h1>
                     </div>
                 </div>
@@ -80,10 +78,12 @@
                 <t t-if="jobs">
                     <t t-set="index" t-value='0' />
                     <t t-foreach="jobs" t-as="job">
-                        <div t-attf-class="container job {{ 'job__two' if (index % 2 == 0) else 'job__one' }}">
-                            <a href="#"><span class="job__name" t-field="job.name"/></a>
-                            <span class="job__address" t-field="job.address_id" t-options="{'widget': 'contact', 'fields' : ['address'] , 'no_tag_br' : True}" />
-                            <a href="#" class="job__seemore">Xem chi tiết</a>
+                        <div t-attf-class="container-fluid job {{ 'job__two' if (index % 2 == 0) else 'job__one' }}">
+                            <div class="container">
+                                <a t-attf-href="/jobs/detail/#{ slug(job) }"><span class="job__name" t-field="job.name"/></a>
+                                <span class="job__address" t-field="job.address_id" t-options="{'widget': 'contact', 'fields' : ['address'] , 'no_tag_br' : True}" />
+                                <a href="#" class="job__seemore">Xem chi tiết</a>
+                            </div>
                         </div> 
                         <t t-set="index" t-value='index + 1'/>
                     </t>
@@ -91,7 +91,6 @@
             </div> <!-- end of #page_jobs -->
 
             <!-- Snippet --><div class="oe_structure"/><!-- end of snippet -->
-        </div><!-- end of wrap -->
-    </t>
-</template>
+        </xpath>
+    </template>
 </odoo>

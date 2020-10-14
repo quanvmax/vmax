@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Red+Rose:wght@700&display=swap');
+
+.job_thankyou_wrap{
+    background-image: url('https://i.pinimg.com/originals/f2/6e/4b/f26e4bdca4723c8d5c040de72ad94b25.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    #page_job_thankyou{
+        position: relative;
+        min-height: 500px;
+        .texts{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            h1{
+                font-family: 'Red Rose';
+                font-size: 56px;
+                color: $primary;
+                text-shadow: 1px 1px 1px;
+                @media (max-width: 991.99px){
+                    font-size: 36px;
+                }
+                @media (max-width: 575.99px){
+                    font-size: 24px;
+                }
+            }
+            h3{
+                font-family: 'Red Rose';
+                color: #065B8C;
+                margin-bottom: 42px;
+                text-transform: uppercase;
+                text-shadow: 0px 0px 1px;
+                @media (max-width: 575.99px){
+                    margin-bottom: 14px;
+                    font-size: 16px;
+                }
+            }
+            ul{
+                list-style-type: none;
+                text-align: left;
+                margin-bottom: 42px;
+                padding: 0px;
+                li{
+                    font-size: 14px;
+                    color: #000;
+                }
+            }
+            a{
+                padding: 14px 28px;
+                font-size: 16px;
+                background: $primary;
+                color: #fff;
+                text-align: center;
+                box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+                @media (max-width: 575.99px){
+                    padding: 14px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
     <template id="vmax_frontend_assets" name="Vmax Support Assets" inherit_id="web.assets_frontend" active="True">
         <xpath expr="." position="inside">
-            <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/_reset.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/_variables.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/_fonts.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/_mixins.scss' t-ignore="true"/>
@@ -12,6 +10,7 @@
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/_footer.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/_404.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/_home.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/_atomic.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/snippets.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/products.scss' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/cart_payment.scss' t-ignore="true"/>
@@ -20,9 +19,11 @@
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/owl.carousel.min.css' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/owl.theme.default.min.css' t-ignore="true"/>
             <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/jobs.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/job_detail.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/job_apply.scss' t-ignore="true"/>
+            <link rel="stylesheet" type="text/scss" href='/theme_vmax/static/src/scss/job_thankyou.scss' t-ignore="true" />
             <script type="text/javascript" src="/theme_vmax/static/src/js/scripts.js"/>
             <script type="text/javascript" src="/theme_vmax/static/src/js/owl.carousel.min.js"/>
         </xpath>
     </template>
-
 </odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="s_job_detail_header" name="Job Detail Header Vmax">
+        
+    </template>
+    <template id="job_detail_header_snippet" inherit_id="website.snippets" name="Job Detail Header Snippet">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_vmax.s_job_detail_header"  t-thumbnail="https://happyhindi.com/wp-content/uploads/2020/02/Part-Time-Jobs-From-Home-1280x720.png" />
+        </xpath>
+    </template>
+</odoo>

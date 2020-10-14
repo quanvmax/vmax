@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="job_detail" name="Chi tiết công việc | Vmax " inherit_id="website_hr_recruitment.detail">
+        <xpath expr="//div" position="replace">          
+            <!-- Snippet --><div class="oe_structure" /><!-- end of snippet -->
+            <section class="exs job_detail_header">
+                <div class="texts">
+                    <h1 t-field="job.name"/>
+                    <h3>
+                        <t t-if="job.x_studio_job_paid_minimum">
+                            <t t-esc="'{0:,.0f}'.format(int(job.x_studio_job_paid_minimum))" /> - 
+                            <t t-esc="'{0:,.0f}'.format(int(job.x_studio_job_paid_maximum))" /> VND
+                        </t>
+                        <t t-else="">
+                            Mức lương thỏa thuận
+                        </t>
+                    </h3>
+                    <h4><span t-field="job.address_id" t-options="{'widget': 'contact', 'fields' : ['address'] , 'no_tag_br' : True}" /></h4>
+                </div>
+                
+                <a t-attf-href="/jobs/apply/#{ slug(job) }"><i class="fa fa-file-text"></i> Ứng tuyển ngay ! </a>
+            </section>
+
+            <div class="blck w100" id="page_job_detail">
+                <div class="container">
+                    <t t-if="job">
+                        <div class="row">
+                            <div class="col-12 job__direct">
+                                <a href="/jobs">Tuyển dụng /</a>
+                                <a t-attf-href="/jobs/apply/#{ slug(job) }" t-field="job.name" />
+                            </div>
+                        </div>
+
+                        <div class="row"><div class="col-12 job__name"><h1 t-field="job.name" /></div></div>
+                        
+                        <!-- Only on small mobile -->
+                        <div class="oxs xs_job_detail_header">
+                            <div class="xs_group">
+                                <span>Mức lương đề nghị</span>
+                                <t t-if="job.x_studio_job_paid_minimum">
+                                    <p>
+                                        <t t-esc="'{0:,.0f}'.format(int(job.x_studio_job_paid_minimum))" /> -
+                                        <t t-esc="'{0:,.0f}'.format(int(job.x_studio_job_paid_maximum))" /> VND
+                                    </p>
+                                </t>
+                                <t t-else="">
+                                    <p>Mức lương thỏa thuận</p>
+                                </t>
+                            </div>
+                            <div class="xs_group">
+                                <span>Nơi làm việc</span>
+                                <p t-field="job.address_id" t-options="{'widget': 'contact', 'fields' : ['address'] , 'no_tag_br' : True}" />
+                            </div>
+                        </div><!-- end of small mobile -->
+
+                        <div class="row row_description">
+                            <div class="col-12"><h2>Mô tả công việc</h2></div>
+                            <div class="col-12">
+                                <t t-if="job.x_studio_html_job_description">
+                                    <div t-field="job.x_studio_html_job_description" t-options="{'widget' : 'html'}" />
+                                </t>
+                                <t t-else="">
+                                    Công việc này hiện chưa có mô tả.
+                                </t>
+                            </div>
+                            
+                        </div>
+
+                        <div class="row row_requirements">
+                            <div class="col-12"><h2>Yêu cầu</h2></div>
+                            <div class="col-12">
+                                <t t-if="job.x_studio_html_job_requirements">
+                                    <div t-field="job.x_studio_html_job_requirements" t-options="{'widget' : 'html'}" />
+                                </t>
+                                <t t-else="">
+                                    Công việc này hiện chưa có yêu cầu.
+                                </t>
+                            </div>
+                        </div>
+
+                        <div class="row row_benefits">
+                            <div class="col-12"><h2>Phúc lợi nhân viên</h2></div>
+                            <div class="col-12">
+                                <ul>
+                                    <li>Lương thưởng tháng 13, kèm theo các khoản phụ cấp khi trở thành nhân viên chính thức.</li>
+                                    <li>Đóng đầy đủ các loại bảo hiểm xã hội theo quy định của pháp luật Nhà nước.</li>
+                                    <li>Tăng lương mỗi 6 tháng theo năng lực làm việc.</li>
+                                    <li>Mỗi tuần chỉ đi làm 5 ngày hành chính, khi có yêu cầu tăng ca sẽ thêm tiền thưởng.</li>
+                                    <li>Có bãi đỗ xe cho nhân viên rộng rãi sạch sẽ, có hỗ trợ tiền gửi xe cho nhân viên nếu gửi bên ngoài.</li>
+                                    <li>Mở tài khoản ngân hàng ACB và làm thẻ miễn phí, bao gồm 1 thẻ nội địa (NAPAS) và 1 thẻ thanh toán quốc tế (VISA).</li>
+                                </ul>
+                            </div>
+                            <img src="/theme_vmax/static/src/img/1nguoi.png" />
+                            <div class="col-12 txt-center">
+                                <a t-attf-href="/jobs/apply/#{ slug(job) }">
+                                    <i class="fa fa-handshake-o"></i> Ứng tuyển ngay hôm nay !
+                                </a>
+                            </div>
+                        </div>
+                    </t>
+                </div>
+            </div>
+            <!-- Snippet --><div class="oe_structure" /><!-- end of snippet -->
+        </xpath>
+    </template>
+</odoo>  

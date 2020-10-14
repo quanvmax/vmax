@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="job_thankyou" name="Cảm ơn bạn đã ứng tuyển | Vmax">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Cảm ơn bạn đã ứng tuyển vào công ty Vmax !</t>
+            <div id="wrap">
+                <!-- Snippet area --><div class="oe_structure" /><!-- end of snippet area -->
+                <div class="blck w100 job_thankyou_wrap">
+                    <div class="container" id="page_job_thankyou">
+                        <div class="texts">
+                            <h1>CẢM ƠN BẠN</h1>
+                            <h3>Vì đã chọn Vmax để bắt đầu sự nghiệp !</h3>
+                            <ul>
+                                <li>Đơn ứng tuyển của bạn đã được gửi đến bộ phận xét duyệt hồ sơ của Vmax, chúng tôi sẽ hồi âm đến bạn trong khoảng thời gian sớm nhất.</li>
+                                <li>Hãy luôn kiểm tra email và giữ điện thoại bên mình. Vmax rất mong được hợp tác với bạn.</li>
+                                <li>Thân ái !</li>
+                            </ul>
+                            <a href="/home" class="btn"><i class="fa fa-home"></i> Trang chủ Vmax</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Snippet area --><div class="oe_structure" /><!-- end of snippet area -->
+            </div>
+        </t>
+    </template>
+</odoo>
